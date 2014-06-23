@@ -30,7 +30,10 @@ Instructions are in the clientscheme itself.
 
 **Main Menu**
 
-The bottom right star button can connect you to your favorite server.
+The Main Menu has two "Hot Corners"
+
+The top right toggles the console and the bottom right connects you to a favorite server.
+
 You'll need to add...
 
 alias Home "connect <insert server IP>;password <insert password>"
