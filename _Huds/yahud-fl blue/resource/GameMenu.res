@@ -58,7 +58,7 @@
 	{
 		"label" ""	//"f"
 		"command" "engine Home"
-        "tooltip" "Favorite server }"
+        "tooltip" "Favorite server"
 	}
 	"QuitButton"
 	{
