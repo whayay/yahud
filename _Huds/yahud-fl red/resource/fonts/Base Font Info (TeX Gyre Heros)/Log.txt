@@ -1,0 +1,22 @@
+Altered glyphs (list is not complete)
+
+	Q - redrawn with horizontal tail
+	G - altered vertical stem 
+	S - changed contour
+	J - shortened left ending
+	T - slightly slimmer
+	
+
+	t - top shortened and crossbar adjusted
+	f - crossbar adjusted
+	s - small tweaks
+	a - removed tail / made vertical stroke end square / rounded top
+
+	1 - shortened left ending
+	2 - tweaked curvature and vertical-horizontal joint
+	5 - more upright and closed
+	7 - reduced curvature and tweaked diagonal to be more consistent
+
+
+Adjusted metrics for HUD
+Various special use versions (respawn, numbers only etc)

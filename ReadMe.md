@@ -30,7 +30,7 @@ Instructions are in the clientscheme itself.
 
 **Main Menu**
 
-The Main Menu has two "Hot Corners"
+The Main Menu has two clickable "Hot Corners"
 
 The top right toggles the console and the bottom right connects you to a favorite server.
 
@@ -80,12 +80,4 @@ Thanks for using this HUD!
         
 		
 
-Thanks to: Garm3n, maxerize, boots, ell, e-thug, foster, kenneth, trog, Lange & omp
-
-~ verbose thank you ~
-
-to Garm3n for a whole bunch
-to max, boots, ell, e-thug, kenneth and Lange for feedback and testing
-to foster for the idea of a minimal scoreboard
-to trog for contributing to the HUD
-to omp for letting me use his fonts
+Thanks to: Garm3n, maxerize, boots, ell, e-thug, foster, kenneth, trog, Lange
