@@ -1,0 +1,5 @@
+The crosshair font is open for anybody to contribute to, I have a separate GitHub repo for it where you can contribute.
+
+The crosshair font contains Konr's classic crosshair.
+
+Please do not re-distribute the "Headline", "Text" and "Number" fonts.
