@@ -150,6 +150,8 @@ Scheme
 		"ya_MenuBGDarker"			"28 28 28 255"			//Used for backpack slots etc
 		"ya_MenuBGDarkerArmed" 		"68 68 68 255"			//
 		
+		"FieldBG"					"48 48 48 255"			//popup color
+		
         "ButtonBG"              "227 227 227 0"       //Standard button color
         "ButtonBGArmed"         "227 227 227 0"       //Armed BG color
         "ButtonBGSelect"        "18 18 18 0"          //Loadout preset
@@ -168,7 +170,6 @@ Scheme
 
 		
 		//to be removed
-        //"GrayBGDark"           "57 57 57 255"    	//used for borders in clientscheme, to be replaced            
         //"ya_Select"                "137 137 137 255"          //Regular menu select color
 		//"TeamButtonArmed"       "28 28 28 255"             //Used for team and class menu
 		

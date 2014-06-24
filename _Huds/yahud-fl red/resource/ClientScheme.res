@@ -150,6 +150,8 @@ Scheme
 		"ya_MenuBGDarker"			"28 28 28 255"			//Used for backpack slots etc
 		"ya_MenuBGDarkerArmed" 		"68 68 68 255"			//
 		
+		"FieldBG"					"48 48 48 255"			//popup color
+		
         "ButtonBG"              "227 227 227 0"       //Standard button color
         "ButtonBGArmed"         "227 227 227 0"       //Armed BG color
         "ButtonBGSelect"        "18 18 18 0"          //Loadout preset
