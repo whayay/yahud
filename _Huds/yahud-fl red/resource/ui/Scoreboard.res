@@ -503,7 +503,7 @@
 		"labelText"		"%redteamplayercount%"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"xpos"			"c3"
+		"xpos"			"c2"
         "xpos_minmode"			"r18"
 		"ypos"			    "c-123"
 		"ypos_minmode"		"c97"
