@@ -86,7 +86,7 @@ Scheme
         
         //// SCOREBOARD, WINPANEL AND TARGETID ////
         
-        "ya_HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
+        "ya_HudBG"                "28 28 28 255"             //Scoreboard, winpanel, item meters
         
         "ya_NameLongBG"			"227 227 227 0"            //TargetID background
         "ya_NameBG"				"227 227 227 255"          //for fl
