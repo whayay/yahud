@@ -14,9 +14,9 @@
 		"name_width"		"78"
 		"status_width"		"15"
 		"nemesis_width"		"14"
-        "class_width"		"15"
-		"score_width"		"19"
-		"ping_width"		"14"
+        "class_width"		"14"
+		"score_width"		"24"
+		"ping_width"		"19"
 	}
     "ServerTimeLeft" 
 	{
@@ -58,12 +58,12 @@
         "labelText"     "%server%"
         "textAlignment" "west"
         "textAlignment_minmode" "west"
-        "textinsetx"	"-26"
+        "textinsetx"	"1"
         "textinsetx_minmode"	"-26"
 		"use_proportional_insets" "1"
         "xpos"          "3"  
         "xpos_minmode"          "3"  
-        "ypos"          "15" 
+        "ypos"          "6" 
         "zpos"          "4"
         
         "wide"          "378"
@@ -344,11 +344,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"Medium14"
+		"font"			"MediumNumbers16"
 		"labelText"		"%blueteamplayercount%"
-		"fgcolor"		"Blank"
+		"fgcolor"		"White"
 		"textAlignment"	"east"
-		"xpos"			"c-68"
+		"xpos"			"c-71"
         "xpos_minmode"			"r68"
 		"ypos"			"c-123"
 		"ypos_minmode"		"c-115"
@@ -501,7 +501,7 @@
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"MediumNumbers16"
 		"labelText"		"%redteamplayercount%"
-		"fgcolor"		"Blank"
+		"fgcolor"		"White"
 		"textAlignment"	"center"
 		"xpos"			"c"
         "xpos_minmode"			"r18"
@@ -652,22 +652,61 @@
 		{
 			"visible"		"0"
 		}
-	}	
+	}
+	"MapNameText"
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "mapname_text"
+        "font"          "Medium10"
+        "labelText"     "Map: "
+        "textAlignment" "west"
+        "textAlignment_minmode" "west"
+        "textinsetx"	"1"
+        "textinsetx_minmode"	"-26"
+		"use_proportional_insets" "1"
+        "xpos"          "3"  
+        "xpos_minmode"          "3"  
+        "ypos"          "15" 
+        "zpos"          "4"
+        
+        "wide"          "378"
+        "tall"          "15"
+        "visible"       "1"
+        "enabled"       "1"
+        "fgcolor"       "White"
+
+        if_mvm
+        {
+            "visible" "0"
+        }
+    }
 	"MapName"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
-		"font"			"ScoreboardMedium"
-		"labelText"		"%mapname%"
-		"textAlignment"	"east"
-		"xpos"			"415"
-		"ypos"			"375"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	}	
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "mapname"
+        "font"          "Medium10"
+        "labelText"     "%mapname%"
+        "textAlignment" "west"
+        "textAlignment_minmode" "west"
+        "textinsetx"	"1"
+        "textinsetx_minmode"	"-26"
+		"use_proportional_insets" "1"
+        "xpos"          "23"  
+        "xpos_minmode"          "3"  
+        "ypos"          "15" 
+        "zpos"          "4"
+        
+        "wide"          "378"
+        "tall"          "15"
+        "visible"       "1"
+        "enabled"       "1"
+        "fgcolor"       "White"
+
+        if_mvm
+        {
+            "visible" "0"
+        }
+    }	
 	"HorizontalLine"
 	{
 		"ControlName"	"ImagePanel"
