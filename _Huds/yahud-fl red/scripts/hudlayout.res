@@ -15,10 +15,10 @@
 	"Crosshair"
 		{
         "controlname"	"CExLabel"
-		"fieldname"	"Crosshair"
+		"fieldname"	"Crosshairs Regular"
         "textAlignment"	"center"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"1"
 		"zpos"		"-2"
 		"wide"		"f0"
 		"tall"		"480"
@@ -26,7 +26,7 @@
         
         "visible"	"0"			     //"1" to enable
         
-		"labeltext"	"r"              //Change this to use a different crosshair
+		"labeltext"	"0"              //Change this to use a different crosshair
                                      //You can see the list of crosshairs in Crosshairs.png
         
         "font"		"CrosshairOL"    //Use "CrosshairOL" for a crosshair with an outline

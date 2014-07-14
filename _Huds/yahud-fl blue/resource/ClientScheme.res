@@ -130,7 +130,7 @@ Scheme
 		
 		//// mx COLORS ////
 		
-		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
+		"ya_Shadow"             "0 0 0 255"			//Shadows under numbers
 		
 		//// universal ////
 		
@@ -580,7 +580,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "16"
                 "additive"    "0"
                 "antialias"     "1"
@@ -592,7 +592,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "16"
                 "additive"    "0"
                 "antialias"     "1"
@@ -604,7 +604,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "20"
                 "additive"    "0"
                 "antialias"     "1"
@@ -616,7 +616,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "20"
                 "additive"    "0"
                 "antialias"     "1"
@@ -628,7 +628,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "24"
                 "additive"    "0"
                 "antialias"     "1"
@@ -640,7 +640,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "24"
                 "additive"    "0"
                 "antialias"     "1"
@@ -4708,7 +4708,7 @@ Scheme
         "11" 
         {
             "font" "resource/fonts/Crosshair.ttf"
-            "name" "Crosshair"  
+            "name" "Crosshairs Regular"  
         }
         
         //custom font definitions
