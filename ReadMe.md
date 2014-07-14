@@ -43,14 +43,11 @@ alias Home "connect <insert server IP>;password <insert password>"
 
 **Crosshairs**
 
-The crosshair.png image gives you an overview of the new crosshairs
+The Crosshair.png image gives you an overview of the new crosshairs
 
 To enable the HUD-crosshair navigate to /scripts/hudlayout.res
 You will find instructions at the top of that file.
 Crosshair color and on-hit color are defined in  /resource/clientscheme.res
-
-I've also included fog's, Garm3n's & konr's crosshairs as legacy options.
-
 
 
 ## Link & more info
