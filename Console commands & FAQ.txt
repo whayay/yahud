@@ -17,9 +17,9 @@ CONSOLE COMMANDS
 
 FAQ
 
-Q:  How do I view the ReadMe?
+Q:      How do I view the ReadMe?
 A:	View it on GitHub or open it in a text editor
-				github.com/whayay/yahud
+				github.com/averagecomputerguy/yahud
 
 Q:	How do you enable the spectator HUD?
 A:	Tick "Use adv. spectator HUD" in the advanced options menu.
@@ -39,8 +39,8 @@ Q:	I've found a bug. How do I let you know?
 A:	Same as above, use the GitHub issue tracker to let me know.
 
 Q:	Can I use this on my Mac?
-A:  The most recent update seems to have broken my HUD entirely on Mac OS.
-    I'd recommend omphud or rayshud, they both support Mac OS.
+A:      The most recent update seems to have broken my HUD entirely on Mac OS.
+	I'd recommend omphud or rayshud, they both support Mac OS.
 
 Q:	Is the version I have up to date?
 A:	If you just downloaded, yes. GitHub will sync all the changes I make. 
@@ -55,21 +55,20 @@ Q:	I changed some colors in the clientscheme and nothing has changed!
 A:	You need to restart the game for any changes to take effect. 
 	Make sure that you didn't accidentally delete quotation marks.
 
-Q: My health stays red even though I have full health! Is this a bug?
-A: Yes, but it's on valve's end. You will experience this with pretty much every HUD.
+Q: 	My health stays red even though I have full health! Is this a bug?
+A: 	Yes, but it's on valve's end. You will experience this with pretty much every HUD.
 	You can use the command "hud_reloadscheme" to get rid of it.
 
-Q: My unique items are gray-ish white. Is this a bug?
-A: No, I changed some item colors a while ago (strange & unique colors)
+Q: 	My unique items are gray-ish white. Is this a bug?
+A: 	No, I changed some item colors a while ago (strange & unique colors)
 
 ----------------------------------------------------------------
 
 LINKS
 
-GitHub: github.com/whayay/yahud/
-GitHub issue tracker: github.com/whayay/yahud/issues
-SteamGroup: steamcommunity.com/groups/yahud
-TF.TV thread: teamfortress.tv/forum/thread/8336/
+GitHub: http://github.com/averagecomputerguy/yahud/
+GitHub issue tracker: http://github.com/averagecomputerguy/yahud/issues
+SteamGroup: http://steamcommunity.com/groups/yahudComputer
 
 Doodle's HUD Tutorial: http://doodlesstuff.com/?tutorial=tf2hud
 Rays's YT Tutorials: http://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz
