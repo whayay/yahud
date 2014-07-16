@@ -8,14 +8,8 @@ To download the HUD press the "ZIP" button on top of the github page.
 
 **Installing**
 
-Navigate to ... / Steam / steamapps / common / team fortress 2 / tf / custom / .
+Navigate to /Steam/SteamApps/common/Team Fortress 2/tf/custom/.
 Move one of the hud folders from the zip into that folder.
-
-**Shortcuts**
-
-The HUD has optional shortcuts on Q,E & R for various menus.
-You can also press Enter, Q or click anywhere to get through the map intro screens.
-The regular number shortcuts on team and class selection still work, too.
 
 ## Customization
 
