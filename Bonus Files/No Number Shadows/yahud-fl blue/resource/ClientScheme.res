@@ -130,7 +130,7 @@ Scheme
 		
 		//// mx COLORS ////
 		
-		"ya_Shadow"             "0 0 0 255"			//Shadows under numbers
+		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
 		
 		//// universal ////
 		
