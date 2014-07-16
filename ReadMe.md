@@ -28,19 +28,6 @@ You can find it in /custom/hudname/resource/ .
 You can change colors and enable/disable certain HUD elements there.
 Instructions are in the clientscheme itself.
 
-**Main Menu**
-
-The Main Menu has two clickable "Hot Corners"
-
-The top right toggles the console and the bottom right connects you to a favorite server.
-
-You'll need to add...
-
-alias Home "connect <insert server IP>;password <insert password>"
-
-...to your autoexec in order to make the "Favorite Server" button work.
-
-
 **Crosshairs**
 
 The Crosshair.png image gives you an overview of the new crosshairs
