@@ -422,6 +422,11 @@
         "fgcolor"		"Red"
 		"visible"		"1"
 		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
     "RedTeamLabel"
 	{

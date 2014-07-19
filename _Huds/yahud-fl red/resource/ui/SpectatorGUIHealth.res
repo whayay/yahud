@@ -125,7 +125,4 @@
 		"font"			"Heavy24"
 		"fgcolor"		"ya_Shadow"
 	}	
-
-
-	
 }

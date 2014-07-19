@@ -493,6 +493,13 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"start_party"
+		"fgcolor"	"Black"
+		"defaultBgColor_override"	"Gray"
+		"defaultFgColor_override" 	"Black"
+		"armedBgColor_override"		"White"
+		"armedFgColor_override" 	"Black"
+		"depressedBgColor_override"	"Gray"
+		"depressedFgColor_override" "Black"
 
 
 		"sound_depressed"	"UI/buttonclick.wav"

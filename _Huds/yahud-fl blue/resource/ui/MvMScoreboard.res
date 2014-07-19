@@ -207,7 +207,7 @@
 			"labelText"		"%respecstatus%"
 			"textAlignment" "center"
 			"xpos"			"c-150"
-			"ypos"			"28"
+			"ypos"			"38"
 			"wide"			"300"
 			"tall"			"20"
 			"fgcolor"		"White"
