@@ -1,37 +1,13 @@
 
 
-//yacrosshair
+//fog's Crosshairs
 
 event DamagedPlayer
 {
-    Animate Crosshair 	FgColor 	"ya_CrosshairDamage" 	Linear 0.0 0.00001
-	Animate Crosshair 	FgColor 	"ya_Crosshair" 	Linear 0.10 0.10001
+    Animate "Crosshairs Regular" 	FgColor 	"255 0 0 255" 			Linear 0.0 0.00001
+	Animate "Crosshairs Regular" 	FgColor 	"255 255 255 255" 			Linear 0.10 0.10001
+
 }
-
-//===========================================
-
-//Fog's Crosshair
-
-event DamagedPlayer
-{
-	Animate fogCrosshair 	FgColor 	"ya_CrosshairDamage" 	Linear 0.0 0.00001
-	Animate fogCrosshair 	FgColor 	"ya_Crosshair" 	Linear 0.10 0.10001
-	
-	// Set the second line ("255 255 255 255") to whatever color you have changed
-	// your crosshair to be. So if you crosshair is green, the second line should
-	// also have that same value.
-	// "255 255 255 255"	= White
-	// "255 255 0 255" 	= Yellow
-	// "145 225 25 255"	= Green
-	//
-	//You can also look into the clientscheme.res file in /resource/,
-	//there you can find various colors that are already defined for the HUD
-	//such as "Red" and "Blue"
-	//
-	//
-}
-
-//===========================================
 
 //Health Bonus Pulse
 event HudHealthBonusPulse
@@ -167,11 +143,17 @@ event LowAmmoPulse
 	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
 	Animate	HudWeaponLowAmmoImage		Alpha		"0"		Linear 0.125 0.075
 
-    Animate	AmmoInClip		FgColor		"ya_AmmoLow"	         Accel 0.0 0.0
-	Animate	AmmoInReserve	FgColor		"ya_AmmoLow"            Accel 0.0 0.0
-	Animate	AmmoNoClip		FgColor		"ya_AmmoLow"	         Accel 0.0 0.0
+    Animate	AmmoInClip					FgColor		"ya_Ammo"			Accel 0.0 0.0
+	Animate	AmmoInReserve				FgColor		"ya_Ammo"			Accel 0.0 0.0
+	Animate	AmmoNoClip					FgColor		"ya_Ammo"			Accel 0.0 0.0
     
-	Animate	AmmoBG 	                BgColor		"ya_AmmoLowBG"	        linear 0.0 0.0
+    Animate	AmmoBG 	    				BgColor		"ya_NegativeBG"		Accel 0.0 0.0
+    Animate	AmmoBG 	    				Alpha		"255"		        Accel 0.0 0.3
+	Animate	AmmoBG 	    				Alpha		"255"		        Accel 0.3 0.6
+
+	Animate AmmoInClipShadow 			FgColor		"Blank"				Accel 0.0 0.0
+	Animate AmmoInReserveShadow			FgColor		"Blank"				Accel 0.0 0.0
+	Animate AmmoNoClipShadow			FgColor		"Blank"				Accel 0.0 0.0
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -189,6 +171,10 @@ event HudLowAmmoPulseStop
     Animate	AmmoInClip		FgColor		"ya_Ammo"	         Accel 0.0 0.0
 	Animate	AmmoInReserve	FgColor		"ya_AmmoReserve"    Accel 0.0 0.0
 	Animate	AmmoNoClip		FgColor		"ya_Ammo"	         Accel 0.0 0.0
+
+	Animate AmmoInClipShadow 			FgColor		"ya_Shadow"				Accel 0.0 0.0
+	Animate AmmoInReserveShadow			FgColor		"ya_Shadow"				Accel 0.0 0.0
+	Animate AmmoNoClipShadow			FgColor		"ya_Shadow"				Accel 0.0 0.0
     
 	Animate	AmmoBG 	                BgColor		"ya_BoxBG"	        linear 0.0 0.0
 }

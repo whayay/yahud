@@ -5,7 +5,7 @@
 	/////////////////////////////////////////////////////////////////////////////
     
     /////////////////////////////////////////////////////////////////////////////
-	//whayay's Crosshair
+	//fog's Crosshairs
     //
     //You can change the xpos and ypos if these are not centered.
     //Use the in-game crosshair for guidance. 
@@ -613,7 +613,7 @@
 		"fieldName" "HudMannVsMachineStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-20"
+		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
