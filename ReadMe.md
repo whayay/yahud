@@ -19,7 +19,7 @@ Move one of the hud folders from the zip into that folder.
 
 Your first stop for customizing this HUD will be the clientscheme. 
 You can find it in \custom\hudname\resource\.
-".res" files can be opened with text editors such as Notepad++. 
+".res" files can be opened with text editors such as Notepad++ or Sublime. 
 
 You can change colors and enable/disable certain HUD elements there.
 Instructions are in the clientscheme itself.
