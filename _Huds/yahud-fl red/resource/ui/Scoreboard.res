@@ -124,7 +124,7 @@
         "wide_minmode"			"233"
 		"tall"			"223"
 		"tall_minmode"		"188"
-		"fillcolor"		"ya_HudBG"
+		"fillcolor"		"28 28 28 216"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
