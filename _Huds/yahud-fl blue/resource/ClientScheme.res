@@ -839,7 +839,16 @@ Scheme
                 "antialias"    "1"
             }
         }
-		
+		"yahud24"
+        {
+            "1"
+            {
+                "name"         "yahud"
+                "tall"          "24"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
        "Respawn20"       
         {
             "1"

@@ -130,7 +130,7 @@ Scheme
 		
 		//// mx COLORS ////
 		
-		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
+		"ya_Shadow"             "0 0 0 255"			//Shadows under numbers
 		
 		//// universal ////
 		
@@ -840,7 +840,16 @@ Scheme
                 "antialias"    "1"
             }
         }
-		
+		"yahud24"
+        {
+            "1"
+            {
+                "name"         "yahud"
+                "tall"          "24"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
        "Respawn20"       
         {
             "1"
