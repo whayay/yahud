@@ -65,10 +65,9 @@ A: 	No, I changed some item colors a while ago (strange & unique colors)
 
 LINKS
 
-GitHub: http://github.com/averagecomputerguy/yahud/
-GitHub issue tracker: http://github.com/averagecomputerguy/yahud/issues
-SteamGroup: http://steamcommunity.com/groups/yahudComputer
-TF.TV Thread: http://teamfortress.tv/thread/8336/yahud
+GitHub: http://github.com/averagecomputerguy/CPUHUD/
+GitHub issue tracker: http://github.com/averagecomputerguy/CPUHUD/issues
+SteamGroup: http://steamcommunity.com/groups/CPUHUD
 
 Doodle's HUD Tutorial: http://doodlesstuff.com/?tutorial=tf2hud
 Rays's YT Tutorials: http://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz
