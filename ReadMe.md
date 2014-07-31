@@ -51,7 +51,7 @@ This can help resolve issues:
 * re-download & re-install the hud
 
 You can submit bug reports & questions via the GitHub issue tracker.
-http://github.com/averagecomputerguy/yahud/issues
+http://github.com/averagecomputerguy/CPUHUD/issues
 
 This is the best way to let me know what's up.
 
