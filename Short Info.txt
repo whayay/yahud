@@ -1,7 +1,0 @@
-Updated for the most recent TF2 patch.
-
-Please let me know if there are any issues, in particular with the parachute icon and the taunt interface.
-Updates to the cross and cmyk versions will hopefully follow pretty soon.
-There are various bugs in this version. I will try to keep up with GitHub issue tracker and fix as much as I can.
-
-FontForge broke some of the font-hinting when changing the metrics to fit the HUD again, so there are some issues with the text display.
