@@ -42,9 +42,9 @@ Scheme
         //// CUSTOM COLORS ////
       
         "ya_Damage"                "240 240 20 255"     //Damage numbers
-        "ya_Crosshair"             "240 240 20 255"     //Crosshair color
-        "ya_CrosshairDamage"       "245 54 64 255"       //Crosshair damage flash color
-                                                      //Make this the same as "Crosshair" to disable the flash
+        "ya_Crosshair"             "240 240 20 255"     //Crosshairs Regular color
+        "ya_CrosshairDamage"       "245 54 64 255"       //Crosshairs Regular damage flash color
+                                                      //Make this the same as "Crosshairs Regular" to disable the flash
                                                       //Crosshairs can be activated in /scripts/hudlayout.res                                             
                             
         //// HUD COLORS
@@ -86,7 +86,7 @@ Scheme
         
         //// SCOREBOARD, WINPANEL AND TARGETID ////
         
-        "ya_HudBG"                "28 28 28 234"             //Scoreboard, winpanel, item meters
+        "ya_HudBG"                "28 28 28 255"             //Scoreboard, winpanel, item meters
         
         "ya_NameLongBG"			"227 227 227 0"            //TargetID background
         "ya_NameBG"				"227 227 227 255"          //for fl
@@ -130,7 +130,7 @@ Scheme
 		
 		//// mx COLORS ////
 		
-		"ya_Shadow"             "0 0 0 0"			//Shadows under numbers
+		"ya_Shadow"             "0 0 0 255"			//Shadows under numbers
 		
 		//// universal ////
 		
@@ -581,7 +581,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "16"
                 "additive"    "0"
                 "antialias"     "1"
@@ -593,7 +593,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "16"
                 "additive"    "0"
                 "antialias"     "1"
@@ -605,7 +605,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "20"
                 "additive"    "0"
                 "antialias"     "1"
@@ -617,7 +617,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "20"
                 "additive"    "0"
                 "antialias"     "1"
@@ -629,7 +629,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "24"
                 "additive"    "0"
                 "antialias"     "1"
@@ -641,7 +641,7 @@ Scheme
         {
             "1"
             {
-                "name"        "Crosshair"
+                "name"        "Crosshairs Regular"
                 "tall"        "24"
                 "additive"    "0"
                 "antialias"     "1"
@@ -840,7 +840,16 @@ Scheme
                 "antialias"    "1"
             }
         }
-		
+		"yahud24"
+        {
+            "1"
+            {
+                "name"         "yahud"
+                "tall"          "24"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
        "Respawn20"       
         {
             "1"
@@ -4709,7 +4718,7 @@ Scheme
         "11" 
         {
             "font" "resource/fonts/Crosshair.ttf"
-            "name" "Crosshair"  
+            "name" "Crosshairs Regular"  
         }
         
         //custom font definitions

@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"20"
+		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
+		"xpos"				"-19"
 		"ypos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"0"
+		"xpos"				"-19"
 		"ypos"				"0"
 		"wide"				"90000"
 		"tall"				"480"

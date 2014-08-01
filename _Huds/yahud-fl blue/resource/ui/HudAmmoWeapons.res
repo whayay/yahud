@@ -7,7 +7,7 @@
 		"xpos"		    "c98"
 		"ypos"		    "344"
 		"zpos"		    "1"
-		"wide"		    "70"
+		"wide"		    "82"
 		"tall"		    "35"
 		"autoResize"	"0"
 		"pinCorner"	    "0"

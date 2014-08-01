@@ -1,0 +1,3 @@
+Navigate to materials/console/ and add "OLD" to the end of "background_upward.vtf" and "background_upward_widescreen.vtf"
+
+Example: "background_upward.vtf" ==> "background_upwardOLD.vtf"
