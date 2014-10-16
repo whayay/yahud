@@ -75,11 +75,11 @@
 			"fieldName"		"CreditLabel"
 			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "north-west"
-			"xpos"			"91"
-			"ypos"			"110"
-			"wide"			"300"
-			"tall"			"40"
+			"textAlignment" "center"
+			"xpos"			"90"
+			"ypos"			"80"
+			"wide"			"80"
+			"tall"			"20"
 			"fgcolor"		"White"
 		}
 			
@@ -88,9 +88,21 @@
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"CreditContainer"
 			"xpos"			"80"
-			"ypos"			"114"
+			"ypos"			"100"
 			"wide"			"400"
-			"tall"			"100"
+			"tall"			"55"
+			"autoResize"	"1"
+			"visible"		"1"
+		}
+		
+		"TotalGameCreditSpendPanel"
+		{
+			"ControlName"	"CCreditSpendPanel"
+			"fieldName"		"TotalGameCreditSpendPanel"
+			"xpos"			"80"
+			"ypos"			"150"
+			"wide"			"400"
+			"tall"			"55"
 			"autoResize"	"1"
 			"visible"		"1"
 		}
@@ -100,7 +112,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RatingContainer"
 			"xpos"			"275"
-			"ypos"			"100"
+			"ypos"			"80"
 			"wide"			"400"
 			"tall"			"400"
 			"autoResize"	"1"
@@ -116,7 +128,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"180"
-				"tall"			"40"
+				"tall"			"20"
 				"fgcolor"		"White"
 			}
 			
@@ -147,18 +159,6 @@
 				"tall"			"58"
 				"fgcolor"		"White"
 			}
-		}
-		
-		"TotalGameCreditSpendPanel"
-		{
-			"ControlName"	"CCreditSpendPanel"
-			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"80"
-			"ypos"			"165"
-			"wide"			"400"
-			"tall"			"70"
-			"autoResize"	"1"
-			"visible"		"1"
 		}
 	}
 	

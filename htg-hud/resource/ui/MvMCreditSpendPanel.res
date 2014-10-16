@@ -6,12 +6,12 @@
 		"fieldName"		"HeaderLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%header%"
-		"textAlignment" "north-west"
+		"textAlignment" "east"
 		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"300"
-		"tall"			"15"
-		"fgcolor"		"Blank"
+		"ypos"			"3"
+		"wide"			"100"
+		"tall"			"10"
+		"fgcolor"		"White"
 	}
 		
 	"TableBackground"
@@ -35,8 +35,8 @@
 		"labelText"		"#TF_PVE_Upgrades"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"34"
-		"wide"			"70"
+		"ypos"			"20"
+		"wide"			"50"
 		"fgcolor"		"White"
 	}
 	
@@ -47,9 +47,10 @@
 		"font"			"Medium10"
 		"labelText"		"%upgrades%"
 		"textAlignment" "north-east"
-		"xpos"			"63"
-		"ypos"			"34"
+		"xpos"			"60"
+		"ypos"			"20"
 		"wide"			"30"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 	
@@ -61,8 +62,8 @@
 		"labelText"		"#TF_PVE_Buybacks"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"44"
-		"wide"			"70"
+		"ypos"			"30"
+		"wide"			"50"
 		"fgcolor"		"White"
 	}
 	
@@ -73,9 +74,10 @@
 		"font"			"Medium10"
 		"labelText"		"%buybacks%"
 		"textAlignment" "north-east"
-		"xpos"			"63"
-		"ypos"			"44"
+		"xpos"			"60"
+		"ypos"			"30"
 		"wide"			"30"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 	
@@ -87,8 +89,8 @@
 		"labelText"		"#TF_PVE_Bottles"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"54"
-		"wide"			"70"
+		"ypos"			"40"
+		"wide"			"50"
 		"fgcolor"		"White"
 	}
 	
@@ -99,9 +101,10 @@
 		"font"			"Medium10"
 		"labelText"		"%bottles%"
 		"textAlignment" "north-east"
-		"xpos"			"63"
-		"ypos"			"54"
+		"xpos"			"60"
+		"ypos"			"40"
 		"wide"			"30"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 }

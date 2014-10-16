@@ -6,11 +6,11 @@
 		"fieldName"		"HeaderLabel"
 		"font"			"Medium14"
 		"labelText"		"%header%"
-		"textAlignment" "center"
-		"xpos"			"4"
-		"ypos"			"60"
-		"wide"			"184"
-		"tall"			"22"
+		"textAlignment" "east"
+		"xpos"			"10"
+		"ypos"			"3"
+		"wide"			"110"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 		
@@ -24,6 +24,7 @@
 		"wide"			"190"
 		"tall"			"42"
 		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"		"20 20 20 50"
 	}
 	
@@ -33,10 +34,11 @@
 		"fieldName"		"CreditCollectedTextLabel"
 		"font"			"Medium10"
 		"labelText"		"#TF_PVE_Collected"
-		"textAlignment" "north-west"
+		"textAlignment" "center-west"
 		"xpos"			"10"
-		"ypos"			"34"
-		"wide"			"70"
+		"ypos"			"20"
+		"wide"			"50"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 	
@@ -47,9 +49,10 @@
 		"font"			"Medium10"
 		"labelText"		"%creditscollected%"
 		"textAlignment" "north-east"
-		"xpos"			"63"
-		"ypos"			"34"
+		"xpos"			"60"
+		"ypos"			"20"
 		"wide"			"30"
+		"tall"			"10"
 		"fgcolor"		"ya_Plus"
 	}
 	
@@ -61,8 +64,9 @@
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"44"
-		"wide"			"70"
+		"ypos"			"30"
+		"wide"			"50"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 	
@@ -73,9 +77,10 @@
 		"font"			"Medium10"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "north-east"
-		"xpos"			"63"
-		"ypos"			"44"
+		"xpos"			"60"
+		"ypos"			"30"
 		"wide"			"30"
+		"tall"			"10"
 		"fgcolor"		"Red"
 	}
 	
@@ -87,8 +92,9 @@
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "north-west"
 		"xpos"			"10"
-		"ypos"			"54"
-		"wide"			"70"
+		"ypos"			"40"
+		"wide"			"50"
+		"tall"			"10"
 		"fgcolor"		"White"
 	}
 	
@@ -99,9 +105,10 @@
 		"font"			"Medium10"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "north-east"
-		"xpos"			"63"
-		"ypos"			"54"
+		"xpos"			"60"
+		"ypos"			"40"
 		"wide"			"30"
+		"tall"			"10"
 		"fgcolor"		"ya_Plus"
 	}
 		
@@ -112,8 +119,8 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
-		"xpos"			"126"
-		"ypos"			"18"
+		"xpos"			"100"
+		"ypos"			"40"
 		"wide"			"70"
 		"tall"			"20"
 		"fgcolor"		"Blank"

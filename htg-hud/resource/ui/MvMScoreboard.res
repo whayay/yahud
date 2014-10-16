@@ -160,10 +160,10 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"c-274"
-			"ypos"			"r165"
-			"tall"			"100"
-			"wide"			"147"
+			"xpos"			"c-250"
+			"ypos"			"c100"
+			"tall"			"55"
+			"wide"			"120"
 			"visible"		"1"
 		}
 		
@@ -172,9 +172,9 @@
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
 			"xpos"			"c0"
-			"ypos"			"r165"
-			"tall"			"100"
-			"wide"			"147"
+			"ypos"			"c100"
+			"wide"			"120"
+			"tall"			"55"
 			"visible"		"1"
 		}
 		
@@ -182,10 +182,10 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c-147"
-			"ypos"			"r165"
-			"tall"			"100"
-			"wide"			"147"
+			"xpos"			"c-145"
+			"ypos"			"c100"
+			"tall"			"55"
+			"wide"			"120"
 			"visible"		"1"
 		}
 		
@@ -193,10 +193,10 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c147"
-			"ypos"			"r165"
-			"tall"			"100"
-			"wide"			"147"
+			"xpos"			"c105"
+			"ypos"			"c100"
+			"tall"			"55"
+			"wide"			"120"
 			"visible"		"1"
 		}
         "RespecStatusLabel"     //Refund progress
