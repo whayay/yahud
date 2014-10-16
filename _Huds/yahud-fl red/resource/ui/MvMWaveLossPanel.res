@@ -9,7 +9,8 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"		"20 20 20 0"
 	}
 
@@ -25,8 +26,9 @@
 		
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"border"		"NoBorder"
-		"bgcolor_override" "ya_HudBG"
+		"paintborder"		"1"
+		"border"		"GibsonDialogBorder"
+		"bgcolor_override" "GibsonDialogBG"
 	}
 	
 	"WaveFailHeaderShadow"

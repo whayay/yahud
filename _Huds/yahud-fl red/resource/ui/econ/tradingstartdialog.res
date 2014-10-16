@@ -6,13 +6,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"80"
+		"ypos"					"c-150"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"FieldBG"
+		"bgcolor_override"		"GibsonDialogBG"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"NoBorder"
+		"border"				"WhiteBorder"
 		
 		"button_kv"
 		{

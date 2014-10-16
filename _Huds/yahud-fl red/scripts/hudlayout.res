@@ -51,9 +51,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"266"	//this changes the position of the regular TargetID
+		"ypos"		"265"	//this changes the position of the regular TargetID
 		"wide"	 	"f0"
-		"tall"	 	"51"
+		"tall"	 	"35"
 		"priority"	"40"
 	}
 	
@@ -63,9 +63,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-170"
-		"ypos"		"297"	//this changes the position of the "healing" TargetID
+		"ypos"		"300"	//this changes the position of the "healing" TargetID
 		"wide"	 	"f0"
-		"tall"	 	"51"
+		"tall"	 	"35"
 		"priority"	"35"
 	}
 	
@@ -412,34 +412,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 	}
-	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-60"
-		"ypos"			"r123"
-		"zpos"			"2"
-		"wide"			"118"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"ya_HudBG"
-	}	
-
-	HudBowCharge
-	{
-		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-60"
-		"ypos"			"r131"
-		"zpos"			"2"
-		"wide"			"120"
-		"tall"			"40"
-		"MeterFG"		"White"
-		"MeterBG"		"ya_HudBG"
-	}
 
 	HudFlameRocketCharge
 	{
@@ -509,9 +481,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"			"CHudAccountPanel"
-		"xpos"			"c-59"	
-		"ypos"			"r164"	
-		"wide"			"f0"
+		"xpos"			"c-60"	
+		"ypos"			"380"	
+		"wide"			"120"
 		"tall"			"60"
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -521,8 +493,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-148"
-		"ypos"					"308"
+		"xpos"					"c-130"
+		"ypos"					"375"
 		"wide"					"f0"
 		"tall"  				"480"
 		"visible" 				"1"
@@ -547,9 +519,9 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"28"			    //0 	
-		"ypos"		"r456"			    //"r472"	
-		"zpos"		"-1"	
+		"xpos"		"28"
+		"ypos"		"r456"
+		"zpos"		"2"					// Modified to render on top of model display
 		"wide"		"248"
 		"tall"		"480"
 	}
@@ -560,9 +532,9 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-120"
-		"ypos"		"356"		//303
+		"ypos"		"375"
 		"wide"	 	"f0"
-		"tall"	 	"50" 
+		"tall"	 	"35" 
 		"priority"	"40"
 	}
 	
@@ -613,7 +585,7 @@
 		"fieldName" "HudMannVsMachineStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-20"
+		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"f0"
@@ -1024,9 +996,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"2"	// distance between the icons (including their backgrounds)
+		"separator_width"		"3"	// distance between the icons (including their backgrounds)
 		"separator_height"		"3"
-		"height_offset"			"5" // distance from the bottom of the panel
+		"height_offset"			"-2" // distance from the bottom of the panel
 	}
 
 	HudCapturePanel
@@ -1222,8 +1194,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	
-		"ypos"			"r146"	
-		"wide"			"118"
+		"ypos"			"385"	
+		"wide"			"120"
 		"tall"			"60"
 	}	
 
@@ -1315,8 +1287,8 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"wide"					"f0"
-		"tall"					"480"
+		"wide"					"180"
+		"tall"					"200"
 	}
 
 	HudStopWatch
@@ -1440,7 +1412,7 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"10"
-		"wide"					"270"
+		"wide"					"f0"
 		"tall"					"480"
 	}
 	

@@ -40,43 +40,6 @@
 		"xpos"			"0"
 		"ypos"			"9999"
 	}
-    "TimeBG"
-    {
-        "ControlName"       "CTFImagePanel"
-        "fieldName"     "TimeBG"
-        "xpos"          "c-40"
-        "ypos"          "0"
-        "zpos"          "-10"
-        "wide"          "80"
-        "tall"          "17"
-        "autoResize"        "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "1"
-        "image"         "replay/thumbnails/bg_black"
-        "scaleImage"        "1"
-        "teambg_1"      "replay/thumbnails/bg_black"
-        "teambg_2"      "replay/thumbnails/bg_red"
-        "teambg_3"      "replay/thumbnails/bg_blue"
-
-        "src_corner_height"     "23"
-        "src_corner_width"      "23"
-        "draw_corner_width"     "0"
-        "draw_corner_height"    "0"
-    }
-    "TimeSubBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"TimeSubBG"
-		"xpos"          "c-40"
-        "ypos"          "17"
-        "zpos"          "-10"
-        "wide"          "80"
-        "tall"          "10"
-		"fillcolor"		"Blank"
-		"visible"		"1"
-		"enabled"		"1"
-	}
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"

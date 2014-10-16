@@ -65,9 +65,9 @@
 		"font"			"Medium9"
 		"fgcolor"			"White"
 		"xpos"			"c-200"
-		"ypos"			"74"
+		"ypos"			"250"
 		"zpos"			"1"
-		"wide"			"400"	
+		"wide"			"400"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -76,6 +76,7 @@
 		"labelText"		"%notificationtip%"
 		"textAlignment"		"center"
 	}
+	
 	"SwitchImage"
 	{
 		"ControlName"		"CTFImagePanel"

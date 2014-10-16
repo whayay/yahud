@@ -24,10 +24,10 @@
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			".replay/thumbnails/bg_black"
+		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_3"		"replay/thumbnails/bg_blue"		
+		"teambg_2"		"../hud/misc_ammo_area_red"
+		"teambg_3"		"../hud/misc_ammo_area_blue"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -77,8 +77,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"r50"	//"0"
-		"ypos"					"1"	//"r40"
+		"xpos"					"c-178"
+		"ypos"					"r42"
 		"zpos"					"2"
 		"wide"					"46"
 		"tall"					"20"	
@@ -87,9 +87,30 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"east"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MediumNumbers20"
+	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"c-177"
+		"ypos"					"r41"
+		"zpos"					"2"
+		"wide"					"46"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"MediumNumbers20"
+		"fgcolor"				"ya_Shadow"
 	}
 }

@@ -2,17 +2,20 @@
 {		
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"0"	//250
-		"tall"			"80"
+		"wide"			"f0"
+		"tall"			"f0"
+		"proportionalToParent"	"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			""
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"GibsonScoreBG"
+		"border"		"GibsonDialogBorder"
+		"paintbackground"	"1"
 	}
 	
 	"WaveCompleteContainer"
@@ -20,8 +23,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WaveCompleteContainer"
 		"xpos"			"10"
-		"ypos"			"20"
-		"wide"			"250"
+		"ypos"			"5"
+		"wide"			"380"
 		"tall"			"35"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
@@ -33,13 +36,13 @@
 			"font"			"HudFontMediumSmallBold"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"3"
-			"ypos"			"3"
-			"wide"			"245"
-			"tall"			"36"
+			"xpos"			"1"
+			"ypos"			"1"
+			"wide"			"379"
+			"tall"			"34"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Blank"		
+			"fgcolor"		"ya_Shadow"
 			
 			// Red Background
 			"PaintBackgroundType" "2"
@@ -54,9 +57,9 @@
 			"font"			"Heavy24"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"2"
-			"ypos"			"2"
-			"wide"			"244"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"380"
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
@@ -69,9 +72,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
 		"xpos"			"10"
-		"ypos"			"55"
-		"wide"			"400"
-		"tall"			"400"
+		"ypos"			"45"
+		"wide"			"190"
+		"tall"			"45"
 		"autoResize"	"1"
 		"visible"		"1"
 		
@@ -164,10 +167,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RatingContainer"
-		"xpos"			"140"
-		"ypos"			"55"
-		"wide"			"400"
-		"tall"			"400"
+		"xpos"			"200"
+		"ypos"			"45"
+		"wide"			"190"
+		"tall"			"45"
 		"autoResize"	"1"
 		"visible"		"1"
 		
@@ -196,7 +199,7 @@
 			"ypos"			"20"
 			"wide"			"115"
 			"tall"			"30"
-			"fgcolor"		"Blank"
+			"fgcolor"		"ya_Shadow"
 		}
 		
 		"RatingText"
@@ -234,8 +237,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RespecContainer"
 		"xpos"			"0"
-		"ypos"			"105"
-		"wide"			"250"
+		"ypos"			"92"
+		"wide"			"400"
 		"tall"			"25"
 		"visible"		"1"
 		"PaintBackgroundType" "2"
@@ -252,6 +255,8 @@
 			"wide"			"160"
 			"tall"			"20"
 			"fgcolor"		"White"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 		
 		"RespecCountLabel"
@@ -266,6 +271,8 @@
 			"wide"			"30"
 			"tall"			"20"
 			"fgcolor"		"ya_Plus"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 	}
 }

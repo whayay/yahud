@@ -22,8 +22,8 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountImage"
-		"xpos"			"5"
-		"ypos"			"6"
+		"xpos"			"3"
+		"ypos"			"3"
 		"zpos"			"3"
 		"wide"			"14"
 		"tall"			"14"
@@ -42,12 +42,12 @@
 		"ControlName"	"Panel"
 		"fieldName"		"EnemyCountImageBG"
 		"xpos"			"2"
-		"ypos"			"1"
+		"ypos"			"2"
 		"zpos"			"2"
 		"wide"			"16"
 		"tall"			"16"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
@@ -56,16 +56,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"EnemyCountCritImageBG"
-		"xpos"			"4"
-		"ypos"			"5"
-		"zpos"			"3"
-		"wide"			"16"
-		"tall"			"16"
+		"xpos"			"1"
+		"ypos"			"1"
+		"zpos"			"1"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType" "2"
-        
-        "image" "replay/thumbnails/bg_red"
+        "image"			"../hud/leaderboard_class_critical"
 	}
 	"EnemyCount"
 	{
@@ -73,20 +72,15 @@
 		"fieldName"		"EnemyCount"
 		"font"			"MediumNumbers10"
 		"fgcolor"		"White"
-		"xpos"			"1"
-		"ypos"			"15"
+		"xpos"			"0"
+		"ypos"			"17"
 		"ypos_minmode"		"22"
 		"zpos"			"3"
-		"wide"			"21"
+		"wide"			"20"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		"%enemy_count%"
-        
-        if_verbose
-		{
-			"xpos"		"40"
-		}
 	}
 }

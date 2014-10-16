@@ -6,13 +6,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"105"
+		"ypos"					"65"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"FieldBG"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"NoBorder"
+		"border"				"GibsonDialogBorder"
+		"bgcolor_override"		"GibsonDialogBG"
 	}
 
 	"mouseoveritempanel"

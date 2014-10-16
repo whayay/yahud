@@ -6,7 +6,7 @@
 		"fieldName"		"Currency"
 		"font"			"MediumNumbers20"
 		"fgcolor"		"White"
-		"xpos"			"23"		//16
+		"xpos"			"3"		//16
 		"ypos"			"2"
 		"zpos"			"3"
 		"wide"			"80"
@@ -27,7 +27,7 @@
 		"wide"			"80"
 		"tall"			"17"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"bgcolor_override"	"Blank"
 	}
     "Label"

@@ -110,28 +110,11 @@
 		"iconColor"		"ya_Name"
 	}
 	
-	"NumberLabelBG"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"NumberLabelBG"
-		"font"			"Circle24"
-		"labelText"		"o"
-		"textAlignment"		"center"
-		"xpos"			"80"
-		"ypos"			"r374"
-		"zpos"			"4"
-		"wide"			"40"
-		"tall"			"40"
-		"fgcolor"		"ya_Name"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
 	"NumberLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Medium10"
+		"font"			"Medium16"
 		"fgcolor"		"ya_NameCounter"
 		"xpos"			"0"
 		"ypos"			"r362"

@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Medium14"
+		"font"			"Medium16"
 		"fgcolor"		"ya_NameCounter"
 		"xpos"			"0"
 		"ypos"			"67"

@@ -9,7 +9,8 @@
 		"ypos"					"c-225"
 		"wide"					"560"
 		"tall"					"345"
-		"border"				"NoBorder"
+		"border"				"Econ.Dialog.Border"
+		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
 
 //	"Container"
@@ -131,12 +132,14 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"dynamic"
 			"textAlignment"	"center"
-			"xpos"			"100"
-			"ypos"			"10"
-			"zpos"			"0"
-			"wide"			"365"
-			"tall"			"60"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"560"
+			"tall"			"345"
+			"textinsety"	"-290"
 			"centerwrap"	"1"
+			"border"		"GibsonDialogBorder"
 		}
 
 		"SubjectBG"
@@ -878,6 +881,8 @@
 				"Command"		"apply"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"armedBgColor_override"		"GibsonWarningBG"
+				"border_armed"				"Econ.Button.Border.Armed"
 			}
 		}
 

@@ -15,6 +15,8 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"border"				"Econ.Dialog.Border"
+		"bgcolor_override"	"Econ.Dialog.BgColor"
 	}
 	
 	"TitleLabel"
