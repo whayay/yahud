@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c0"
+			"xpos"			"c30"
 			"ypos"			"c100"
 			"wide"			"120"
 			"tall"			"55"
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c105"
+			"xpos"			"c135"
 			"ypos"			"c100"
 			"tall"			"55"
 			"wide"			"120"
