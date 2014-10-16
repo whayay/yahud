@@ -42,7 +42,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"UpButton"
@@ -72,12 +72,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override"      "0 0 0 125"
 	}
 	
 	// Rounded dialog border
@@ -89,13 +89,13 @@
 		"ypos"			"c-150"
 		"zpos"			"0"
 		"wide"			"480"
-		"tall"			"270"
+		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"GibsonDialogBG"
-		"border"		"GibsonDialogBorder"
-		"PaintBorder"	"1"
 		"paintbackground"	"1"
+		"border"		                "NoBorder"
+        "bgcolor_override"				"FieldBG"
+		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -110,7 +110,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"PaintBackgroundType"	"2"
+			"paintbackground"	"1"
+			"border"		"NoBorder"
+            "bgcolor_override"				"0 0 0 150"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -118,13 +121,18 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FooterTopPanel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"3"
+			"ypos"			"240"
+			"zpos"			"1"
+			"wide"			"474"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"1"
+			"PaintBackgroundType"	"2"
+			"paintbackground"	"1"
+			"border"		        "NoBorder"
+            "bgcolor_override"				"FieldBG"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -132,13 +140,18 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"3"
+			"ypos"			"240"
+			"zpos"			"1"
+			"wide"			"474"
+			"tall"			"58"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"0"
+			"PaintBackgroundType"	"2"
+			"paintbackground"	"1"
+			"border"		"NoBorder"
+            "bgcolor_override"				"FieldBG"
 		}
 		
 		"ItemNameLabel"
@@ -166,12 +179,13 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"DetailsView"
 			"xpos"			"240"
-			"ypos"			"35"
+			"ypos"			"30"
 			"zpos"			"100"
 			"wide"			"230"
-			"tall"			"150"
+			"tall"			"201"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"0 0 0 0"
 			"skip_autoresize"	"1"
 			"autoresize"		"0"
 			
@@ -207,7 +221,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"118 107 94 255"
+					"fgcolor"		"White"
 				}		
 				
 				"RestrictionsLabel"
@@ -362,12 +376,12 @@
 					"ControlName"	"CExButton"
 					"fieldName"		"ItemWikiPageButton"
 					"zpos"			"20"
-					"wide"			"0"
-					"tall"			"0"
+					"wide"			"150"
+					"tall"			"20"
 					"autoResize"	"0"
 					"pinCorner"		"0"
-					"visible"		"0"
-					"enabled"		"0"
+					"visible"		"1"
+					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
 					"font"			"HudFontSmallestBold"
@@ -651,7 +665,7 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
@@ -668,7 +682,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "48 48 48 255"
 		}
 		
 		"itempanel"
@@ -705,7 +719,7 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
@@ -722,7 +736,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "48 48 48 255"
 		}
 		
 		"itempanel"
@@ -759,7 +773,7 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
@@ -776,7 +790,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "48 48 48 255"
 		}
 		
 		"itempanel"
@@ -813,7 +827,7 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
@@ -830,7 +844,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "48 48 48 255"
 		}
 		
 		"itempanel"
@@ -867,7 +881,7 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
 		"PaintBackgroundType"	"2"
@@ -884,7 +898,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override" "51 47 46 255"
+			"bgcolor_override" "48 48 48 255"
 		}
 		
 		"itempanel"
@@ -922,7 +936,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
@@ -938,7 +952,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
@@ -954,7 +968,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
@@ -970,7 +984,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
@@ -986,7 +1000,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
@@ -1002,7 +1016,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "110 110 110 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
 		"PaintBackgroundType"	"2"
@@ -1031,7 +1045,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
 	}		
@@ -1059,7 +1073,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
 	}	
@@ -1110,7 +1124,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
 		"button_activation_type"	"0"
@@ -1139,7 +1153,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
+		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"128 117 104 255"
 		"depressedFgColor_override"	"236 227 203 255"
 		"button_activation_type"	"0"
@@ -1210,7 +1224,7 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+		
 	"ZoomButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -1238,7 +1252,7 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"White"
+		"image_armedcolor"		"128 117 104 255"
 		
 		"SubImage"
 		{
@@ -1374,7 +1388,6 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"textinsety"	"-8"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"paint_toggle"
@@ -1415,7 +1428,6 @@
 		"font"			"HudFontSmallest"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"textinsety"	"-8"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"next_style"
@@ -1477,8 +1489,8 @@
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
@@ -1492,7 +1504,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 255"
+		"image_drawcolor"	"White"
 		"image_armedcolor"	"246 247 213 255"
 		
 		"SubImage"
@@ -1516,7 +1528,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-230"
-		"ypos"			"c90"
+		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"22"
@@ -1524,7 +1536,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Back"
+		"labelText"		"Back"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1534,16 +1546,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
-	}
+	}		
 	
 	"TryItOutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TryItOutButton"
-		"xpos"			"c-120"
-		"ypos"			"c90"
+		"xpos"			"c-130"
+		"ypos"			"c105"
 		"zpos"			"2"
-		"wide"			"110"
+		"wide"			"120"
 		"tall"			"22"
 		"autoResize"	"0"
 		"visible"		"1"
@@ -1559,47 +1571,23 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
-	}
+	}	
 	
-	"WikiPageButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"WikiPageButton"
-		"xpos"			"c0"
-		"ypos"			"c90"
-		"zpos"			"20"
-		"wide"			"100"
-		"tall"			"22"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_ItemDesc_ItemWikiPage"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"command"		"viewwikipage"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c130"
-		"ypos"			"c90"
+		"xpos"			"c25"
+		"ypos"			"c103"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"22"
+		"wide"			"160"
+		"tall"			"27"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1607,5 +1595,9 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
+		"fgcolor"		"34 30 31 255"
+		"defaultBgColor_override"	"76 107 34 255"
+		"ArmedBgColor_override"	"86 117 44 255"
+		"depressedBgColor_override" "66 97 24 255"
+	}	
 }

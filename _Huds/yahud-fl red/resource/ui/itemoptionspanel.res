@@ -5,7 +5,7 @@
 		"ControlName"	"CPanelListPanel"
 		"fieldName"		"PanelListPanel"
 		"xpos"		"0"
-		"ypos"		"5"
+		"ypos"		"0"
 		"wide"		"f-19"
 		"tall"		"f0"
 		"autoResize"		"0"
@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"proportionalToParent"	"1"
 		"autohide_scrollbar"	"1"
-		"bgcolor_override"		"GibsonSubPanelBG"
+		"bgcolor_override"		"0 0 0 0"
 
 		"HatUseHeadCheckButton"
 		{
@@ -34,12 +34,12 @@
 			"enabled"		"1"
 			"tabPosition"		"0"
 			"labelText"		"#GameUI_ParticleHatUseHead"
-			"textAlignment"		"east"
+			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"1"
 			"wrap"		"0"
 			"centerwrap"		"0"
-			"textinsetx"		"0"
+			"textinsetx"		"6"
 			"textinsety"		"0"
 			"auto_wide_tocontents"		"0"
 			"use_proportional_insets"		"0"
@@ -85,7 +85,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"set_style"
-			"textinsety"	"-5"
 		}
 	}
 }

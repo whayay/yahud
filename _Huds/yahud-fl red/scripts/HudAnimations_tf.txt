@@ -42,24 +42,20 @@ event HudHealthBonusPulse
     Animate	PlayerStatusHealthValue 	    FgColor		"ya_Positive"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Positive"	        Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Positive"	        Accel 0.0 0.0  
-	Animate	TournamentPlayerHealthValue  	FgColor		"ya_Positive"          Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Positive"          Accel 0.0 0.0
     
-    Animate	HealthBG 	    BgColor		"GibsonPlayerPositiveBG"        Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        			Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        			Accel 0.3 0.6
+    Animate	HealthBG 	    BgColor		"ya_PositiveBG"        Accel 0.0 0.0
+    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
+	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
     
-	Animate	TargetHPBG 	    BgColor		"GibsonTargetPositiveBG"        Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        			Accel 0.0 0.3
-	Animate	TargetHPBG 	    Alpha		"255"		        			Accel 0.3 0.6
-	
-    Animate	SpecBG 	        BgColor		"GibsonSpecPositiveBG"        	Accel 0.0 0.0
-    Animate	SpecBG 	        Alpha		"255"		        			Accel 0.0 0.3
-	Animate	SpecBG 	        Alpha		"255"		        			Accel 0.3 0.6
+	Animate	TargetHPBG 	    BgColor		"ya_PositiveBG"        Accel 0.0 0.0
+    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
+	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
+    Animate	SpecBG 	        BgColor		"ya_PositiveSpecBG"        Accel 0.0 0.0
+    
+    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
-	Animate TournamentHPBG	BgColor		"GibsonTournamentPositiveBG"	Accel 0.0 0.0
-	Animate TournamentHPBG	Alpha		"255"							Accel 0.0 0.3
-	Animate TournamentHPBG	Alpha		"255"							Accel 0.3 0.6
-	
 	RunEvent HudHealthBonusPulseLoop	0.6
 }
 
@@ -70,7 +66,7 @@ event HudHealthBonusPulseLoop
 	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
 	RunEvent PlayerStatusHealthValueSpec 0.0
-	RunEvent TournamentPlayerHealthValue 0.0
+	RunEvent PlayerStatusHealthValueTour 0.0
 }
 
 event HudHealthBonusPulseStop
@@ -80,24 +76,21 @@ event HudHealthBonusPulseStop
 	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
 	StopEvent PlayerStatusHealthValueSpec 0.0
-	StopEvent TournamentPlayerHealthValue 0.0
+	StopEvent PlayerStatusHealthValueTour 0.0
 
 	Animate	PlayerStatusHealthValue 	    FgColor		"ya_Health"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Health"	        Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Health"	        Accel 0.0 0.0
-	Animate	TournamentPlayerHealthValue  	FgColor		"ya_Health"            Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Health"            Accel 0.0 0.0
     
-    Animate	HealthBG 	     BgColor		"GibsonPlayerHealthBG"	       	Accel 0.0 0.0
-    Animate	HealthBG 	     Alpha		    "255"		           			Accel 0.0 0.0
+    Animate	HealthBG 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
+    Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
     
-	Animate	TargetHPBG 	     BgColor		"GibsonTargetHealthBG"	       	Accel 0.0 0.0
-    Animate	TargetHPBG 	     Alpha		    "255"		           			Accel 0.0 0.0
+	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
+    Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
     
-    Animate	SpecBG 	         BgColor		"GibsonSpecHealthBG"	       	Accel 0.0 0.0
-    Animate	SpecBG 	         Alpha		    "255"		           			Accel 0.0 0.0
-	
-    Animate	TournamentHPBG	BgColor			"GibsonTournamentHealthBG"		Accel 0.0 0.0
-    Animate	TournamentHPBG 	Alpha		    "255"		           			Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"ya_HealthSpecBG"	       Accel 0.0 0.0
+    Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
     
 }
 
@@ -112,23 +105,19 @@ event HudHealthDyingPulse
     Animate	PlayerStatusHealthValue 	    FgColor		"ya_Negative"	        Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Negative"	        Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Negative"	        Accel 0.0 0.0  
-	Animate	TournamentPlayerHealthValue  	FgColor		"ya_Negative"          Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Negative"          Accel 0.0 0.0
     
-    Animate	HealthBG 	    BgColor		"GibsonPlayerNegativeBG"	    Accel 0.0 0.0
-    Animate	HealthBG 	    Alpha		"255"		        			Accel 0.0 0.3
-	Animate	HealthBG 	    Alpha		"255"		        			Accel 0.3 0.6
+    Animate	HealthBG 	    BgColor		"ya_NegativeBG"	    Accel 0.0 0.0
+    Animate	HealthBG 	    Alpha		"255"		        Accel 0.0 0.3
+	Animate	HealthBG 	    Alpha		"255"		        Accel 0.3 0.6
     
-	Animate	TargetHPBG 	    BgColor	    "GibsonTargetNegativeBG"	    Accel 0.0 0.0
-    Animate	TargetHPBG 	    Alpha		"255"		        			Accel 0.0 0.3
-	Animate	TargetHPBG 	    Alpha		"255"		        			Accel 0.3 0.6
+	Animate	TargetHPBG 	    BgColor	    "ya_NegativeBG"	    Accel 0.0 0.0
+    Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.0 0.3
+	Animate	TargetHPBG 	    Alpha		"255"		        Accel 0.3 0.6
     
-    Animate	SpecBG 	        BgColor		"GibsonSpecNegativeBG"	    	Accel 0.0 0.0
-    Animate	SpecBG 	        Alpha		"255"		        			Accel 0.0 0.3
-	Animate	SpecBG 	        Alpha		"255"		        			Accel 0.3 0.6
-	
-    Animate	TournamentHPBG	BgColor		"GibsonTournamentNegativeBG"	Accel 0.0 0.0
-    Animate	TournamentHPBG	Alpha		"255"		        			Accel 0.0 0.3
-	Animate	TournamentHPBG	Alpha		"255"		        			Accel 0.3 0.6
+    Animate	SpecBG 	        BgColor		"ya_NegativeSpecBG"	    Accel 0.0 0.0
+    Animate	SpecBG 	        Alpha		"255"		        Accel 0.0 0.3
+	Animate	SpecBG 	        Alpha		"255"		        Accel 0.3 0.6
 
 	RunEvent HudHealthDyingPulseLoop	0.6
 }
@@ -140,7 +129,7 @@ event HudHealthDyingPulseLoop
 	RunEvent PlayerStatusHealthValue 0.0
 	RunEvent PlayerStatusHealthValueCam 0.0
 	RunEvent PlayerStatusHealthValueSpec 0.0
-	RunEvent TournamentPlayerHealthValue 0.0
+	RunEvent PlayerStatusHealthValueTour 0.0
 }
 
 event HudHealthDyingPulseStop
@@ -150,25 +139,23 @@ event HudHealthDyingPulseStop
 	StopEvent PlayerStatusHealthValue 0.0
 	StopEvent PlayerStatusHealthValueCam 0.0
 	StopEvent PlayerStatusHealthValueSpec 0.0
-	StopEvent TournamentPlayerHealthValue 0.0
+	StopEvent PlayerStatusHealthValueTour 0.0
 
 
 	Animate	PlayerStatusHealthValue 	    FgColor		"ya_Health"	         Accel 0.0 0.0
 	Animate	PlayerStatusHealthValueCam 	    FgColor		"ya_Health"	         Accel 0.0 0.0
     Animate	PlayerStatusHealthValueSpec 	FgColor		"ya_Health"	         Accel 0.0 0.0
-	Animate	TournamentPlayerHealthValue  	FgColor		"ya_Health"          Accel 0.0 0.0
+	Animate	PlayerStatusHealthValueTour  	FgColor		"ya_Health"             Accel 0.0 0.0
     
-    Animate	HealthBG 	     BgColor		"GibsonPlayerHealthBG"	    	Accel 0.0 0.0
-    Animate	HealthBG 	     Alpha		    "255"		           			Accel 0.0 0.0
+    Animate	HealthBG 	     BgColor		"ya_BoxBG"	       Accel 0.0 0.0
+    Animate	HealthBG 	     Alpha		    "255"		           Accel 0.0 0.0
     
-	Animate	TargetHPBG 	     BgColor		"GibsonTargetHealthBG"	    	Accel 0.0 0.0
-    Animate	TargetHPBG 	     Alpha		    "255"		           			Accel 0.0 0.0
+	Animate	TargetHPBG 	     BgColor		"NameHPBG"	       Accel 0.0 0.0
+    Animate	TargetHPBG 	     Alpha		    "255"		           Accel 0.0 0.0
     
-    Animate	SpecBG 	         BgColor		"GibsonSpecHealthBG"	    	Accel 0.0 0.0
-    Animate	SpecBG 	         Alpha		    "255"		           			Accel 0.0 0.0
-	
-    Animate	TournamentHPBG	BgColor			"GibsonTournamentHealthBG"		Accel 0.0 0.0
-    Animate	TournamentHPBG	Alpha		    "255"		           			Accel 0.0 0.0
+    Animate	SpecBG 	         BgColor		"ya_HealthSpecBG"	       Accel 0.0 0.0
+    Animate	SpecBG 	         Alpha		    "255"		           Accel 0.0 0.0
+    
 }
 
 //===========================================

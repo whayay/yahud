@@ -11,12 +11,25 @@
 		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"GibsonPanelBG"
-		"border"		"GibsonDialogBorder"
+		"fillcolor"		"ya_NameLongBG"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 	}
-
+	"LabelsBG2"	
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LabelsBG2"
+		"xpos"			"c-180"
+		"ypos"			"c-45"
+		"zpos"			"0"
+		"wide"			"360"
+		"tall"			"90"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"ya_NameBG"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+	}
 
 	"TitleLabel"
 	{	

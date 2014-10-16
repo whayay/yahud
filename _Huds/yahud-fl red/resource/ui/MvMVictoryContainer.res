@@ -26,8 +26,8 @@
 		
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"border"			"GibsonDialogBorder"
-		"BgColor_override"	"GibsonDialogBG"
+		"border"			"NoBorder"
+		"BgColor_override"	"ya_HudBG"
 	}
 	
 	"BannerContainer"
@@ -35,9 +35,9 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BannerContainer"
 		"xpos"			"c-300"
-		"ypos"			"10"
+		"ypos"			"20"
 		"wide"			"600"
-		"tall"			"40"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -65,27 +65,27 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"Heavy24"
+			"font"			"HudFontBiggerBold"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
-			"xpos"			"1"
-			"ypos"			"1"
-			"wide"			"599"
-			"tall"			"49"
-			"fgcolor"		"ya_Shadow"
+			"xpos"			"2"
+			"ypos"			"2"
+			"wide"			"0"
+			"tall"			"0"
+			"fgcolor"		"0 0 0 0"
 		}
 		
 		"BannerText"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"BannerText"
+			"fieldName"		"BannerTextDropShadow"
 			"font"			"Heavy24"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-5"
 			"wide"			"600"
-			"tall"			"50"
+			"tall"			"45"
 			"fgcolor"		"White"
 		}
 	}
@@ -112,5 +112,55 @@
 		"tall"				"480"
 		"visible"			"0"
 		"enabled"			"1"		
+	}
+	
+	"CloseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CloseButton"
+		"xpos"			"c165"
+		"ypos"			"355"
+		"wide"			"100"
+		"tall"			"25"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#DoneButton"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"Command"		"done"
+	}
+
+	"VictoryChangePageButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"VictoryChangePageButton"
+		"xpos"			"c-265"
+		"ypos"			"355"
+		"wide"			"100"
+		"tall"			"25"
+		"autoResize"	"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Stats"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"Command"		"victory_change"
 	}
 }

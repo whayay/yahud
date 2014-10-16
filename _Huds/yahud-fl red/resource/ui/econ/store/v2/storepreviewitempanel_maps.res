@@ -24,12 +24,14 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintborder"	"1"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"1"
+		"bgcolor_override" "0 0 0 125"
 	}
 	
 	// Rounded dialog border
@@ -41,12 +43,12 @@
 		"ypos"			"c-150"
 		"zpos"			"0"
 		"wide"			"280"
-		"tall"			"260"
+		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"GibsonDialogBG"
-		"border"		"GibsonDialogBorder"
+		"border"		                "NoBorder"
+        "bgcolor_override"				"FieldBG"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -55,14 +57,17 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PreviewViewportBg"
 			"xpos"			"10"
-			"ypos"			"15"
+			"ypos"			"22"
 			"zpos"			"1"
 			"wide"			"260"
 			"tall"			"209"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"PaintBackgroundType"	"2"
+			"paintbackground"	"1"
+			"border"		"NoBorder"
+            "bgcolor_override"				"0 0 0 150"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -70,13 +75,18 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FooterTopPanel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"3"
+			"ypos"			"240"
+			"zpos"			"1"
+			"wide"			"275"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"1"
+			"PaintBackgroundType"	"2"
+			"paintbackground"	"1"
+			"border"		        "NoBorder"
+            "bgcolor_override"				"FieldBG"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -84,13 +94,18 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"xpos"			"3"
+			"ypos"			"240"
+			"zpos"			"1"
+			"wide"			"275"
+			"tall"			"58"
+			"visible"		"1"
+			"enabled"		"1"
+			"paintborder"	"0"
+			"PaintBackgroundType"	"2"
+			"paintbackground"	"1"
+			"border"		"NoBorder"
+            "bgcolor_override"				"FieldBG"
 		}
 	}
 	
@@ -100,7 +115,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c-230"
-		"ypos"			"c-147"
+		"ypos"			"c-140"
 		"zpos"			"1"
 		"wide"			"220"
 		"tall"			"220"
@@ -193,7 +208,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"PreviewItemModelPanel"
 		"xpos"			"c-110"
-		"ypos"			"c-127"
+		"ypos"			"c-120"
 		"zpos"			"1"
 		"wide"			"225"
 		"tall"			"200"
@@ -228,7 +243,7 @@
 		"labelText"		"%selectiontitle%"
 		"textAlignment"	"center"
 		"xpos"			"c-130"
-		"ypos"			"c-137"
+		"ypos"			"c-132"
 		"wide"			"260"
 		"tall"			"33"
 		"autoResize"	"1"
@@ -628,8 +643,8 @@
 		"tall"			"14"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labeltext"		""
 		"font"			"HudFontSmallBold"
@@ -643,7 +658,7 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 255"
+		"image_drawcolor"	"White"
 		"image_armedcolor"	"246 247 213 255"
 		
 		"SubImage"
@@ -660,22 +675,22 @@
 			"image"			"close_button"
 			"scaleImage"	"1"
 		}				
-	}
+	}		
 	
 	"BackButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-130"
-		"ypos"			"c83"
+		"ypos"			"c108"
 		"zpos"			"2"
-		"wide"			"90"
+		"wide"			"80"
 		"tall"			"22"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_Back"
+		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -684,23 +699,24 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
+		"fgcolor"		"White"
+	}		
 	
 	"AddToCartButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c30"
-		"ypos"			"c83"
+		"xpos"			"c-30"
+		"ypos"			"c105"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"22"
+		"wide"			"160"
+		"tall"			"27"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_AddToCart"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -708,5 +724,7 @@
 		"Command"		"addtocart"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}
+		"fgcolor"		"34 30 31 255"
+		"defaultBgColor_override" "StoreGreen"
+	}		
 }

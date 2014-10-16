@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"15"
+		"xpos"				"20"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"480"
@@ -17,11 +17,11 @@
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"			"WaveCompleteSummaryPanel"
-		"xpos"				"c-200"
-		"ypos"				"160"
+		"xpos"				"c-125"
+		"ypos"				"120"
 		"zpos"				"0"
 		"wide"				"400"
-		"tall"				"125"
+		"tall"				"400"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -61,12 +61,12 @@
 		"fieldName"			"InWorldCurrencyPanel"
 		"xpos"				"0"
 		"ypos"				"0"
-		"wide"				"f0"
+		"wide"				"90000"
 		"tall"				"480"
 		"visible" 			"1"
 		"enabled" 			"1"
 	}
-	
+
 	"WarningSwoop"
 	{
 		"ControlName"	"CWarningSwoop"
@@ -87,9 +87,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeLevelContainer"
-		"xpos"			"0"
+		"xpos"			"20"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
 					
@@ -97,10 +97,10 @@
 		{
 			"ControlName"	"CMvMBombCarrierProgress"
 			"fieldName"		"UpgradeProgressTrack"
-			"xpos"			"r115"
+			"xpos"			"c-50"
 			"ypos"			"r35"
-			"wide"			"100"
-			"tall"			"35"
+			"wide"			"640"
+			"tall"			"480"
 			"visible"		"1"	
 		}
 		
@@ -108,7 +108,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel1"
-			"xpos"			"r30"
+			"xpos"			"c32"
 			"ypos"			"r24"
 			"wide"			"20"
 			"tall"			"20"
@@ -125,7 +125,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel2"
-			"xpos"			"r30"
+			"xpos"			"c32"
 			"ypos"			"r42"
 			"wide"			"20"
 			"tall"			"20"
@@ -142,7 +142,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevel3"
-			"xpos"			"r30"
+			"xpos"			"c32"
 			"ypos"			"r60"
 			"wide"			"20"
 			"tall"			"20"
@@ -159,7 +159,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"UpgradeLevelBoss"
-			"xpos"			"r30"
+			"xpos"			"c32"
 			"ypos"			"r46"
 			"wide"			"20"
 			"tall"			"40"
@@ -246,31 +246,13 @@
 			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-100"
-			"ypos"			"115"
-			"zpos"			"2"
-			"wide"			"200"
+			"xpos"			"c-150"
+			"ypos"			"400"
+			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"		
-		}
-		"ServerChangeLabelShadow"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ServerChangeLabelShadow"
-			"font"			"HudFontSmall"
-			"textAlignment"	"center"
-			"labelText"		"%servermessage%"
-			"xpos"			"c-99"
-			"ypos"			"115"
-			"zpos"			"1"
-			"wide"			"199"
-			"tall"			"20"
-			"textinsety"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"ya_Shadow"		
 		}
 	}
 	

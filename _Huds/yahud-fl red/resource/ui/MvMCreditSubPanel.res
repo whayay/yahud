@@ -122,7 +122,7 @@
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CreditRatingLabel"
+		"fieldName"		"CreditCollectedTextLabel"
 		"font"			"Medium14"
 		"labelText"		"%rating%"
 		"textAlignment" "center"

@@ -114,7 +114,6 @@
 			"wide"			"12"
 			"tall"			"12"
 			"image"			"../hud/cart_track_neutral_opaque"
-			"border"	"LeftWhiteBorder"
 		}
 		
 		"if_multiple_trains_top"
@@ -129,12 +128,12 @@
 		
 		"if_multiple_trains_red"
 		{
-			"fillcolor"		"255 16 16 48"
+			"image"			"../hud/cart_home_red_square"
 		}
 		
 		"if_multiple_trains_blue"
 		{
-			"fillcolor"		"16 16 255 48"
+			"image"			"../hud/cart_home_blue_square"
 		}
 	}
 	
@@ -317,9 +316,10 @@
 			"image"			"../hud/cart_alert"
 			"scaleImage"	"1"
 			
-			"if_multiple_trains"
+			"if_multiple_trains_bottom"
 			{
-				"enabled"	"0"
+				"xpos"			"-5"
+				"ypos"			"75"
 			}
 		}
 		
@@ -343,11 +343,20 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"17"
+				"xpos"			"22"
 				"wide"			"8"
 				"tall"			"8"
-				"ypos"			"68"
 			}
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"46"
+			}	
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"83"
+			}	
 		}
 		
 		"CapPlayerImage"
@@ -405,14 +414,21 @@
 			"if_multiple_trains"
 			{
 				"font"			"Medium12"
-				"xpos"			"5"
-				"ypos"			"66"
-				"wide"			"19"
-				"tall"			"12"
-				"textAlignment"	"east"
-				"fgcolor_override"	"Black"
-				"fgcolor"		"Black"
-			}
+				"xpos"			"28"
+				"wide"			"32"
+				"tall"			"19"
+				"textAlignment"	"west"
+			}			
+			
+			"if_multiple_trains_top"
+			{
+				"ypos"			"63"
+			}										
+			
+			"if_multiple_trains_bottom"
+			{
+				"ypos"			"63"
+			}	
 		}
 		
 		"Blocked"

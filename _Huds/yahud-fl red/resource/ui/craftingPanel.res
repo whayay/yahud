@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	            "GibsonPanelBG"
-		"infocus_bgcolor_override"      "GibsonPanelBG"
-		"outoffocus_bgcolor_override"   "GibsonPanelBG"
+		"bgcolor_override"	            "ya_MenuBG"
+		"infocus_bgcolor_override"      "ya_MenuBG"
+		"outoffocus_bgcolor_override"   "ya_MenuBG"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -114,7 +114,7 @@
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
-		"filter_xoffset"	"-350"
+		"filter_xoffset"	"-290"
 		"filter_ypos"		"45"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
@@ -147,7 +147,7 @@
 		"font"			"Medium18"
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"west"
-		"xpos"			"c-350"
+		"xpos"			"c-290"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"340"
@@ -167,8 +167,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"300"
-		"tall"			"f0"
-		"proportionalToParent"	"1"
+		"tall"			"350"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"200 187 161 0"
 
@@ -254,7 +253,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"CraftButton"
 			"xpos"			"0"
-			"ypos"			"350"
+			"ypos"			"318"
 			"zpos"			"20"
 			"wide"			"200"
 			"tall"			"30"
@@ -272,7 +271,6 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"disabledfgcolor2_override"	"Blank"
 		}			
 		
 		"FreeAccountLabel"
@@ -329,7 +327,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"recipecontainerscroller"
-		"xpos"			"c-350"
+		"xpos"			"c-290"
 		"ypos"			"82"
 		"zpos"			"5"
 		"wide"			"280"

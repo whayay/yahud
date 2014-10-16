@@ -9,10 +9,10 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"110"
-		"bgcolor_override"		"GibsonDialogBG"
+		"bgcolor_override"		"FieldBG"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GibsonDialogBorder"
+		"border"				"NoBorder"
 	}
 	
 	"CenterPositioner"

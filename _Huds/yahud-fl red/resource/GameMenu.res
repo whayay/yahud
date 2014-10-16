@@ -48,6 +48,12 @@
 		"label" "{"
 		"command" "engine demoui"
 	}
+	"ToggleScoreboard"
+	{
+		"label" "s"    
+		"command" "engine toggle cl_hud_minmode"
+        "tooltip" "Toggle scoreboard"
+	}
 	"HomeServer"
 	{
 		"label" ""	//"f"

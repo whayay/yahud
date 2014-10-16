@@ -4,13 +4,14 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"15"
+		"xpos"				"c-300"
+		"ypos"				"-22"
 		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
+		"wide"				"600"
+		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
+		
 		"verbose"			"1"
 	}
 	
@@ -22,11 +23,11 @@
 		"font"			"Heavy16"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
-		"xpos"          "c-270" 
+		"xpos"          "c-247" 
         "ypos"          "c-74" 
         "zpos"          "15"
-        "wide"          "296"
-        "tall"          "20"
+        "wide"          "287"
+        "tall"          "18"
 		"fgcolor"		"White"
 	}
 
@@ -34,10 +35,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"c26"
-		"ypos"			"c-74"
-		"wide"			"248"
-		"tall"			"20"
+		"xpos"			"0"
+		"ypos"			"-82"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		
 		"DifficultyLabel"
@@ -53,7 +54,6 @@
             "wide"          "287"
             "tall"          "12"
 			"fgcolor"		"Blank"
-			"visible"		"0"
 		}
 		
 		"DifficultyValue"
@@ -63,11 +63,11 @@
 			"font"			"Heavy16"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"east"
-			"xpos"          "0" 
-            "ypos"          "0" 
+			"xpos"          "c9" 
+            "ypos"          "c8" 
             "zpos"          "2"
-			"wide"			"240"
-			"tall"			"20"
+            "wide"          "268"
+            "tall"          "18"
 			"fgcolor"		"White"
 		}
 	}
@@ -76,8 +76,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"c-274"
-		"ypos"			"c-74"
+		"xpos"			"100"
+		"ypos"			"-65"
 		"zpos"			"-1"
 		"wide"			"0"
 		"tall"			"0"
@@ -98,9 +98,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-274"
-		"ypos"			"c-55"
-		"wide"			"548"
+		"xpos"			"c-250"
+		"ypos"			"c-57"
+		"wide"			"530"
 		"tall"			"155"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -128,7 +128,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"500"
+			"wide"			"400"
 			"tall"			"135"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -160,10 +160,10 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"c-274"
+			"xpos"			"c-250"
 			"ypos"			"r165"
 			"tall"			"100"
-			"wide"			"147"
+			"wide"			"200"
 			"visible"		"1"
 		}
 		
@@ -171,10 +171,10 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c0"
+			"xpos"			"c90"
 			"ypos"			"r165"
 			"tall"			"100"
-			"wide"			"147"
+			"wide"			"200"
 			"visible"		"1"
 		}
 		
@@ -182,10 +182,10 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c-147"
+			"xpos"			"c-160"
 			"ypos"			"r165"
 			"tall"			"100"
-			"wide"			"147"
+			"wide"			"200"
 			"visible"		"1"
 		}
 		
@@ -193,10 +193,10 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c147"
+			"xpos"			"c180"
 			"ypos"			"r165"
 			"tall"			"100"
-			"wide"			"147"
+			"wide"			"200"
 			"visible"		"1"
 		}
         "RespecStatusLabel"     //Refund progress
@@ -205,10 +205,10 @@
 			"fieldName"		"RespecStatusLabel"
 			"font"			"Medium10"
 			"labelText"		"%respecstatus%"
-			"textAlignment" "east"
-			"xpos"			"c0"
-			"ypos"			"c-95"
-			"wide"			"270"
+			"textAlignment" "center"
+			"xpos"			"c-150"
+			"ypos"			"28"
+			"wide"			"300"
 			"tall"			"20"
 			"fgcolor"		"White"
 		}

@@ -9,10 +9,10 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"GibsonDialogBG"
+		"bgcolor_override"		"FieldBG"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GibsonDialogBorder"
+		"border"				"NoBorder"
 	}
 
 	"mouseoveritempanel"
@@ -318,6 +318,8 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
+		"fgcolor_override"	"White"
+		"bgcolor_override"	"FieldBG"
 		"paintbackgroundtype" "2"
 		"labelText"			""
 		"font"				"HudFontSmall"

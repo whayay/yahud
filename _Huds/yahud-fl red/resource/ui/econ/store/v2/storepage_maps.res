@@ -87,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"White"
 	}
 	
 	"LearnMoreButton"

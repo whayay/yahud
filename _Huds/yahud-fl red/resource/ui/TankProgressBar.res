@@ -33,13 +33,13 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"26"
-		"ypos"			"2"
+		"ypos"			"4"
 		"zpos"			"1"
 		"wide"			"140"
-		"tall"			"10"
+		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"image"			"replay/thumbnails/meter"
 		
  		"src_corner_height"	"22"				// pixels inside the image
  		"src_corner_width"	"22"
@@ -48,23 +48,40 @@
  		"draw_corner_height" 	"0"	
 	}
 
+	"MainBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainBG"
+		"xpos"			"26"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"140"
+		"tall"			"8"
+		"fillcolor"		"ya_HudBG"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+
+	}
+	
 	"ProgressBarBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"25"
-		"ypos"			"1"
+		"xpos"			"33"
+		"ypos"			"3"
 		"zpos"			"1"
-		"wide"			"142"
+		"wide"			"137"
 		"tall"			"12"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"20"				// pixels inside the image
-		"src_corner_width"	"20"
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 }

@@ -9,10 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"FieldBG"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"Econ.Dialog.Border"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"border"				"NoBorder"
 	}
 
 	"mouseoveritempanel"
@@ -267,7 +267,5 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"		"GibsonWarningBG"
-		"border_armed"				"Econ.Button.Border.Armed"
 	}
 }

@@ -9,21 +9,10 @@
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
+		"bgcolor_override"		"FieldBG"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"Econ.Dialog.Border"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
-	}
-	
-	"DialogBorder"
-	{
-		"Controlname"	"EditablePanel"
-		"fieldName"		"DialogBorder"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"280"
-		"tall"			"240"
-		"border"		"GibsonDialogBorder"
+		"border"				"NoBorder"
 	}
 	
 	"TitleLabel"

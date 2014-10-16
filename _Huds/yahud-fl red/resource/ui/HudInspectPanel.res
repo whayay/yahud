@@ -4,31 +4,29 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r200"
-		"ypos"			"r220"
+		"xpos"			"0"
+		"ypos"			"120"
 		"zpos"			"1"
-		"wide"			"180"
-		"tall"			"110"
+		"wide"			"250"
+		"tall"			"170"
 		"visible"		"0"
         
-        "border"				"GrayBorder"
+		"border"				"NoBorder"
 		"bgcolor_override"		"ya_HudBG"
         "paintbackground"	"1"
 		"PaintBackgroundType"	"2"
 		
-		"model_xpos"		"60"
-		"model_center_y"	"0"
-		"model_ypos"		"2"
-		"model_wide"		"60"
-		"model_tall"		"25"
+		"model_xpos"		"4"
+		"model_center_y"	"1"
+		"model_wide"		"70"
+		"model_tall"		"35"
 		
-		"text_ypos"		"30"
-		"text_xpos"		"5"
-		"text_wide"		"170"
+		"text_xpos"		"80"
+		"text_wide"		"160"
 		"text_center"	"1"
 		
-		"max_text_height"	"40"
-		"padding_height"	"7"
+		"max_text_height"	"90"
+		"padding_height"	"40"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
@@ -37,8 +35,6 @@
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "1"
 			"useparentbg"		"1"
-			"visible"	"1"
-			"ypos"		"1"
 		}
 		
 		"ItemLabel"
@@ -47,18 +43,18 @@
 			"fieldName"		"ItemLabel"
 			"font"			"Regular8"
 			"xpos"			"10"
-			"ypos"			"20"
+			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"270"
 			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}
+	}	
 }

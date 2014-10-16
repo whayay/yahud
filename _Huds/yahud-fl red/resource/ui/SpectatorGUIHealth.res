@@ -2,7 +2,7 @@
 {
     "TargetHPBG"	
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"TargetHPBG"
 		"xpos"		"0"
 		"ypos"		"16"
@@ -13,13 +13,27 @@
 		"pinCorner"	"0"
 		"visible"		"1"             //flv color block
 		"enabled"		"1"
-		"bgcolor"		"GibsonTargetHealthBG"
-		"bgcolor_override"	"GibsonTargetHealthBG"
-		"border"		"NoBorder"
+		"defaultBgColor_Override"		"NameHPBG"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}
-    
+    "TargetHPBGBox"	
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"TargetHPBGBox"
+		"xpos"		"0"
+		"ypos"		"14"
+		"zpos"		"9"
+		"wide"		"46"
+		"tall"		"19"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"		"1"             //
+		"enabled"		"1"
+		"defaultBgColor_Override"		"Blank"
+		"PaintBackgroundType""0"
+        "textinsety" "99"
+	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -79,20 +93,39 @@
 		"textAlignment"	"center"
 		"scaleImage"	"1"	
 	}
-	"PlayerStatusHealthValue"
+	"PlayerStatusHealthValueSpec"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
+		"fieldName"		"PlayerStatusHealthValueSpec"
+		"xpos"			"-4"
 		"ypos"			"16"
 		"zpos"			"10"
-		"wide"			"46"
+		"wide"			"54"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Heavy24"
+		"fgcolor"		"ya_Health"
+	}			
+	"PlayerStatusHealthValueSpecShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueSpecShadow"
+		"xpos"			"-4"
+		"ypos"			"16"
+		"zpos"			"5"
+		"wide"			"55"
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Heavy16"
-		"fgcolor"		"ya_Health"
-	}
+		"font"			"Heavy24"
+		"fgcolor"		"ya_Shadow"
+	}	
+
+
+	
 }

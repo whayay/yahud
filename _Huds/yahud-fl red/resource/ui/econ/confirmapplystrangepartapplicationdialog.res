@@ -9,10 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
+		"bgcolor_override"		"FieldBG"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"Econ.Dialog.Border"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"border"				"NoBorder"
 	}
 
 	"mouseoveritempanel"
@@ -207,17 +207,16 @@
 		"font"			"HudFontSmall"
 		"labelText"		"#ToolStrangePartApplyConfirm"
 		"textAlignment"	"center"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"20"
+		"ypos"			"80"
 		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"240"
+		"wide"			"360"
+		"tall"			"60"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "White"
-		"border"		"GibsonDialogBorder"
 	}
 
 	"CancelButton"
@@ -268,7 +267,5 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"		"GibsonWarningBG"
-		"border_armed"				"Econ.Button.Border.Armed"
 	}
 }

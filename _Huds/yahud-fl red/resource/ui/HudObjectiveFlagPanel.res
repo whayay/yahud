@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"7"
 		"zpos"				"-1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -17,7 +17,67 @@
 			"zpos"			"-1"
 		}
 	}
-
+    "BlueBG"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueBG"
+		"font"			"Circle36"
+		"labelText"		"o"
+		"textAlignment"		"center"
+		"xpos"			"c-76"      
+		"ypos"			"r42"       
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"36"
+		"fgcolor"		"ScoreCounterBG"
+		"visible"		"1"
+		"enabled"		"1"
+        
+        "if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+	}
+	"RedBG"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedBG"
+		"font"			"Circle36"
+		"labelText"		"o"
+		"textAlignment"		"center"
+		"xpos"			"c40"
+		"ypos"			"r42"
+		"zpos"			"1"
+		"wide"			"36"
+		"tall"			"36"
+		"fgcolor"		"ScoreCounterBG"
+		"visible"		"1"
+		"enabled"		"1"
+        "if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+	}
 	"LeftSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -68,7 +128,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-73"
-		"ypos"			"r38"
+		"ypos"			"r32"
 		"zpos"			"2"
 		"wide"			"30"
 		"tall"			"18"
@@ -76,8 +136,8 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"Medium16"
-		"fgcolor"		"White"
+		"font"			"Medium14"
+		"fgcolor"		"ScoreCounterFont"
 		
 		"if_hybrid"
 		{
@@ -99,7 +159,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c44"
-		"ypos"			"r38"
+		"ypos"			"r32"
 		"zpos"			"2"
 		"wide"			"29"
 		"tall"			"18"
@@ -107,8 +167,8 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"Medium16"
-		"fgcolor"		"White"
+		"font"			"Medium14"
+		"fgcolor"		"ScoreCounterFont"	
 		
 		"if_hybrid"
 		{
@@ -125,7 +185,7 @@
 			"visible"	"0"
 		}
 	}			
-	
+															
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -154,23 +214,13 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_flagpanel_carried_red"
 		"scaleImage"	"1"
-		
-		// Displays an australium briefcase icon to cover a non-functional arrow. Good work, Valve.
-		"if_specialdelivery"
-		{
-			"xpos"			"c-16"
-			"ypos"			"r50"
-			"zpos"			"3"
-			"wide"			"32"
-			"tall"			"32"
-		}
 	}
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-40"
-		"ypos"			"r11"
+		"ypos"			"r60"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"11"
@@ -221,7 +271,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-105"
-		"ypos"			"r95"
+		"ypos"			"r97"
 		"zpos"			"0"
 		"wide"			"160"
 		"tall"			"90"
@@ -246,7 +296,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r90"
+			"ypos"		"r100"
 		}
 		
 		"if_no_flags"
@@ -255,10 +305,7 @@
 		}
         "if_mvm"
 		{
-			"xpos"		"c-50"
-			"ypos"		"r45"
-			"wide"		"100"
-			"tall"		"50"
+			"ypos"		"r102"
 		}
 	}
 			
@@ -267,7 +314,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c-56"
-		"ypos"			"r95"
+		"ypos"			"r97"
 		"zpos"			"0"
 		"wide"			"160"
 		"tall"			"90"
@@ -292,7 +339,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r90"
+			"ypos"		"r100"
 		}
 		
 		"if_no_flags"
@@ -320,7 +367,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r46"
+			"ypos"		"r100"
 		}
 	}
 	
@@ -340,7 +387,7 @@
         
         "if_specialdelivery"
 		{
-			"visible"		"1"
+					"visible"		"1"
 		}
 	}			
 }
