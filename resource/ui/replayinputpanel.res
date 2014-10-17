@@ -29,19 +29,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"10"
-		"paintbackgroundtype"	"0"
 		"bgcolor_override"	"GibsonDialogBG"
-		"border"			"GibsonDialogBorder"
+		"border"		"GibsonDialogBorder"
+		"paintbackgroundtype"	"0"
 		"paintborder"		"1"
 		"paintbackground"	"1"
 		
 	
-		"NameYourTakeLabel"
+		"NameYourReplayLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"NameYourTakeLabel"
+			"fieldName"		"NameYourReplayLabel"
 			"font"			"EconFontSmall"
-			"labelText"		"#Replay_NameYourTake"
+			"labelText"		"#Replay_NameYourReplay"
 			"textAlignment"	"west"
 			"xpos"			"13"
 			"ypos"			"8"
@@ -55,15 +55,15 @@
 			"tabPosition"	"10"
 		}
 		
-		"FinePrintLabel"
+		"EnterANameLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"FindPrintLabel"
+			"fieldName"		"EnterANameLabel"
 			"font"			"DefaultVerySmall"
-			"labelText"		"#Replay_NameFinePrint"
+			"labelText"		"#Replay_EnterYourName"
 			"textAlignment"	"west"
 			"xpos"			"13"
-			"ypos"			"25"
+			"ypos"			"22"
 			"zpos"			"1"
 			"wide"			"300"
 			"tall"			"20"
@@ -96,36 +96,11 @@
 			"maxchars"		"255"
 		}
 		
-		"DiscardButton"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DiscardButton"
-			"xpos"			"207"
-			"ypos"			"90"
-			"zpos"			"20"
-			"wide"			"80"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"2"
-			"labelText"		"#Replay_Discard"
-			"font"			"ReplayMediumSmall"
-			"textAlignment"	"center"
-			"textinsetx"	"50"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"Command"		"discard"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}		
-
 		"CancelButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CancelButton"
-			"xpos"			"207"
+			"xpos"			"100"
 			"ypos"			"90"
 			"zpos"			"20"
 			"wide"			"80"
@@ -135,7 +110,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"2"
-			"labelText"		"#Replay_Cancel"
+			"labelText"		"#GameUI_CancelBold"
 			"font"			"ReplayMediumSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
@@ -144,13 +119,13 @@
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-		}	
-		
+		}		
+
 		"SaveButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"SaveButton"
-			"xpos"			"103"
+			"xpos"			"200"
 			"ypos"			"90"
 			"zpos"			"20"
 			"wide"			"100"
@@ -160,7 +135,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"1"
-			"labelText"		"#Replay_SavePerformance"
+			"labelText"		"#Replay_Save"
 			"font"			"ReplayMediumSmall"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
