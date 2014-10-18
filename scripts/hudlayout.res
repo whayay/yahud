@@ -369,10 +369,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"		
-		"tall"			"600"		//100
+		"xpos"			"c-100"
+		"ypos"			"r80"
+		"wide"			"200"		
+		"tall"			"80"
 	}
     
 	HudObjectiveStatus
