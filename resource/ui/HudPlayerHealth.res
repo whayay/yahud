@@ -1,5 +1,21 @@
 "Resource/UI/HudPlayerHealth.res"
 {
+    "HudPlayerHealth"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudPlayerHealth"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"	
+		"HealthBonusPosAdj"	"35"
+		"HealthDeathWarning"	"0.49"
+		"HealthDeathWarningColor"	"Red"
+	}
+	
 	"HealthBG"	
 	{
 		"ControlName"	"CExImageButton"
@@ -21,10 +37,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"c-300"
+		"xpos"			"c-195"
 		"ypos"			"400"
 		"zpos"			"5"
-		"wide"			"200"
+		"wide"			"95"
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
@@ -37,13 +53,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"c-299"
+		"xpos"			"c-194"
 		"ypos"			"401"
 		"zpos"			"-2"
-		"wide"			"200"
+		"wide"			"95"
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
+		"textinsetx"	"1"
+		"textinsety"	"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"east"
 		"font"			"Heavy48"
@@ -159,7 +177,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"0"
+		"xpos"			"c-275"
 		"ypos"			"405"
 		"zpos"			"7"
 		"wide"			"30"
@@ -322,25 +340,6 @@
 		"scaleImage"	"1"	
 		"image"			""
 		"fgcolor"		"TanDark"
-	}
-	
-	
-    //layout
-    
-    "HudPlayerHealth"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HudPlayerHealth"
-		"xpos"			"0"		
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
-		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"Red"
 	}
 }
 
