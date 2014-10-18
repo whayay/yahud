@@ -210,15 +210,15 @@
 		"labelText"		"#ShowBaseItemsCheckBox"
 		"Font"			"HudFontSmallestBold"
 		"textAlignment"	"east"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"c-98"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 	}
     
 	"NameFilterLabel"
@@ -451,7 +451,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
-		"xpos"			"c-95"
+		"xpos"			"c-130"
 		"ypos"			"53"
 		"zpos"			"20"
 		"wide"			"20"
@@ -477,7 +477,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-155"
+		"xpos"			"c-190"
 		"ypos"			"53"
 		"zpos"			"20"
 		"wide"			"20"
@@ -503,7 +503,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"c-95"
+		"xpos"			"c-130"
 		"ypos"			"53"
 		"zpos"			"20"
 		"wide"			"20"
@@ -529,7 +529,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c-135"
+		"xpos"			"c-170"
 		"ypos"			"53"
 		"zpos"			"20"
 		"wide"			"20"
@@ -555,7 +555,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"c-115"
+		"xpos"			"c-150"
 		"ypos"			"53"
 		"zpos"			"20"
 		"wide"			"20"
