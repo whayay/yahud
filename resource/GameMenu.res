@@ -37,22 +37,10 @@
 		"label" "#MMenu_SteamWorkshop"
 		"command" "engine OpenSteamWorkshopDialog"
 	}
-	"ConsoleButton"
-	{
-		"label" "" 				//edge button
-		"command" "engine con_enable 1;toggleconsole"
-		"tooltip" "Open console"
-	} 
 	"TrainingButton"
 	{
 		"label" "{"
 		"command" "offlinepractice"
-	}
-	"HomeServer"
-	{
-		"label" ""	//"f"
-		"command" "engine Home"
-        "tooltip" "Favorite server"
 	}
 	"QuitButton"
 	{

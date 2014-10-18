@@ -17,8 +17,13 @@
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"1"
-		"paintbackground"		"0"
-		"border"				"GrayDialogBorder"
+		"paintbackground"		"1"
+		"border"				"GibsonDialogBorder"
+		"bgcolor"						"GibsonDialogBG"
+		"bgcolor_override"				"GibsonDialogBG"
+		"defaultbgcolor_override" 		"GibsonDialogBG"
+		"infocus_bgcolor_override"      "GibsonDialogBG"
+		"outoffocus_bgcolor_override"   "GibsonDialogBG"
 		
 		"control_w"			"500"
 		"control_h"			"25"
@@ -105,7 +110,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"border"		"GibsonPanelBorder"
 	}
 	
 	"TooltipPanel"
