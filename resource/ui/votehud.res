@@ -10,7 +10,12 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"bgcolor"						"GibsonDialogBG"
+		"bgcolor_override"				"GibsonDialogBG"
+		"defaultbgcolor_override"		"GibsonDialogBG"
+		"infocus_bgcolor_override"		"GibsonDialogBG"
+		"outoffocus_bgcolor_override"	"GibsonDialogBG"
+		"border"		"GibsonDialogBorder"
 				
 		"PassedIcon"
 		{
@@ -76,7 +81,12 @@
 		"tall"			"144"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"bgcolor"						"GibsonDialogBG"
+		"bgcolor_override"				"GibsonDialogBG"
+		"defaultbgcolor_override"		"GibsonDialogBG"
+		"infocus_bgcolor_override"		"GibsonDialogBG"
+		"outoffocus_bgcolor_override"	"GibsonDialogBG"
+		"border"		"GibsonDialogBorder"
 		
 		"Header"
 		{
@@ -392,7 +402,12 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"bgcolor"						"GibsonDialogBG"
+		"bgcolor_override"				"GibsonDialogBG"
+		"defaultbgcolor_override"		"GibsonDialogBG"
+		"infocus_bgcolor_override"		"GibsonDialogBG"
+		"outoffocus_bgcolor_override"	"GibsonDialogBG"
+		"border"		"GibsonDialogBorder"
 				
 		"FailedIcon"
 		{
@@ -458,7 +473,12 @@
 		"tall"			"67"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"bgcolor"						"GibsonDialogBG"
+		"bgcolor_override"				"GibsonDialogBG"
+		"defaultbgcolor_override"		"GibsonDialogBG"
+		"infocus_bgcolor_override"		"GibsonDialogBG"
+		"outoffocus_bgcolor_override"	"GibsonDialogBG"
+		"border"		"GibsonDialogBorder"
 				
 		"FailedIcon"
 		{
@@ -528,9 +548,11 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"border"			"GibsonDialogBorder"
-		"bgcolor_override"	"GibsonDialogBG"
-		"infocusbgcolor_override"	"GibsonDialogBG"
-		"outoffocusbgcolor_override"	"GibsonDialogBG"
+		"bgcolor"						"GibsonDialogBG"
+		"bgcolor_override"				"GibsonDialogBG"
+		"defaultbgcolor_override"		"GibsonDialogBG"
+		"infocus_bgcolor_override"		"GibsonDialogBG"
+		"outoffocus_bgcolor_override"	"GibsonDialogBG"
 		"paintbackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"
@@ -663,6 +685,7 @@
 			"Command"		"CallVote"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+			"disabledfgcolor2_override"	"GibsonDialogBG"
 		}
 		"Button1"
 		{
