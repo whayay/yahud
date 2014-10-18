@@ -49,16 +49,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"MediumNumbers20"
+		"font"			"MediumNumbers18"
 		"fgcolor"		"Green"
 		"xpos"			"3"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%currency%"
 	}
 	
@@ -66,16 +66,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"MediumNumbers20"
+		"font"			"MediumNumbers18"
 		"fgcolor"		"Red"
 		"xpos"			"3"
-		"ypos"			"20"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"east"	
 		"labelText"		"%currency%"
 	}
 }
