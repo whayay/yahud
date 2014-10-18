@@ -1100,10 +1100,10 @@
 			}		
 		}
 	}
-	"DemoUI"
+	"TrainingButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"DemoUI"
+		"fieldname"		"TrainingButton"
 		"xpos"			"240"
 		"ypos"			"97"
 		"zpos"			"11"
@@ -1118,7 +1118,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryLabel"
 			"font"			"MediumCaps22"
-			"labelText"		"DemoUI"
+			"labelText"		"Training"
 			"textAlignment"		"west"
 			"xpos"			"1"
 			"ypos"			"0"
@@ -1143,7 +1143,7 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"93"
+			"wide"			"107"
 			"tall"			"19"
 			"autoResize"	"0"
 			"pinCorner"		"3"

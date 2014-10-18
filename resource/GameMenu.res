@@ -43,10 +43,10 @@
 		"command" "engine con_enable 1;toggleconsole"
 		"tooltip" "Open console"
 	} 
-	"DEMOUI"
+	"TrainingButton"
 	{
 		"label" "{"
-		"command" "engine demoui"
+		"command" "offlinepractice"
 	}
 	"HomeServer"
 	{
