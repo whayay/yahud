@@ -57,9 +57,9 @@ Scheme
         "GibsonSpecPositiveBG"   	"28 28 28 255"     	//
         "GibsonSpecNegativeBG"     	"28 28 28 255"      //
 		
-		"GibsonTournamentHealthBG"		"64 64 64 224"		// HP backgrounds for players while spectating in tournament mode
-		"GibsonTournamentPositiveBG"	"64 64 64 224"		// HP backgrounds for players while spectating in tournament mode
-		"GibsonTournamentNegativeBG"	"64 64 64 224"		// HP backgrounds for players while spectating in tournament mode
+		"GibsonTournamentHealthBG"		"64 64 64 160"		// HP backgrounds for players while spectating in tournament mode
+		"GibsonTournamentPositiveBG"	"64 64 64 160"		// HP backgrounds for players while spectating in tournament mode
+		"GibsonTournamentNegativeBG"	"64 64 64 160"		// HP backgrounds for players while spectating in tournament mode
 		
 		"GibsonTournamentUber"	"75 200 55 255"			// Color for ubercharge on the tournament spectator HUD
         "ya_ClassBG"			"28 28 28 255"			// Background for class image for dead players in tournament spectator HUD
@@ -3789,7 +3789,7 @@ Scheme
             "bordertype"            "scalable_image"
             "backgroundtype"        "2"
             
-            "image"                    "../hud/color_panel_brown"
+            "image"                    "../hud/death_panel_black_bg"
             "src_corner_height"        "23"                // pixels inside the image
             "src_corner_width"        "23"
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional

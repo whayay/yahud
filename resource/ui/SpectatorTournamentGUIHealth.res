@@ -15,7 +15,7 @@
 		"enabled"				"1"
 		"bgcolor"				"GibsonTournamentHealthBG"
 		"bgcolor_override"		"GibsonTournamentHealthBG"
-		"border"				"NoBorder"
+		"border"				"LeftPanelBorder"
 		"PaintBackgroundType"	"0"
 	}
 

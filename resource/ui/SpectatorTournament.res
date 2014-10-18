@@ -118,7 +118,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"center"
-				"fgcolor"		"75 200 55 255"//"GibsonTournamentUber"
+				"fgcolor"		"GibsonTournamentUber"
 			}
 			
 			"chargeamountShadow"

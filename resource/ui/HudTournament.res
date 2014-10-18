@@ -36,8 +36,8 @@
 				"xpos"        "0"
 				"ypos"        "0"
 				"zpos"        "2"
-				"wide"        "55"
-				"tall"        "35"
+				"wide"        "50"
+				"tall"        "33"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"fillcolor"		"Red"
@@ -65,9 +65,9 @@
 					
 				if_mvm
 				{
-					"xpos"				"12"
+					"xpos"				"5"
 					"ypos"				"24"
-					"wide"				"32"
+					"wide"				"40"
                     "tall"			    "8"
 					"textAlignment"		"center"
 					"font"				"Medium8"
@@ -91,7 +91,7 @@
 				
 				if_mvm
 				{
-					"xpos"			"18"
+					"xpos"			"15"
 					"ypos"			"4"
 					"wide"			"20"
 					"tall"			"20"
@@ -125,8 +125,8 @@
                 "xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"55"
-				"tall"			"35"
+				"wide"			"50"
+				"tall"			"33"
 				"visible"		"1"
 				"enabled"		"1"
                 "fillcolor"		"0 0 0 160"
@@ -189,7 +189,7 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"22"
+				"xpos"			"19"
 				"ypos"			"8"
 				"zpos"			"8"
 				"wide"			"12"
@@ -212,7 +212,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
-				"xpos"			"30"
+				"xpos"			"25"
 				"ypos"			"18"
 				"zpos"			"5"
 				"wide"			"23"
@@ -268,8 +268,8 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
-				"tall"		"35"
+				"wide"		"50"
+				"tall"		"33"
 			}
 		}
 		
