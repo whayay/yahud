@@ -41,6 +41,8 @@ Scheme
 		"GibsonPlayerPositiveBG"	"0 0 0 0"				//
 		"GibsonPlayerNegativeBG"	"0 0 0 0"				//
 		
+		"GibsonMetalValue"			"255 255 255 255"		// Metal font color
+		
         "ya_Uber"					"227 227 227 255"	// Uber % color
         "ya_UberReady"         		"177 5 160 255"		// Uber % color when ready
         "ya_UberReadyMeter"			"177 5 160 255"		// Uber meter ready color

@@ -86,8 +86,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"White"
-		"font"			"Medium18"
+		"fgcolor"		"GibsonMetalValue"
+		"font"			"Heavy30"
 	}
 	"AccountValueShadow"
 	{
@@ -108,6 +108,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"ya_Shadow"
-		"font"			"Medium18"
+		"font"			"Heavy30"
 	}
 }
