@@ -163,7 +163,7 @@
 			"xpos"			"c-250"
 			"ypos"			"c100"
 			"tall"			"55"
-			"wide"			"120"
+			"wide"			"275"
 			"visible"		"1"
 		}
 		
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c30"
+			"xpos"			"c40"
 			"ypos"			"c100"
 			"wide"			"120"
 			"tall"			"55"
@@ -182,7 +182,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c-145"
+			"xpos"			"c-150"
 			"ypos"			"c100"
 			"tall"			"55"
 			"wide"			"120"
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c135"
+			"xpos"			"c140"
 			"ypos"			"c100"
 			"tall"			"55"
 			"wide"			"120"

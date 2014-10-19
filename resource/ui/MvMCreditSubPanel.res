@@ -116,27 +116,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"HudFontMediumBold"
+		"font"			"Heavy26"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
-		"xpos"			"100"
-		"ypos"			"40"
-		"wide"			"70"
+		"xpos"			"200"
+		"ypos"			"26"
+		"wide"			"50"
 		"tall"			"20"
-		"fgcolor"		"Blank"
+		"fgcolor"		"ya_Shadow"
 	}
 	
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabel"
-		"font"			"Medium14"
+		"font"			"Heavy26"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
-		"xpos"			"125"
-		"ypos"			"13"
-		"wide"			"70"
+		"xpos"			"200"
+		"ypos"			"25"
+		"wide"			"50"
 		"tall"			"20"
-		"fgcolor"		"Blank"
+		"fgcolor"		"White"
 	}
 }
