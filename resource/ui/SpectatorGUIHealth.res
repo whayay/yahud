@@ -7,8 +7,8 @@
 		"xpos"		"0"
 		"ypos"		"16"
 		"zpos"		"9"
-		"wide"		"46"
-		"tall"		"19"
+		"wide"		"40"
+		"tall"		"15"
 		"autoResize"	"0"
 		"pinCorner"	"0"
 		"visible"		"1"             //flv color block
@@ -86,13 +86,13 @@
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"10"
-		"wide"			"46"
-		"tall"			"19"
+		"wide"			"40"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Heavy16"
+		"font"			"Heavy14"
 		"fgcolor"		"ya_Health"
 	}
 }

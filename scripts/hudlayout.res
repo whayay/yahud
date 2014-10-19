@@ -53,7 +53,7 @@
 		"xpos"		"c-170"
 		"ypos"		"265"	//this changes the position of the regular TargetID
 		"wide"	 	"f0"
-		"tall"	 	"35"
+		"tall"	 	"31"
 		"priority"	"40"
 	}
 	
@@ -65,7 +65,7 @@
 		"xpos"		"c-170"
 		"ypos"		"300"	//this changes the position of the "healing" TargetID
 		"wide"	 	"f0"
-		"tall"	 	"35"
+		"tall"	 	"31"
 		"priority"	"35"
 	}
 	
@@ -535,7 +535,7 @@
 		"xpos"		"c-120"
 		"ypos"		"375"
 		"wide"	 	"f0"
-		"tall"	 	"35" 
+		"tall"	 	"31" 
 		"priority"	"40"
 	}
 	
