@@ -28,9 +28,11 @@
 		
 		"modelpanelskv"	
 		{
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"			"1"
+			"paintbackground"		"1"
 			"border"				"GrayBorder"
+			"bgcolor_override"		"GibsonPanelBG"
 			
 			"model_xpos"	"-125"
 			"model_center_y"	"1"
