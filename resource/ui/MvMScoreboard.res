@@ -22,10 +22,10 @@
 		"font"			"Heavy16"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
-		"xpos"          "c-270" 
+		"xpos"          "c-260" 
         "ypos"          "c-74" 
         "zpos"          "15"
-        "wide"          "296"
+        "wide"          "286"
         "tall"          "20"
 		"fgcolor"		"White"
 	}
@@ -34,9 +34,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"c26"
+		"xpos"			"c20"
 		"ypos"			"c-74"
-		"wide"			"248"
+		"wide"			"240"
 		"tall"			"20"
 		"visible"		"1"
 		
@@ -98,9 +98,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-274"
+		"xpos"			"c-264"
 		"ypos"			"c-55"
-		"wide"			"548"
+		"wide"			"528"
 		"tall"			"155"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -160,7 +160,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"c-250"
+			"xpos"			"c-240"
 			"ypos"			"c100"
 			"tall"			"55"
 			"wide"			"275"
@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"c40"
+			"xpos"			"c30"
 			"ypos"			"c100"
 			"wide"			"120"
 			"tall"			"55"
@@ -182,7 +182,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c-150"
+			"xpos"			"c-140"
 			"ypos"			"c100"
 			"tall"			"55"
 			"wide"			"120"
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c140"
+			"xpos"			"c130"
 			"ypos"			"c100"
 			"tall"			"55"
 			"wide"			"120"
@@ -208,7 +208,7 @@
 			"textAlignment" "east"
 			"xpos"			"c0"
 			"ypos"			"c-95"
-			"wide"			"270"
+			"wide"			"260"
 			"tall"			"20"
 			"fgcolor"		"White"
 		}

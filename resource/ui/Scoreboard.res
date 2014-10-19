@@ -41,7 +41,7 @@
         {
             "ypos"		"c-90"
 			"font"		"Medium10"
-			"xpos"		"c-273"
+			"xpos"		"c-263"
 			"textAlignment"	"west"
         }
 	}
@@ -82,9 +82,9 @@
 		
 		if_mvm
 		{
-			"xpos"	"c-270"
+			"xpos"	"c-260"
 			"ypos"	"c195"
-			"wide"	"540"
+			"wide"	"520"
 		}
 	}	
 	"SpectatorsInQueue"
@@ -98,7 +98,7 @@
 		"xpos"			"c-262"
 		"ypos"			"c54"
 		"zpos"			"4"
-		"wide"			"527"
+		"wide"			"524"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -122,9 +122,7 @@
 
 		if_mvm
 		{
-            "xpos"	"c-275"
 			"ypos"	"c-75"
-			"wide"	"550"
 			"tall"	"265"
 		}
 	}
@@ -132,9 +130,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMCreditsBG"
-		"xpos"			"c-274"
+		"xpos"			"c-264"
         "ypos"			"c100"
-        "wide"			"548"
+        "wide"			"528"
         "tall"			"55"
 		"fillcolor"		"0 0 0 240"
 		"autoResize"	"0"
@@ -164,9 +162,7 @@
 
 		if_mvm
 		{
-            "xpos"	"c-274"
 			"ypos"	"c155"
-			"wide"	"548"
 			"tall"	"35"
 		}
 	}
@@ -175,10 +171,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTop"
-		"xpos"			"c-274"
+		"xpos"			"c-264"
 		"ypos"			"c-74"
 		"zpos"			"9"
-		"wide"			"548"
+		"wide"			"528"
 		"tall"			"20"
 		"fillcolor"		"Red"
 		"autoResize"	"0"
