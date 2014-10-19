@@ -142,10 +142,6 @@
 		"Command"		"show_prev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
 	}
 	"ShowNextButton"
 	{
@@ -170,10 +166,6 @@
 		"Command"		"show_next"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
 	}
 	
 	"RenderAllButton"
@@ -191,9 +183,5 @@
 		"Command"		"render_queued_replays"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
 	}
 }

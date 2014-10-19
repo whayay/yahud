@@ -440,7 +440,7 @@
 				}
 			}
 		}
-	}	
+	}
 	
 	"CloseButton"
 	{
@@ -449,29 +449,20 @@
 		"xpos"			"14"
 		"ypos"			"r36"
 		"zpos"			"2"
-		"wide"			"120"
+		"wide"			"30"
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_ContinueShopping"
-		"font"			"HudFontSmallBold"
+		"labelText"		"a"
+		"font"			"Icon18"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"close"
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		
-		"defaultFgColor_override" "ya_MenuHi"
-		"defaultBgColor_override" "ya_MenuBG"
-		"armedFgColor_override" "ya_MenuHi"
-		"armedBgColor_override" "GibsonBGArmed"
-		"depressedFgColor_override" "Blank"
-		"depressedBgColor_override" "Blank"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
@@ -497,17 +488,6 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"checkout"
-		
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		
-		"defaultFgColor_override" "ya_MenuHi"
-		"defaultBgColor_override" "ya_MenuBG"
-		"armedFgColor_override" "ya_MenuHi"
-		"armedBgColor_override" "GibsonBGArmed"
-		"depressedFgColor_override" "Blank"
-		"depressedBgColor_override" "Blank"
-		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

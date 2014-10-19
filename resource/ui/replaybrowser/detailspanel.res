@@ -76,7 +76,6 @@
 		"Command"		"exportmovie"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
 	}		
 
 	"ShowRenderInfoButton"
@@ -140,7 +139,6 @@
 		"Command"		"youtubeupload"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
 	}
 
 	"ViewYouTubeButton"
@@ -163,7 +161,6 @@
 		"Command"		"viewyoutube"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
 	}
 
 	"ShareYouTubeURLButton"
@@ -186,7 +183,6 @@
 		"Command"		"shareyoutubeurl"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
 	}
 	
 	"DeleteButton"
@@ -211,10 +207,8 @@
 		"Command"		"delete_replayitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
+		"armedbgcolor_override"	"GibsonWarningBG"
+		"border_armed"	"RoundedBorder"
 	}	
 	
 	"PlayButton"
@@ -239,10 +233,6 @@
 		"Command"		"play"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
 	}		
 	
 	"RenderButton"
@@ -266,9 +256,5 @@
 		"Command"		"render_replay_dlg"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"	"ReplayGrayFillGrayBorder"
-		"border_armed"		"ReplayGrayFillGrayBorder"
-		"armedBgColor_override"	"ReplayBrowser.Button.ArmedBgColor"
-		"depressedBgColor_override"	"ReplayBrowser.Button.DepressedBgColor"
 	}	
 }

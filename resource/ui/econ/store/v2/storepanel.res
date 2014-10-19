@@ -122,19 +122,9 @@
 		"labelText"		"a"
 		"textAlignment"		"center"
 		"font"			"Icon18"
-		
 		"command"				"close"
 		"paintbackground"		"1"
 		"PaintBackgroundType"	"2"
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		
-		"defaultFgColor_override" "ya_MenuHi"
-		"defaultBgColor_override" "ya_MenuBG"
-		"armedFgColor_override" "ya_MenuHi"
-		"armedBgColor_override" "GibsonBGArmed"
-		"depressedFgColor_override" "Blank"
-		"depressedBgColor_override" "Blank"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
@@ -215,17 +205,6 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"checkout"
-		
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		
-		"defaultFgColor_override" "ya_MenuHi"
-		"defaultBgColor_override" "ya_MenuBG"
-		"armedFgColor_override" "ya_MenuHi"
-		"armedBgColor_override" "GibsonBGArmed"
-		"depressedFgColor_override" "Blank"
-		"depressedBgColor_override" "Blank"
-		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
