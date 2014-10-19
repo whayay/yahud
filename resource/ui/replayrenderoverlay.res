@@ -102,6 +102,8 @@
 		"Command"		"confirmcancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"armedbgcolor_override"	"GibsonWarningBG"
+		"border_armed"	"RoundedBorder"
 	}			
 	
 	"PreviewCheckButton"
