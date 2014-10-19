@@ -147,19 +147,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-    "BG"						
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"0"	
-		"ypos"			"0"
-		"zpos"			"-12"
-		"wide"			"f0"
-		"tall"			"480"
-		"fillcolor"		"ya_MainOverlay"
-		"visible"		"1"
-		"enabled"		"1"
-	}
+
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"

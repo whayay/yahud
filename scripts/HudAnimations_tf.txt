@@ -203,7 +203,7 @@ event HudLowAmmoPulseStop
 	Animate	AmmoInReserve	FgColor		"ya_AmmoReserve"    Accel 0.0 0.0
 	Animate	AmmoNoClip		FgColor		"ya_Ammo"	         Accel 0.0 0.0
     
-	Animate	AmmoBG 	                BgColor		"ya_BoxBG"	        linear 0.0 0.0
+	Animate	AmmoBG 	                BgColor		"ya_AmmoBG"	        linear 0.0 0.0
 }
 
 //===========================================
@@ -239,7 +239,7 @@ event HudMedicChargedStop
 	StopEvent ChargeLabel 0.0
 	StopEvent ChargeMeter 0.0
 
-    Animate	MedicBG 	            BgColor		"ya_BoxBG"	       linear 0.0 0.0
+    Animate	MedicBG 	            BgColor		"ya_UberBG"	       linear 0.0 0.0
     
 	Animate	ChargeLabel 	        FgColor		"ya_Uber"		   linear 0.0 0.0001
 	Animate	ChargeMeter 	        FgColor		"White"		   linear 0.0 0.0001

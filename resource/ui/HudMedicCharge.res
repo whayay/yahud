@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"MedicBG"
-		"xpos"		"c98"
-		"ypos"		"404"
+		"xpos"		"163"
+		"ypos"		"10"
 		"zpos"		"1"
-		"wide"		"102"
-		"tall"		"34"
+		"wide"		"35"
+		"tall"		"20"
 		"autoResize"	"0"
 		"pinCorner"	"0"
-		"visible"		"1"             //flv background
+		"visible"		"1"
 		"enabled"		"1"
-		"defaultBgColor_Override"		"Blank"
+		"defaultBgColor_Override"		"ya_UberBG"
 		"PaintBackgroundType""0"
         "textinsety" "99"
 	}

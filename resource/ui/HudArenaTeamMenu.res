@@ -14,19 +14,6 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-    "MainBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"480"
-		"fillcolor"		"ya_MainOverlay"
-		"visible"		"1"
-		"enabled"		"1"
-	}
 	"SysMenu"
 	{
 		"ControlName"	"Menu"

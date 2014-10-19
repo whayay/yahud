@@ -62,19 +62,6 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
-    "MainBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainBG"
-		"xpos"			"0"
-		"ypos"			"99990"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"480"
-		"fillcolor"		"ya_MainOverlay"
-		"visible"		"1"
-		"enabled"		"1"
-	}
 	"BlueButtonBG"
     {
         "ControlName"   		"CExLabel"

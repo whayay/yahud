@@ -100,16 +100,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"confirmcancel"
-		"border_default"		"NoBorder"
-		"border_armed"			"NoBorder"
-		
-		"defaultFgColor_override" "ya_MenuHi"
-		"defaultBgColor_override" "ya_MenuBG"
-		"armedFgColor_override" "ya_MenuHi"
-		"armedBgColor_override" "GibsonBGArmed"
-		"depressedFgColor_override" "Blank"
-		"depressedBgColor_override" "Blank"
-		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}			

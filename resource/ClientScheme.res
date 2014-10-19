@@ -25,33 +25,31 @@ Scheme
         "ya_Crosshair"             "240 240 20 255"     // Crosshair color
         "ya_CrosshairDamage"       "245 54 64 255"      // Crosshair damage flash color
 														// Make this the same as "Crosshair" to disable the flash
-														// Crosshairs can be activated in /scripts/hudlayout.res                                             
-														
+														// Crosshairs can be activated in /scripts/hudlayout.res
         //// HUD COLORS
-        "ya_Ammo"                  "227 227 227 255"      // Current clip
-		"ya_AmmoReserve"           "227 227 227 255"      // Reserve clip
-        "ya_AmmoLow"               "137 137 137 255"      // Low ammo warning
-        
-        "ya_Health"					"227 227 227 255"	// Normal HP font color 
-        "ya_Positive"				"18 127 220 255"    // Buffed HP font color   
-        "ya_Negative"				"254 54 64 255"    	// Low HP font color
+        "ya_Ammo"                  "227 227 227 255"		// Current clip
+		"ya_AmmoReserve"           "227 227 227 255"		// Reserve clip
+        "ya_AmmoLow"               "137 137 137 255"		// Low ammo warning
+        "ya_AmmoBG"					"227 227 227 0"			// Ammo background
+		"ya_AmmoLowBG"				"0 0 0 0"				// Low ammo background
 		
-		"GibsonPlayerHealthBG"		"0 0 0 0"		// HP backgrounds for the player
-		"GibsonPlayerPositiveBG"	"0 0 0 0"		//
-		"GibsonPlayerNegativeBG"	"0 0 0 0"		//
+        "ya_Health"					"227 227 227 255"		// Normal HP font color 
+        "ya_Positive"				"18 127 220 255"		// Buffed HP font color   
+        "ya_Negative"				"254 54 64 255"			// Low HP font color
 		
-        "GibsonTargetHealthBG"		"28 28 28 255"     	// HP backgrounds for players being looked at
-		"GibsonTargetPositiveBG"	"28 28 28 255"		//
-        "GibsonTargetNegativeBG"	"28 28 28 255" 		//
+		"GibsonPlayerHealthBG"		"0 0 0 0"				// HP backgrounds for the player
+		"GibsonPlayerPositiveBG"	"0 0 0 0"				//
+		"GibsonPlayerNegativeBG"	"0 0 0 0"				//
 		
-        "ya_Uber"					"227 227 227 255"	// Uber percentage color
-        "ya_UberReady"         		"177 5 160 255"		// Uber percentage color when ready
+        "ya_Uber"					"227 227 227 255"	// Uber % color
+        "ya_UberReady"         		"177 5 160 255"		// Uber % color when ready
         "ya_UberReadyMeter"			"177 5 160 255"		// Uber meter ready color
         "ya_UberReadyMeterFlash"	"200 50 190 255"
-		"ya_UberReadyBG"			"22 182 71 0"		// Uber background ready color (only fl)
+		"ya_UberBG"					"0 0 0 0"			// Uber % background
+		"ya_UberReadyBG"			"22 182 71 0"		// Uber % background ready color
 		
         "ya_Time"                  	"227 227 227 255"	// Timer color
-        
+		
         //// SPEC ////
         "GibsonSpecHealthBG"     	"28 28 28 255"      // HP backgrounds for the player being viewed
         "GibsonSpecPositiveBG"   	"28 28 28 255"     	//
@@ -65,50 +63,45 @@ Scheme
         "ya_ClassBG"			"28 28 28 255"			// Background for class image for dead players in tournament spectator HUD
         "ya_Respawn"  			"192 192 192 255" 		// Respawn timer font color in tournament spectator HUD
         
-        //// SCOREBOARD, WINPANEL AND TARGETID ////
+        //// SCOREBOARD, WINPANEL, BUILD/DESTROY, TARGETID ////
         "ya_HudBG"                	"28 28 28 234"				// Item meters and inspect panel background
         "ya_Name"					"18 18 18 255"				// Used in Build/Destroy & Taunt Menus
         "ya_NameCounter"			"227 227 227 255"          	// Engineer shortcuts & destroy icon
-		"ya_Stats"             		"18 18 18 255"				// Player stats underneath scoreboard
+		
+		"GibsonTargetHealthBG"		"28 28 28 255"     			// HP backgrounds for players being looked at
+		"GibsonTargetPositiveBG"	"28 28 28 255"				//
+        "GibsonTargetNegativeBG"	"28 28 28 255" 				//
 		
 		"GibsonTargetNameColor"		"255 255 255 255"			// Font color for target name
 		"GibsonTargetDataColor"		"255 255 255 255"			// Font color for target "data" - i.e. building level, charge amount
 		
 		"GibsonScoreBG"				"50 35 50 220"				// Scoreboard/WinPanel background
 		"GibsonScoreBorderColor"	"100 70 100 224"			// Scoreboard/WinPanel border
+		
 		"GibsonLocalStatsBG"		"208 208 208 240"			// Background for player stats on bottom of scoreboard
+		"ya_Stats"             		"18 18 18 255"				// Font color for player stats underneath scoreboard
         
         //// MENU ////
 		"ya_MainBG"                 "245 54 64 255"				// Enables background color for introscreens
-		"ya_MainOverlay"			"227 227 227 0"				// Main, intro, map, class team
 		
         "ya_Main"					"227 227 227 255"       	// Main menu font color
         "ya_MainHi"					"227 227 227 255"			// Main menu armed font color
 		"ya_MainTooltip"			"48 48 48 255"				// Main menu tooltip background
 		
-        //// 
-        
-        "ya_BoxBG"				"227 227 227 0"   //for main hud & menu bg
-		"ya_AmmoLowBG"			"0 0 0 0"			
-		
 		//// Theme Colors
         "ya_MenuBG" 				"48 48 48 255"			// General menu background color
         
-		"ya_MenuHi"					"227 227 227 255"		//Selcted Tab
-		"ya_MenuMid"				"127 127 127 255"		
-        "ya_MenuLo"					"87 87 87 255"			//
-		
-		"ya_MenuBGDarker"			"28 28 28 255"			//Used for backpack slots etc
-		"ya_MenuBGDarkerArmed" 		"68 68 68 255"			//
+		"ya_MenuHi"					"227 227 227 255"		// Button armed color
+		"ya_MenuMid"				"127 127 127 255"		//
+        "ya_MenuLo"					"87 87 87 255"			// Button default color
 		
         "ButtonBG"              "227 227 227 0"       //Standard button color
         "ButtonBGArmed"         "227 227 227 0"       //Armed BG color
         "ButtonBGSelect"        "18 18 18 0"          //Loadout preset
         
-		
 		"GibsonBGArmed"					"80 80 80 192"
 		"GibsonNotificationBG"			"32 32 32 255"		// Background for on-screen notifications
-		"GibsonDialogBG"				"32 32 32 255"		// Background for dialog popups
+		"GibsonDialogBG"				"32 32 32 255"		// Background for dialogs
 		"GibsonPanelBG"					"46 43 42 255"		// Background for inner panels in menus
 		"GibsonSubPanelBG"				"36 33 32 255"		// Background for panels within panels
 		"GibsonMapInfoBG"				"0 0 0 230"			// Background for Map/MOTD windows
