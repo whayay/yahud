@@ -17,9 +17,12 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		
-		"bgcolor_override"	            "ya_MenuBG"
-		"infocus_bgcolor_override"      "ya_MenuBG"
-		"outoffocus_bgcolor_override"   "ya_MenuBG"
+		"bgcolor_override"	            "GibsonPanelBG"
+		"infocus_bgcolor_override"      "GibsonPanelBG"
+		"outoffocus_bgcolor_override"   "GibsonPanelBG"
+		
+		"paintborder"					"1"
+		"border"						"NoBorder"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -32,7 +35,7 @@
 			"paintborder"			"1"
 			"paintbackground"		"1"
 			"border"				"GrayBorder"
-			"bgcolor_override"		"GibsonPanelBG"
+			"bgcolor_override"		"GibsonSubPanelBG"
 			
 			"model_xpos"	"-125"
 			"model_center_y"	"1"
@@ -87,10 +90,10 @@
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"1"
+		"ypos"			"0"
+		"zpos"			"6"
 		"wide"			"f0"
-		"tall"			"35"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -202,7 +205,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"c50"
-		"ypos"			"420"
+		"ypos"			"445"
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
@@ -226,7 +229,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"OpenLoadoutButton"
 		"xpos"			"c-300"
-		"ypos"			"420"
+		"ypos"			"445"
 		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"30"
@@ -342,6 +345,48 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 		"bgcolor_override"	"46 43 42 255"
+	}
+	
+	"PanelBorder"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PanelBorder"
+		"xpos"			"0"
+		"ypos"			"40"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"400"
+		"border"		"GibsonPanelBorder"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"HeaderBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HeaderBackground"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"40"
+		"bgcolor_override"	"ya_MenuBG"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"FooterBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"FooterBackground"
+		"xpos"			"0"
+		"ypos"			"440"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"40"
+		"bgcolor_override"	"ya_MenuBG"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 	"ScoreEntry"
