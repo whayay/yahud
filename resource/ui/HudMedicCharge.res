@@ -83,12 +83,12 @@
 	}
 	
 	// The vaccinator resist icon FORCES the xpos to be 0 and ypos to be -25,
-	// so to get around this, we create ResistContainer to determine the resist
+	// so to get around this, we create ResistIconAnchor to determine the resist
 	// icon placement, and then pin the icon to it.
-	"ResistContainer"
+	"ResistIconAnchor"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ResistContainer"
+		"fieldName"		"ResistIconAnchor"
 		"xpos"			"175"
 		"ypos"			"10"
 		"wide"			"20"
@@ -108,7 +108,7 @@
 		"enabled"		"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"scaleImage"	"1"	
-		"pin_to_sibling"               "ResistContainer"
+		"pin_to_sibling"               "ResistIconAnchor"
 		"pin_corner_to_sibling"        "1"          
 		"pin_to_sibling_corner"        "1" 
 	}
