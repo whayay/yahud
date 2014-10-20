@@ -302,6 +302,7 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"disabledfgcolor2_override"	"Blank"
 	}		
 	
 	"CurPageLabel"
@@ -345,6 +346,7 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"disabledfgcolor2_override"	"Blank"
 	}	
 		
 	"WikiButton"
