@@ -77,8 +77,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"c-210"
-		"ypos"					"r45"
+		"xpos"					"c-215"
+		"ypos"					"r46"
 		"zpos"					"2"
 		"wide"					"46"
 		"tall"					"20"	
@@ -97,8 +97,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"c-209"
-		"ypos"					"r44"
+		"xpos"					"c-214"
+		"ypos"					"r45"
 		"zpos"					"2"
 		"wide"					"46"
 		"tall"					"20"	
@@ -111,6 +111,39 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MediumNumbers20"
+		"fgcolor"				"ya_Shadow"
+	}
+	
+	"KillstreakMarker"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"KillstreakMarker"
+		"xpos"					"c-168"
+		"ypos"					"r46"
+		"zpos"					"2"
+		"wide"					"10"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"font"					"Medium14"
+		"labelText"				">"
+		"textAlignment"			"center"
+	}
+	
+	"KillstreakMarkerShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"KillstreakMarkerShadow"
+		"xpos"					"c-167"
+		"ypos"					"r45"
+		"zpos"					"2"
+		"wide"					"10"
+		"tall"					"20"
+		"visible"				"1"
+		"enabled"				"1"
+		"font"					"Medium14"
+		"labelText"				">"
+		"textAlignment"			"center"
 		"fgcolor"				"ya_Shadow"
 	}
 }
