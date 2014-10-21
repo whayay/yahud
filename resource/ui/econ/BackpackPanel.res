@@ -281,10 +281,6 @@
 		"unicode"			"0"
 		"default"			"0"
 		
-		"fgcolor_override"	"Black"
-		"bgcolor_override"	"White"
-		"disabledFgColor_override" "White"
-		"disabledBgColor_override" "Black"
 		"selectionColor_override" "White"
 		"selectionTextColor_override" "Black"
 		"defaultSelectionBG2Color_override" "White"
