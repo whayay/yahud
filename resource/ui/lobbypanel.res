@@ -668,16 +668,22 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"OpenHelpButton"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"385"
+			"ypos"			"5"
 			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"wide"			"10"
+			"tall"			"10"
+			"visible"		"1"
+			"enabled"		"1"
 			"command" "open_help"
+			"labelText"		"?"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
 			"button_activation_type"	"1"	// only on press
 			"NavDown"		"OpenStoreButton2"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
 		"MannUpTicketImage"

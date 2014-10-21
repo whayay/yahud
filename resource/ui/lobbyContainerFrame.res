@@ -422,8 +422,8 @@
 		"end_y"			"100"
 		"end_wide"		"300"
 		"end_tall"		"175"
-		"callout_inparents_x"	"c-270"
-		"callout_inparents_y"	"380"
+		"callout_inparents_x"	"360"
+		"callout_inparents_y"	"320"
 		"next_explanation"		"VoucherExplanation"
 		
 		"TitleLabel"
@@ -597,8 +597,8 @@
 		"end_y"			"100"
 		"end_wide"		"300"
 		"end_tall"		"175"
-		"callout_inparents_x"	"c-270"
-		"callout_inparents_y"	"340"
+		"callout_inparents_x"	"140"
+		"callout_inparents_y"	"320"
 		//"next_explanation"		"VoucherExplanation"
 		
 		"TitleLabel"
