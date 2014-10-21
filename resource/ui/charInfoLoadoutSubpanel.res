@@ -597,15 +597,22 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"r50"
+		"ypos"			"10"
+		"zpos"			"100"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"?"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
 		"Command"		"show_explanations"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
 	"StartExplanation"
@@ -803,7 +810,7 @@
 		"end_wide"		"250"
 		"end_tall"		"130"
 		"callout_inparents_x"	"c-195"
-		"callout_inparents_y"	"240"
+		"callout_inparents_y"	"310"
 		"next_explanation"		"CraftingExplanation"
 		
 		"TitleLabel"
@@ -1025,7 +1032,7 @@
 		"end_wide"		"250"
 		"end_tall"		"140"
 		"callout_inparents_x"	"c-65"
-		"callout_inparents_y"	"240"
+		"callout_inparents_y"	"310"
 		"next_explanation"		"ArmoryExplanation"
 		
 		"TitleLabel"
@@ -1247,7 +1254,7 @@
 		"end_wide"		"250"
 		"end_tall"		"140"
 		"callout_inparents_x"	"c60"
-		"callout_inparents_y"	"240"
+		"callout_inparents_y"	"310"
 		"next_explanation"		"TradingExplanation"
 		
 		"TitleLabel"
@@ -1469,7 +1476,7 @@
 		"end_wide"		"250"
 		"end_tall"		"140"
 		"callout_inparents_x"	"c180"
-		"callout_inparents_y"	"240"
+		"callout_inparents_y"	"310"
 		"next_explanation"		"ExplanationExplanation"
 		
 		"TitleLabel"
@@ -1690,8 +1697,8 @@
 		"end_y"			"100"
 		"end_wide"		"250"
 		"end_tall"		"120"
-		"callout_inparents_x"	"c285"
-		"callout_inparents_y"	"30"
+		"callout_inparents_x"	"r50"
+		"callout_inparents_y"	"15"
 		
 		"TitleLabel"
 		{
