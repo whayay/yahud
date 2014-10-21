@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"46 43 42 255"
-		"infocus_bgcolor_override"		"46 43 42 255"
-		"outoffocus_bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"				"GibsonPanelBG"
+		"infocus_bgcolor_override"		"GibsonPanelBG"
+		"outoffocus_bgcolor_override"	"GibsonPanelBG"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
@@ -38,10 +38,12 @@
 		"wide"			"150"
 		"tall"			"100"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"paintborder"			"1"
+		"paintbackground"		"1"
+		"border"				"GrayBorder"
+		"bgcolor_override"		"GibsonSubPanelBG"
 		
 		"model_ypos"	"5"
 		"model_tall"	"80"
@@ -695,8 +697,8 @@
 		"end_y"			"200"
 		"end_wide"		"300"
 		"end_tall"		"155"
-		"callout_inparents_x"	"c235"
-		"callout_inparents_y"	"423"
+		"callout_inparents_x"	"c-180"
+		"callout_inparents_y"	"180"
 		
 		"TitleLabel"
 		{
