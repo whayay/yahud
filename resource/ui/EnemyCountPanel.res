@@ -74,7 +74,6 @@
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"17"
-		"ypos_minmode"		"22"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"14"

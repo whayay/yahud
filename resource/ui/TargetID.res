@@ -209,7 +209,6 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
 			"xpos"			"0"
 			"ypos"			"22"
 			"zpos"			"1"
