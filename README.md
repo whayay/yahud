@@ -20,6 +20,5 @@ Move the "htghud-master" folder from the zip into that directory.
 
 ## Notes
 
-* This HUD does not have a "minimal HUD" mode. Enabling or disabling it will have no effect. I believe that the HUD should be designed to not require a toggle between different displays.
 * I welcome issue reports or suggestions - they can be reported via github
 * The custom backgrounds used on the menu and loading screens are located in the materials\console directory. If you'd like to disable them, just delete the background* files in this directory.
