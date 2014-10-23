@@ -573,8 +573,8 @@
 		"wide" "200"
 		"tall" "40"
 		"zpos" "2"
-		"xpos" "c125"
-		"ypos" "355"
+		"xpos" "c200"
+		"ypos" "380"
 	 
 		"TextFont" "Default"
 		"ItemFont" "Default"

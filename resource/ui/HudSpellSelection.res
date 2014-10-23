@@ -67,6 +67,23 @@
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"Blank"
+		"drawcolor"		"White"
+	}
+	
+	"SpellIconBG"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"SpellIconBG"
+		"font"			"Icon28"
+		"labelText"		"*"
+		"xpos"			"0"
+		"ypos"			"20"
+		"zpos"			"6"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"DarkGray"
 	}
 	
 	"ActionText"
