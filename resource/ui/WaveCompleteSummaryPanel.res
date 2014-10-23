@@ -33,20 +33,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"Heavy24"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
-			"xpos"			"1"
-			"ypos"			"1"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"300"
 			"tall"			"25"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"ya_Shadow"
+			"textinsetx"	"1"
+			"textinsety"	"1"
 			
 			// Red Background
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"Blank"		
 			"bgcolor_override"	"190 60 60 0"
 		}
 		
