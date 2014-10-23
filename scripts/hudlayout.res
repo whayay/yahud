@@ -1060,12 +1060,12 @@
 	StatPanel
 	{
 		"fieldName"			"StatPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"				"0"
-		"ypos"				"99999"
-		"wide"				"f0"
-		"tall"				"480"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"20"
+		"ypos"				"-10"
+		"wide"				"175"
+		"tall"				"85"
 	}
 	
 	FreezePanel
