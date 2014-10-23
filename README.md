@@ -21,4 +21,5 @@ Move the "htghud-master" folder from the zip into that directory.
 ## Notes
 
 * I welcome issue reports or suggestions - they can be reported via github
+* This HUD does not support 4:3 resolutions
 * The custom backgrounds used on the menu and loading screens are located in the materials\console directory. If you'd like to disable them, just delete the background* files in this directory.
