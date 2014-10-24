@@ -334,6 +334,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
+		"navUp"			"VRModeButton"
+		"navLeft"		"CommentaryButton"
+		"navRight"		"ReportBugButton"
+		
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
@@ -2725,15 +2729,15 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"95"
-		"ypos"			"r39"
-		"zpos"			"4"
-		"wide"			"30"
-		"tall"			"20"
+		"xpos"			"122"
+		"ypos"			"150"
+		"zpos"			"5"
+		"wide"			"22"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2743,45 +2747,49 @@
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
 
+		"navUp"			"VRModeButton"
+		"navLeft"		"AchievementsButton"
+		"navRight"		"CoachPlayersButton"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor" "74 74 74 255" //	"25 225 74 255"
+		"image_drawcolor"	"ya_Main"
+		"image_armedcolor"	"ya_Main"
 
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"8"
+			"xpos"			"2"
 			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"10"
-			"tall"			"10"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_forums"
 			"scaleImage"	"1"
-		}				
+		}
 	}		
 	
 	"ReportBugButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"43"
-		"ypos"			"r39"
-		"zpos"			"1"
-		"wide"			"30"
-		"tall"			"20"
+		"xpos"			"100"
+		"ypos"			"150"
+		"zpos"			"5"
+		"wide"			"22"
+		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
 		"font"			"HudFontSmallBold"
@@ -2791,7 +2799,10 @@
 		"default"		"1"
 		"Command"		"engine bug"
 
-
+		"navUp"			"VRModeButton"
+		"navLeft"		"CoachPlayersButton"
+		"navRight"		"SettingsButton"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -2799,24 +2810,25 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 
-		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor" "74 74 74 255" //	"25 225 74 255"
+		"image_drawcolor"	"ya_Main"
+		"image_armedcolor"	"ya_Main"
 
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"14"
-			"ypos"			"4"
+			"xpos"			"2"
+			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"11"
-			"tall"			"11"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
-		}				
-	}		
+		}
+	}
+	
 	"AdvOptionsButton"
 	{
 		"ControlName"	"EditablePanel"
