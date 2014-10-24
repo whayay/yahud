@@ -18,8 +18,8 @@
 		"infocus_bgcolor_override"      "GibsonPanelBG"
 		"outoffocus_bgcolor_override"   "GibsonPanelBG"
 		
-		"item_xpos_offcenter_a"	"-400"
-		"item_xpos_offcenter_b"	"-240"
+		"item_xpos_offcenter_a"	"-375"
+		"item_xpos_offcenter_b"	"-220"
 		"item_ypos"		"25"
 		"item_ydelta"	"85"
 		"item_mod_wide"	"40"
@@ -325,10 +325,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-70"
+		"xpos"			"c-60"
 		"ypos"			"c-70"
 		"zpos"			"-1"	
-		"wide"			"130"
+		"wide"			"120"
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -362,14 +362,14 @@
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"PresetsExplanation"
 		"xpos"			"0"
-		"ypos"			"9999"
+		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
-		"border"		"NoBorder"
+		"border"		"MainMenuHighlightBorder"
 		
 		"force_close"	"1"
 		"end_x"			"c-200"
@@ -377,7 +377,7 @@
 		"end_wide"		"250"
 		"end_tall"		"160"
 		"callout_inparents_x"	"c0"
-		"callout_inparents_y"	"75"
+		"callout_inparents_y"	"50"
 		"next_explanation"		""
 		
 		"TitleLabel"
@@ -464,7 +464,7 @@
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
-		}		
+		}
 	}
 
 	"ItemOptionsPanel"
@@ -598,7 +598,7 @@
 		"end_wide"		"250"
 		"end_tall"		"140"
 		"callout_inparents_x"	"c15"
-		"callout_inparents_y"	"330"
+		"callout_inparents_y"	"85"
 		"next_explanation"		""
 		
 		"TitleLabel"
@@ -685,6 +685,6 @@
 				"image"			"close_button"
 				"scaleImage"	"1"
 			}				
-		}		
+		}
 	}
 }

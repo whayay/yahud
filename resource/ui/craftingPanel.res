@@ -114,7 +114,7 @@
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
-		"filter_xoffset"	"-350"
+		"filter_xoffset"	"-290"
 		"filter_ypos"		"45"
 		"filter_xdelta"		"10"
 		"filter_ydelta"		"10"
@@ -147,7 +147,7 @@
 		"font"			"Medium18"
 		"labelText"		"#CraftStep1"
 		"textAlignment"	"west"
-		"xpos"			"c-350"
+		"xpos"			"c-290"
 		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"340"
@@ -329,7 +329,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"recipecontainerscroller"
-		"xpos"			"c-350"
+		"xpos"			"c-290"
 		"ypos"			"82"
 		"zpos"			"5"
 		"wide"			"280"

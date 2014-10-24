@@ -7,35 +7,19 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"435"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"settitlebarvisible"	"0"
+		"proportionalToParent"	"1"
 		"tabPosition"	"0"
 		
 		"bgcolor_override"	"GibsonPanelBG"
-		"border"	"GibsonPanelBorder"
-		"border_override"	"GibsonPanelBorder"
-
+		
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
-	}
-	
-	// For some reason, putting a border on LobbyPanel did not work. So we create a full-size panel with the border and a low zpos
-	"PanelBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PanelBorder"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"f0"
-		"tall"			"425"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintborder"	"1"
-		"border"		"GibsonPanelBorder"
 	}
 
 	"QuickplaySearchCriteriaGroupBox"
@@ -1046,28 +1030,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NoGCGroupBox"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"50"
+		"ypos"		"75"
 		"zpos"		"50"
-		"wide"		"500"
-		"tall"		"425"
+		"wide"		"400"
+		"tall"		"250"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 240"
-		"border"		"GibsonPanelBorder"
-
-		"InnerPanelBorder"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"InnerPanelBorder"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"500"
-			"tall"			"425"
-			"border"		"RightPanelBorder"
-			"visible"		"1"
-			"enabled"		"1"
-		}
+		"bgcolor_override"	"GibsonDialogBG"
+		"border"		"GibsonDialogBorder"
 		
 		"NoGCTitle"
 		{
@@ -1078,7 +1049,7 @@
 			"xpos"		"50"
 			"ypos"		"50"
 			"zpos"			"2"
-			"wide"		"400"
+			"wide"		"300"
 			"tall"		"40"
 			"textAlignment"	"center"
 			"visible"	"1"
@@ -1094,14 +1065,14 @@
 			"xpos"		"50"
 			"ypos"		"120"
 			"zpos"			"2"
-			"wide"		"400"
+			"wide"		"300"
 			"tall"		"40"
 			"textAlignment"	"center"
 			"visible"	"1"
 			"enabled"	"1"
 		}
 	}
-	
+
 	"SearchActiveGroupBox"
 	{
 		"ControlName"	"EditablePanel"
@@ -1110,24 +1081,10 @@
 		"ypos"		"0"
 		"zpos"		"-1"
 		"wide"		"500"
-		"tall"		"425"
+		"tall"		"f0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"GibsonPanelBorder"
-
-		"InnerPanelBorder"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"InnerPanelBorder"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"500"
-			"tall"			"425"
-			"border"		"RightPanelBorder"
-			"visible"		"1"
-			"enabled"		"1"
-		}
+		"bgcolor_override"	"GibsonPanelBG"
 		
 		"SearchActiveTitle"
 		{

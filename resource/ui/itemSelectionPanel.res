@@ -251,10 +251,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c215"
+		"xpos"			"c200"
 		"ypos"			"300"
 		"zpos"			"20"
-		"wide"			"80"
+		"wide"			"100"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"

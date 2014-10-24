@@ -11,8 +11,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"avatar_width"		"50"        // 42 for lower res
-		"name_width"		"100"
-		"name_width_minmode"	"80"
+		"name_width"		"80"
 		"status_width"		"15"
 		"nemesis_width"		"15"
         "class_width"		"15"

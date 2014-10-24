@@ -307,6 +307,54 @@
 				"scaleImage"	"1"
 			}	
 		}			
+	}
+	
+	"CoachPlayersButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CoachPlayersButton"
+		"xpos"			"144"
+		"ypos"			"150"
+		"zpos"			"5"
+		"wide"			"22"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"engine cl_coach_toggle"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	""
+		"border_armed"		""
+		"paintbackground"	"0"
+
+		"image_drawcolor"	"ya_Main"
+		"image_armedcolor"	"ya_Main"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"18"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_commentary"
+			"scaleImage"	"1"
+		}				
 	}		
 	
 	"MOTD_ShowButtonPanel"
@@ -2327,41 +2375,79 @@
 		}
 	}
 
+	"RequestCoachButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"RequestCoachButton"
+		"xpos"			"166"			
+		"ypos"			"175"
+		"zpos"			"11"
+		"wide"			"22"
+		"tall"			"26"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"22"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"Icon22"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"FgColor"  "ya_Main"	
+			"defaultFgColor_override"  "ya_Main"	
+			"armedFgColor_override" "ya_Main"
+			"depressedFgColor_override" "ya_Main"	
+			
+			"image_drawcolor"	"ya_Main"
+			"image_armedcolor"	"ya_Main"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"2"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_create"
+				"scaleImage"	"1"
+			}
+		}			
+	}
+	
 	"CallVoteButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"240"
-		"ypos"			"173"
+		"xpos"			"210"
+		"ypos"			"175"
 		"zpos"			"11"
-		"wide"			"165"
-		"tall"			"19"
+		"wide"			"22"
+		"tall"			"26"
 		"visible"		"1"
-		"visible"		"1"
-
-		"EntryLabel"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"EntryLabel"
-			"font"			"MediumCaps22"
-			"labelText"		"Vote"
-			"textAlignment"		"west"
-			"xpos"			"1"
-			"ypos"			"0"
-			"wide"			"165"
-			"tall"			"19"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"textinsety"	"0"
-			"use_proportional_insets" "1"
-			
-			"paintbackground"		"0"
-			"border_default"		"NoBorder"
-			"border_armed"			"NoBorder"
-			
-			"defaultFgColor_override" "ya_Main"
-		}
 		
 		"SubButton"
 		{
@@ -2369,8 +2455,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"69"
-			"tall"			"19"
+			"wide"			"22"
+			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2395,17 +2481,17 @@
 			"armedFgColor_override" "ya_MainHi"
 			"depressedFgColor_override" "Blank"
 			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+			"image_drawcolor"	"ya_Main"
+			"image_armedcolor" "ya_Main"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
+				"xpos"			"2"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2416,37 +2502,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"240"
-		"ypos"			"192"
+		"xpos"			"188"
+		"ypos"			"175"
 		"zpos"			"11"
-		"wide"			"165"
-		"tall"			"19"
+		"wide"			"22"
+		"tall"			"26"
 		"visible"		"1"
-		"visible"		"1"
-
-		"EntryLabel"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"EntryLabel"
-			"font"			"MediumCaps22"
-			"labelText"		"Mute"
-			"textAlignment"		"west"
-			"xpos"			"1"
-			"ypos"			"0"
-			"wide"			"165"
-			"tall"			"19"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"textinsety"	"0"
-			"use_proportional_insets" "1"
-			
-			"paintbackground"		"0"
-			"border_default"		"NoBorder"
-			"border_armed"			"NoBorder"
-			
-			"defaultFgColor_override" "ya_Main"
-		}
 		
 		"SubButton"
 		{
@@ -2454,8 +2515,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"70"
-			"tall"			"19"
+			"wide"			"22"
+			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2480,78 +2541,21 @@
 			"armedFgColor_override" "ya_MainHi"
 			"depressedFgColor_override" "Blank"
 			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+			"image_drawcolor"	"ya_Main"
+			"image_armedcolor" 	"ya_Main"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
+				"xpos"			"2"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}		
-		}
-	}
-	"RequestCoachButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RequestCoachButton"
-		"xpos"			"141"
-		"ypos"			"r40"
-		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"20"
-		"visible"		"0"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"20"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"100"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"image_drawcolor"	"46 43 42 255"
-			"image_armedcolor" "74 74 74 255" //	"25 225 74 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"5"
-				"zpos"			"1"
-				"wide"			"12"
-				"tall"			"12"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			""
-				"scaleImage"	"1"
-			}				
 		}
 	}
 	
@@ -2642,7 +2646,6 @@
 		"zpos"			"11"
 		"wide"			"165"
 		"tall"			"19"
-		"visible"		"1"
 		"visible"		"1"
 
 		"EntryLabel"
@@ -2762,54 +2765,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_forums"
-			"scaleImage"	"1"
-		}				
-	}		
-	
-	"CoachPlayersButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
-		"xpos"			"118"
-		"ypos"			"r39"
-		"zpos"			"5"
-		"wide"			"26"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"0"
-		"enabled"		"0"
-		"tabPosition"	"0"
-		"labelText"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"engine cl_coach_toggle"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-
-		"image_drawcolor"	"46 43 42 255"
-		"image_armedcolor" "74 74 74 255" //	"25 225 74 255"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"7"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"glyph_commentary"
 			"scaleImage"	"1"
 		}				
 	}		
