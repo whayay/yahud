@@ -43,7 +43,7 @@ Scheme
 		
 		"GibsonMetalValue"			"255 255 255 255"		// Metal font color
 		
-        "ya_Uber"					"142 142 142 255"	// Uber % color
+        "ya_Uber"					"130 130 130 255"	// Uber % color
         "ya_UberReady"         		"227 227 227 255"	// Uber % color when ready
         "ya_UberReadyMeter"			"177 5 160 255"		// Uber meter ready color
         "ya_UberReadyMeterFlash"	"200 50 190 255"
