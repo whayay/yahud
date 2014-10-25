@@ -12,16 +12,15 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_blu"
 		"image_lodef"	"../hud/color_panel_blu"
-		
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
 	}
+	
 	"Background_Red"
 	{
 		"ControlName"	"ScalableImagePanel"
@@ -34,26 +33,37 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
+		"image_lodef"	"../hud/color_panel_red"	
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
-			
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"
+	}
+	
+	"Background"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Background"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"wide"					"f0"
+		"tall"					"f0"
+		"proportionalToParent"	"1"
+		"bgcolor_override"		"ya_HudBG"
+		"border"				"GrayBorder"
 	}
 
 	"AvatarBGPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AvatarBGPanel"
-		"xpos"			"4"
-		"ypos"			"4"
+		"xpos"			"2"
+		"ypos"			"2"
 		"zpos"			"-1"
-		"wide"			"36"
-		"tall"			"36"
+		"wide"			"34"
+		"tall"			"34"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"117 107 94 255"
@@ -62,11 +72,11 @@
 	{
 		"ControlName"	"CAvatarImagePanel"
 		"fieldName"		"AvatarImage"
-		"xpos"			"6"
-		"ypos"			"6"
+		"xpos"			"4"
+		"ypos"			"4"
 		"zpos"			"0"
-		"wide"			"32"
-		"tall"			"32"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
@@ -75,15 +85,15 @@
 	}
 	
 	"CoachNameLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"CoachNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"Medium12"
 		"xpos"			"42"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"110"
-		"tall"			"25"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -95,12 +105,12 @@
 	}
 
 	"KickCoachLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KickCoachLabel"
 		"fgcolor"		"TanLight"
 		"xpos"			"42"
-		"ypos"			"30"
+		"ypos"			"25"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"10"
@@ -115,12 +125,12 @@
 	}
 
 	"LikeCoachLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LikeCoachLabel"
 		"fgcolor"		"TanLight"
 		"xpos"			"42"
-		"ypos"			"20"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"110"
 		"tall"			"10"
@@ -133,5 +143,4 @@
 		"textAlignment"	"West"
 		"font"			"TFFontSmall"
 	}
-
 }

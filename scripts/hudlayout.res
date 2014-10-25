@@ -1458,11 +1458,11 @@
 	{
 		"fieldName"		"CoachedByPanel"
 		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"250"
-		"tall"			"44"
+		"enabled"		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"160"
+		"tall"			"40"
 	}
 
 	ItemTestHUDPanel
