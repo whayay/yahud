@@ -58,12 +58,6 @@
 		"label" "}"
 		"command" "engine open_charinfo"
 	}
-    "AchievementsButton"
-	{
-		"label"			"{"
-		"command"		"OpenAchievementsDialog"
-        "tooltip" 		""
-	}
     "AdvOptionsButton"
 	{
 		"label"		"o"
@@ -72,7 +66,7 @@
 	}
 	"CreateServerButton"
 	{
-		"label"		"l"
+		"label"		""
 		"command"	"OpenCreateMultiplayerGameDialog"
 		"tooltip"   "Create server"
 	}

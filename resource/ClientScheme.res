@@ -92,6 +92,7 @@ Scheme
 		
 		//// Theme Colors
         "ya_MenuBG" 				"48 48 48 255"			// General menu background color
+		"ya_MainMenuBG"				"46 43 42 192"			// Main menu button panel background color
         
 		"ya_MenuHi"					"227 227 227 255"		// Button armed color
 		"ya_MenuMid"				"127 127 127 255"		//

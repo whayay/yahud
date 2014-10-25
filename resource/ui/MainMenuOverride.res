@@ -181,16 +181,32 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MainMenuBGPanel"
-		"xpos"			"0"		//-305
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"20"
 		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
+		"wide"			"30"
+		"tall"			"230"
+		"visible"		"1"
+		"enabled"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
+		"border"		"RightPanelBorder"
+		"bgcolor_override"	"ya_MainMenuBG"
+		
+		"InnerBorders"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"InnerBorders"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"border"		"GibsonThinPanelBorder"
+			"proportionalToParent"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+		}
 	}	
 	"TooltipPanel"
 	{
@@ -251,8 +267,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"166"			
-		"ypos"			"150"
+		"xpos"			"4"			
+		"ypos"			"30"
 		"zpos"			"11"
 		"wide"			"22"
 		"tall"			"26"
@@ -281,31 +297,28 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+			"paintbackground"	"1"
+			"bgcolor_override"	"Blank"
 			
-			"FgColor"  "ya_Main"	
-			"defaultFgColor_override"  "ya_Main"	
-			"armedFgColor_override" "ya_Main"
-			"depressedFgColor_override" "ya_Main"	
-			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+			"image_drawcolor"	"ya_MenuMid"
+			"image_armedcolor"	"ya_MenuHi"
 			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
+				"xpos"			"2"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
+				"image"			"glyph_create"
 				"scaleImage"	"1"
-			}	
+			}
 		}			
 	}
 	
@@ -313,8 +326,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"144"
-		"ypos"			"150"
+		"xpos"			"4"
+		"ypos"			"90"
 		"zpos"			"5"
 		"wide"			"22"
 		"tall"			"26"
@@ -338,12 +351,13 @@
 		"navLeft"		"CommentaryButton"
 		"navRight"		"ReportBugButton"
 		
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+		"bgcolor_override"	"Blank"
 
-		"image_drawcolor"	"ya_Main"
-		"image_armedcolor"	"ya_Main"
+		"image_drawcolor"	"ya_MenuMid"
+		"image_armedcolor"	"ya_MenuHi"
 
 		"SubImage"
 		{
@@ -365,8 +379,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"210"
-		"ypos"			"150"
+		"xpos"			"4"
+		"ypos"			"120"
 		"zpos"			"89"
 		"wide"			"22"
 		"tall"			"26"
@@ -397,18 +411,17 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			"paintbackground"	"1"
 			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			
-            "defaultFgColor_override"   "ya_Main"
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"Blank"
-			"armedFgColor_override"		"ya_Main"
-			"depressedBgColor_override"	"Blank"
-			"depressedFgColor_override"	"ya_Main"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
 
+			"fgcolor"			"ya_MenuHi"
+			"defaultfgcolor_override"	"ya_MenuHi"
+			"armedfgcolor_override"	"ya_MenuHi"
+			
+			"image_drawcolor"	"ya_MenuHi"
+			"image_armedcolor"	"ya_MenuHi"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1083,7 +1096,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"97"
 		"zpos"			"11"
 		"wide"			"165"
@@ -1170,7 +1183,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"116"
 		"zpos"			"11"
 		"wide"			"165"
@@ -1318,7 +1331,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"78"
 		"zpos"			"11"
 		"wide"			"165"
@@ -1405,7 +1418,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"75"
 		"zpos"			"11"
 		"wide"			"239"
@@ -1671,7 +1684,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ChangeServerButton"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"38"		
 		"zpos"			"209"
 		"wide"			"239"
@@ -1763,7 +1776,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"59"
 		"zpos"			"11"
 		"wide"			"165"
@@ -1849,7 +1862,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"59"
 		"zpos"			"11"
 		"wide"			"165"
@@ -1935,7 +1948,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"40"
 		"zpos"			"14"
 		"wide"			"165"
@@ -2020,7 +2033,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerBrowserButton"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"38"		
 		"zpos"			"209"
 		"wide"			"239"
@@ -2112,7 +2125,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"240"
+		"xpos"			"270"
 		"ypos"			"40"
 		"zpos"			"14"
 		"wide"			"165"
@@ -2199,7 +2212,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuitButton"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"113"
 		"zpos"			"11"
 		"wide"			"239"
@@ -2291,7 +2304,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"113"
 		"zpos"			"11"
 		"wide"			"239"
@@ -2383,8 +2396,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"166"			
-		"ypos"			"175"
+		"xpos"			"270"			
+		"ypos"			"154"
 		"zpos"			"11"
 		"wide"			"22"
 		"tall"			"26"
@@ -2446,8 +2459,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"210"
-		"ypos"			"175"
+		"xpos"			"330"
+		"ypos"			"154"
 		"zpos"			"11"
 		"wide"			"22"
 		"tall"			"26"
@@ -2506,8 +2519,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"188"
-		"ypos"			"175"
+		"xpos"			"300"
+		"ypos"			"154"
 		"zpos"			"11"
 		"wide"			"22"
 		"tall"			"26"
@@ -2643,94 +2656,64 @@
 	
 	"AchievementsButton"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"240"
-		"ypos"			"135"
-		"zpos"			"11"
-		"wide"			"165"
-		"tall"			"19"
+		"xpos"			"4"
+		"ypos"			"180"
+		"zpos"			"3"
+		"wide"			"22"
+		"tall"			"26"
+		"autoResize"	"0"
+		"pinCorner"		"3"
 		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"OpenAchievementsDialog"
 
-		"EntryLabel"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"EntryLabel"
-			"font"			"MediumCaps22"
-			"labelText"		"Achievements"
-			"textAlignment"		"west"
-			"xpos"			"1"
-			"ypos"			"0"
-			"wide"			"165"
-			"tall"			"19"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"0"
-			"textinsety"	"0"
-			"use_proportional_insets" "1"
-			
-			"paintbackground"		"0"
-			"border_default"		"NoBorder"
-			"border_armed"			"NoBorder"
-			
-			"defaultFgColor_override" "ya_Main"
-		}
+		"navUp"			"VRModeButton"
+		"navLeft"		"NewUserForumsButton"
+		"navRight"		"CommentaryButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
 		
-		"SubButton"
+		"image_drawcolor"	"ya_MenuMid"
+		"image_armedcolor"	"ya_MenuHi"
+		
+		"SubImage"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"163"
-			"tall"			"19"
-			"autoResize"	"0"
-			"pinCorner"		"3"
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"2"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"0"
-			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"image"			"glyph_achievements"
+			"scaleImage"	"1"
 			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-
-			"FgColor" "Blank"			
-			"defaultFgColor_override" "Blank"
-			"armedFgColor_override" "ya_MainHi"
-			"depressedFgColor_override" "Blank"
-			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}		
-		}
+			"drawcolor_override"		"ya_MenuMid"
+			"drawcolor_armed"	"ya_MenuHi"
+		}				
 	}
+	
 	"CommentaryButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"122"
-		"ypos"			"150"
+		"xpos"			"4"
+		"ypos"			"60"
 		"zpos"			"5"
 		"wide"			"22"
 		"tall"			"26"
@@ -2754,12 +2737,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+		"bgcolor_override"	"GibsonPanelBG"
 
-		"image_drawcolor"	"ya_Main"
-		"image_armedcolor"	"ya_Main"
+		"fgcolor"	"ya_MenuMid"
+		"armedfgcolor"	"ya_MenuHi"
+		
+		"image_drawcolor"	"ya_MenuMid"
+		"image_armedcolor"	"ya_MenuHi"
 
 		"SubImage"
 		{
@@ -2781,8 +2768,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"100"
-		"ypos"			"150"
+		"xpos"			"4"
+		"ypos"			"210"
 		"zpos"			"5"
 		"wide"			"22"
 		"tall"			"26"
@@ -2806,12 +2793,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+		"paintbackground"	"1"
+		"bgcolor_override"	"GibsonPanelBG"
 
-		"image_drawcolor"	"ya_Main"
-		"image_armedcolor"	"ya_Main"
+		"image_drawcolor"	"ya_MenuMid"
+		"image_armedcolor"	"ya_MenuHi"
 
 		"SubImage"
 		{
@@ -2833,7 +2821,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"AdvOptionsButton"
-		"xpos"			"188"
+		"xpos"			"4"
 		"ypos"			"150"
 		"zpos"			"11"
 		"wide"			"22"
@@ -2863,17 +2851,16 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
 			
-			"FgColor"  "ya_Main"	
-			"defaultFgColor_override"  "ya_Main"	
-			"armedFgColor_override" "ya_Main"
-			"depressedFgColor_override" "ya_Main"	
+			"fgcolor"			"ya_MenuHi"
+			"defaultfgcolor_override"	"ya_MenuHi"
+			"armedfgcolor_override"	"ya_MenuHi"
 			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+			"image_drawcolor"	"ya_MenuMid"
+			"image_armedcolor"	"ya_MenuHi"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -2894,8 +2881,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"240"	
-		"ypos"			"154"	
+		"xpos"			"270"	
+		"ypos"			"135"	
 		"zpos"			"10"
 		"wide"			"165"
 		"tall"			"19"
@@ -2948,8 +2935,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButtonIcon"
-		"xpos"			"240"	
-		"ypos"			"154"	
+		"xpos"			"270"	
+		"ypos"			"135"	
 		"zpos"			"12"
 		"wide"			"101"
 		"tall"			"19"
