@@ -43,12 +43,10 @@ Scheme
 		
 		"GibsonMetalValue"			"255 255 255 255"		// Metal font color
 		
-        "ya_Uber"					"227 227 227 255"	// Uber % color
-        "ya_UberReady"         		"177 5 160 255"		// Uber % color when ready
+        "ya_Uber"					"142 142 142 255"	// Uber % color
+        "ya_UberReady"         		"227 227 227 255"	// Uber % color when ready
         "ya_UberReadyMeter"			"177 5 160 255"		// Uber meter ready color
         "ya_UberReadyMeterFlash"	"200 50 190 255"
-		"ya_UberBG"					"0 0 0 0"			// Uber % background
-		"ya_UberReadyBG"			"22 182 71 0"		// Uber % background ready color
 		
         "ya_Time"                  	"227 227 227 255"	// Timer color
 		
@@ -900,11 +898,11 @@ Scheme
 		//// Fonts
 		
 		
-		"Damage"            	//with an outline
+		"Damage"				// Floating damage display
         {
             "1"
             {
-                "name"            "Text"
+                "name"			"Text"
                 "tall"        	"18"
                 "additive"    	"0"
                 "antialias"     "1"
@@ -1675,26 +1673,26 @@ Scheme
         }
 
 
-        "DefaultVerySmall"          //scoreboard legend
+        "DefaultVerySmall"          // Scoreboard legend
         {
             "1"
             {
                 "name"        "Text"
-                "tall"        "2"
+                "tall"        "12"
                 "yres"        "480 599"
                 "antialias"     "0"
             }
             "2"
             {
                 "name"        "Text"
-                "tall"        "3"
+                "tall"        "12"
                 "yres"    "600 719"
                 "antialias"     "1"
             }
             "3"
             {
                 "name"        "Text"
-                "tall"        "8"
+                "tall"        "12"
                 "yres"    "720 767"
                 "antialias"     "1"
             }
