@@ -94,6 +94,39 @@
 			"visible"	"0"
 		}
 	}
+	
+	"BlueScoreShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueScoreShadow"
+		"xpos"			"c-72"
+		"ypos"			"r37"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%bluescore%"
+		"font"			"Medium16"
+		"fgcolor"		"ya_Shadow"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+	}
+	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -125,6 +158,38 @@
 			"visible"	"0"
 		}
 	}			
+	
+	"RedScoreShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedScoreShadow"
+		"xpos"			"c45"
+		"ypos"			"r37"
+		"zpos"			"2"
+		"wide"			"29"
+		"tall"			"18"
+		"visible"		"18"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%redscore%"
+		"font"			"Medium16"
+		"fgcolor"		"ya_Shadow"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+	}
 	
 	"OutlineImage"
 	{
@@ -199,7 +264,7 @@
 		{
 			"visible"	"0"
 		}
-	}			
+	}
 	"PlayingToBG"
 	{
 		"ControlName"	"CTFImagePanel"
