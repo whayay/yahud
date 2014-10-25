@@ -43,7 +43,7 @@
 		"ypos"			"1"
 		"zpos"			"5"
 		"wide"			"135"
-		"tall"			"48"
+		"tall"			"8"
 		"visible"			"1"
 		"enabled"			"1"
 		
@@ -54,7 +54,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"137"
+			"wide"			"135"
 			"tall"			"8"
 			"autoResize"	"0"
 			"pinCorner"		"0"
