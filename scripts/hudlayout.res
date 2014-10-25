@@ -433,13 +433,11 @@
 		"fieldName"		"HudBossHealth"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-69"
+		"xpos"			"c-70"
 		"ypos"			"30"
 		"zpos"			"0"
-		"wide"			"137"
+		"wide"			"140"
 		"tall"			"50"
-		"MeterFG"		"Red"
-		"MeterBG"		"ya_HudBG"
 	}
 
 	HudWeaponSelection
