@@ -745,6 +745,7 @@
 			"defaultBgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "235 226 202 255"
+			"armedbgcolor_override"		"56 53 52 255"
 		}	
 		
 		"MOTD_PrevButton"
