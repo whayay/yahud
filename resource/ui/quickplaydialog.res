@@ -883,10 +883,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowServersButtonFooter"
-		"xpos"			"r240"
+		"xpos"			"r250"
 		"ypos"			"r36"
 		"zpos"			"20"
-		"wide"			"100"
+		"wide"			"125"
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"0"

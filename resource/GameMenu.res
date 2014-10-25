@@ -2,10 +2,10 @@
 {
 	"QuickplayButton"
 	{
-		"label" "{"
+		"label" ""
 		"command" "quickplay"
 		"OnlyAtMenu" "1"
-         "tooltip" ""
+        "tooltip" "Quickplay"
 	}
 	"QuickplayChangeButton"
 	{
@@ -39,8 +39,10 @@
 	}
 	"TrainingButton"
 	{
-		"label" "{"
+		"label" ""
 		"command" "offlinepractice"
+		"OnlyAtMenu" "1"
+		"tooltip"	"Training"
 	}
 	"QuitButton"
 	{
@@ -67,8 +69,15 @@
 	"CreateServerButton"
 	{
 		"label"		""
+		"OnlyAtMenu" "1"
 		"command"	"OpenCreateMultiplayerGameDialog"
 		"tooltip"   "Create server"
+	}
+	"CommentaryButton"
+	{
+		"label"			""
+		"command"		"OpenLoadSingleplayerCommentaryDialog"
+		"tooltip"   	"Developer commentary"
 	}
 	"MOTD_ShowButtonPanel"
 	{
@@ -76,8 +85,8 @@
 		"command"	"motd_show"
 		"tooltip"   "Show news"
 	}
+	
 	// These buttons are only shown while in-game
-   
    "ChangeServerButton"
 	{
 		"label" "}"
