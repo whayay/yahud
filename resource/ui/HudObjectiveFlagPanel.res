@@ -321,7 +321,7 @@
         "if_mvm"
 		{
 			"xpos"		"c-50"
-			"ypos"		"r45"
+			"ypos"		"r50"
 			"wide"		"100"
 			"tall"		"50"
 		}
