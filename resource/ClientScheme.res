@@ -16,17 +16,19 @@ Scheme
         //Setting the numbers to "0 255 0 255" would create a solid green color for example
         /////////////////////////////////////////////////////////////////////////////////////
         
-        "ya_Meter"					"142 142 142 255"	// Item charge meter labels
-        "ya_CrosshairPercentage"	"227 227 227 0"		// Shows Uber % under crosshair
-		"ya_Shadow"             	"0 0 0 255"			// Shadows under numbers
-		"ya_Plus"          			"22 182 71 255"		// Color for floating health/metal gain value
+		//// GENERAL HUD COLORS ////
+        "ya_Meter"					"142 142 142 255"		// Item charge meter labels
+		"ya_HudBG"                	"28 28 28 234"			// Item meters and inspect panel background
+        
+		"ya_Shadow"             	"0 0 0 255"				// Shadows under numbers
+		"ya_Plus"          			"22 182 71 255"			// Color for floating health/metal gain value
 		
-        "ya_Damage"                "240 240 20 255"     // Damage numbers
-        "ya_Crosshair"             "240 240 20 255"     // Crosshair color
-        "ya_CrosshairDamage"       "245 54 64 255"      // Crosshair damage flash color
-														// Make this the same as "Crosshair" to disable the flash
-														// Crosshairs can be activated in /scripts/hudlayout.res
-        //// HUD COLORS
+        "ya_Damage"                "240 240 20 255"     	// Damage numbers
+        "ya_Crosshair"             "240 240 20 255"     	// Crosshair color
+        "ya_CrosshairDamage"       "245 54 64 255"      	// Crosshair damage flash color
+															// Make this the same as "Crosshair" to disable the flash
+															// Crosshairs can be activated in /scripts/hudlayout.res
+
         "ya_Ammo"                  "227 227 227 255"		// Current clip
 		"ya_AmmoReserve"           "227 227 227 255"		// Reserve clip
         "ya_AmmoLow"               "137 137 137 255"		// Low ammo warning
@@ -34,73 +36,71 @@ Scheme
 		"ya_AmmoLowBG"				"0 0 0 0"				// Low ammo background
 		
         "ya_Health"					"227 227 227 255"		// Normal HP font color 
-        "ya_Positive"				"18 127 220 255"		// Buffed HP font color   
+        "ya_Positive"				"18 127 220 255"		// Overhealed HP font color   
         "ya_Negative"				"254 54 64 255"			// Low HP font color
 		
 		"GibsonPlayerHealthBG"		"0 0 0 0"				// HP backgrounds for the player
-		"GibsonPlayerPositiveBG"	"0 0 0 0"				//
-		"GibsonPlayerNegativeBG"	"0 0 0 0"				//
+		"GibsonPlayerPositiveBG"	"0 0 0 0"				// Overhealed background
+		"GibsonPlayerNegativeBG"	"0 0 0 0"				// Low health background
 		
 		"GibsonMetalValue"			"255 255 255 255"		// Metal font color
 		
-        "ya_Uber"					"130 130 130 255"	// Uber % color
-        "ya_UberReady"         		"227 227 227 255"	// Uber % color when ready
-        "ya_UberReadyMeter"			"177 5 160 255"		// Uber meter ready color
+        "ya_Uber"					"130 130 130 255"		// Uber % color
+        "ya_UberReady"         		"227 227 227 255"		// Uber % color when ready
+        "ya_UberReadyMeter"			"177 5 160 255"			// Uber meter ready color
         "ya_UberReadyMeterFlash"	"200 50 190 255"
+		"ya_CrosshairPercentage"	"227 227 227 0"			// Shows Uber % under crosshair
 		
-        "ya_Time"                  	"227 227 227 255"	// Timer color
+        "ya_Time"                  	"227 227 227 255"		// Timer color
 		
-        //// SPEC ////
-        "GibsonSpecHealthBG"     	"28 28 28 255"      // HP backgrounds for the player being viewed
-        "GibsonSpecPositiveBG"   	"28 28 28 255"     	//
-        "GibsonSpecNegativeBG"     	"28 28 28 255"      //
+		//// SPEC ////
+        "GibsonSpecHealthBG"     	"28 28 28 255"      	// HP backgrounds for the player being viewed
+        "GibsonSpecPositiveBG"   	"28 28 28 255"     		// Overhealed background
+        "GibsonSpecNegativeBG"     	"28 28 28 255"      	// Low health background
 		
 		"GibsonTournamentHealthBG"		"64 64 64 160"		// HP backgrounds for players while spectating in tournament mode
-		"GibsonTournamentPositiveBG"	"64 64 64 160"		// HP backgrounds for players while spectating in tournament mode
-		"GibsonTournamentNegativeBG"	"64 64 64 160"		// HP backgrounds for players while spectating in tournament mode
+		"GibsonTournamentPositiveBG"	"64 64 64 160"		// Overhealed background
+		"GibsonTournamentNegativeBG"	"64 64 64 160"		// Low health background
 		
-		"GibsonTournamentUber"	"75 200 55 255"			// Color for ubercharge on the tournament spectator HUD
-        "ya_ClassBG"			"28 28 28 255"			// Background for class image for dead players in tournament spectator HUD
-        "ya_Respawn"  			"192 192 192 255" 		// Respawn timer font color in tournament spectator HUD
+		"GibsonTournamentUber"			"75 200 55 255"		// Color for ubercharge on the tournament spectator HUD
+        "GibsonClassBG"					"28 28 28 255"		// Background for class image for dead players in tournament spectator HUD
+        "GibsonTournamentRespawn"		"192 192 192 255"	// Respawn timer font color in tournament spectator HUD
         
-        //// SCOREBOARD, WINPANEL, BUILD/DESTROY, TARGETID ////
-        "ya_HudBG"                	"28 28 28 234"				// Item meters and inspect panel background
-        "ya_Name"					"18 18 18 255"				// Used in Build/Destroy & Taunt Menus
-        "ya_NameCounter"			"227 227 227 255"          	// Engineer shortcuts & destroy icon
+		//// TARGETID ////
+		"GibsonTargetHealthBG"		"28 28 28 255"			// HP backgrounds for players being looked at
+		"GibsonTargetPositiveBG"	"28 28 28 255"			// Overhealed background
+        "GibsonTargetNegativeBG"	"28 28 28 255"			// Low health background
 		
-		"GibsonTargetHealthBG"		"28 28 28 255"     			// HP backgrounds for players being looked at
-		"GibsonTargetPositiveBG"	"28 28 28 255"				//
-        "GibsonTargetNegativeBG"	"28 28 28 255" 				//
+		"GibsonTargetNameColor"		"255 255 255 255"		// Font color for target name
+		"GibsonTargetDataColor"		"255 255 255 255"		// Font color for target "data" - i.e. building level, charge amount
 		
-		"GibsonTargetNameColor"		"255 255 255 255"			// Font color for target name
-		"GibsonTargetDataColor"		"255 255 255 255"			// Font color for target "data" - i.e. building level, charge amount
+		//// BUILD/DESTROY, TAUNT MENU ////
+		"ya_Name"					"18 18 18 255"			// Used in Build/Destroy & Taunt Menus
+        "ya_NameCounter"			"227 227 227 255"		// Engineer shortcuts & destroy icon
 		
-		"GibsonScoreBG"				"50 35 50 220"				// Scoreboard/WinPanel background
-		"GibsonScoreBorderColor"	"100 70 100 224"			// Scoreboard/WinPanel border
-		
-		"GibsonLocalStatsBG"		"208 208 208 240"			// Background for player stats on bottom of scoreboard
-		"ya_Stats"             		"18 18 18 255"				// Font color for player stats underneath scoreboard
+        //// SCOREBOARD, WINPANEL ////
+		"GibsonScoreBG"				"50 35 50 220"			// Scoreboard/WinPanel background
+		"GibsonScoreBorderColor"	"100 70 100 224"		// Scoreboard/WinPanel border
+		"GibsonLocalStatsBG"		"208 208 208 240"		// Background for player stats on bottom of scoreboard
+		"GibsonStats"				"18 18 18 255"			// Font color for player stats underneath scoreboard
         
+		//// BACKPACK PAGES ////
+		"GibsonPageArmedBG"			"80 80 80 192"			// Mouseover background color for page button
+		
         //// MENU ////
-		"ya_MainBG"                 "245 54 64 255"				// Enables background color for introscreens
+		"ya_MainBG"                 "245 54 64 255"			// Enables background color for introscreens
 		
-        "ya_Main"					"227 227 227 255"       	// Main menu font color
-        "ya_MainHi"					"227 227 227 255"			// Main menu armed font color
-		"ya_MainTooltip"			"48 48 48 255"				// Main menu tooltip background
+        "ya_Main"					"227 227 227 255"		// Main menu font color
+        "ya_MainHi"					"227 227 227 255"		// Main menu armed font color
+		"ya_MainTooltip"			"48 48 48 255"			// Main menu tooltip background
 		
-		//// Theme Colors
         "ya_MenuBG" 				"48 48 48 255"			// General menu background color
-		"ya_MainMenuBG"				"46 43 42 192"			// Main menu button panel background color
+		"GibsonMainMenuButtonBG"	"46 43 42 192"			// Main menu button panel background color
         
 		"ya_MenuHi"					"227 227 227 255"		// Button armed color
 		"ya_MenuMid"				"127 127 127 255"		//
         "ya_MenuLo"					"87 87 87 255"			// Button default color
 		
-        "ButtonBG"              "227 227 227 0"       //Standard button color
-        "ButtonBGArmed"         "227 227 227 0"       //Armed BG color
-        "ButtonBGSelect"        "18 18 18 0"          //Loadout preset
-        
-		"GibsonBGArmed"					"80 80 80 192"
 		"GibsonNotificationBG"			"32 32 32 255"		// Background for on-screen notifications
 		"GibsonDialogBG"				"32 32 32 255"		// Background for dialogs
 		"GibsonPanelBG"					"46 43 42 255"		// Background for inner panels in menus
@@ -111,9 +111,12 @@ Scheme
 		"GibsonWarningBG"				"190 190 10 160"	// Background color for buttons with irreversible actions
 		"GibsonKsNotificationBG"		"46 43 42 60"		// Background for killstreak text notifications
 		
-        "ButtonFont"            "87 87 87 255"          // Font color
-        "ButtonFontArmed"       "255 255 255 255"       // Highlighted font color
-        "ButtonFontSelect"      "247 247 247 255"       // Highlighted font color
+		"ButtonBG"				"227 227 227 0"				/ /Standard button color
+        "ButtonBGArmed"			"227 227 227 0"       		// Armed BG color
+        "ButtonBGSelect"		"18 18 18 0"          		// Loadout preset
+        "ButtonFont"			"87 87 87 255"				// Font color
+        "ButtonFontArmed"		"255 255 255 255"			// Highlighted font color
+        "ButtonFontSelect"		"247 247 247 255"			// Highlighted font color
 		
         ////CORE COLORS////
         "White"				"227 227 227 255"
@@ -122,9 +125,6 @@ Scheme
         "Black"				"18 18 18 255"
 		"Red"				"245 54 64 255"		// Red team  
         "Blue"				"18 127 220 255"	// Blue team
-		
-		// Testing
-		"ya_MainHiBG"				"18 127 220 0"		 //overlay behind buttons
 		
         // Base Colors TF2
         "Orange"              "227 227 227 255"
@@ -272,7 +272,7 @@ Scheme
         "LightRed"                                "200 80 60 255"
         "LighterRed"                            "220 100 80 255"
         "LighterDarkBrown"                        "59 54 48 255"
-        "DarkBrown"                                "41 37 38 255"       //should be same as "ya_MenuBG"
+        "DarkBrown"                                "41 37 38 255"
 
         "UpgradeDefaultFg"        "87 82 74 255"
         "UpgradeDefaultBg"        "111 104 94 255"
@@ -295,7 +295,6 @@ Scheme
         ReplayBrowser.BgColor                                "GibsonPanelBG"
         ReplayBrowser.Details.TitleEdit.Carat.FgColor        "White"
 		ReplayBrowser.Button.ArmedFgColor                    "ButtonFontArmed"
-		ReplayBrowser.Button.ArmedBgColor                    "GibsonBGArmed"
         ReplayBrowser.Button.DepressedBgColor                "ButtonBG"
         ReplayBrowser.CollectionTitle.FgColor                "White"
         ReplayBrowser.Warning.FgColor                        "White"
@@ -625,51 +624,7 @@ Scheme
         /////////////////////
         //Shapes and Symbols
         
-		"Icon62"		//
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "62"
-                "additive"    "0"
-				"weight"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon58"		//
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "58"
-                "additive"    "0"
-				"weight"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon54"		//
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "54"
-                "additive"    "0"
-				"weight"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon50"		//
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "50"
-                "additive"    "0"
-				"weight"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon48"		//BG for sb, tourny and win
+		"Icon48"		// Tournament setup, team select menu
         {
             "1"
             {
@@ -680,17 +635,7 @@ Scheme
                 "antialias"     "1"
             }
         }
-		"Icon30"		//Main menu icons
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "30"
-                "additive"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon28"		//Main menu icons
+		"Icon28"		// Main menu icons
         {
             "1"
             {
@@ -700,17 +645,7 @@ Scheme
                 "antialias"     "1"
             }
         }
-		"Icon26"		//Main menu icons
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "26"
-                "additive"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon24"		//Main menu icons
+		"Icon24"		// Main menu icons
         {
             "1"
             {
@@ -720,7 +655,7 @@ Scheme
                 "antialias"     "1"
             }
         }
-        "Icon22"		//Main menu icons
+        "Icon22"		// Main menu icons
         {
             "1"
             {
@@ -730,17 +665,7 @@ Scheme
                 "antialias"     "1"
             }
         }
-		"Icon20"		//Main menu icons
-        {
-            "1"
-            {
-                "name"            "Icons"
-                "tall"        "20"
-                "additive"    "0"
-                "antialias"     "1"
-            }
-        }
-		"Icon18"		//Class and team menu
+		"Icon18"				// Back arrow
         {
             "1"
             {
@@ -750,7 +675,7 @@ Scheme
                 "antialias"     "1"
             }
         }
-		"Icon16"		//Class and team menu
+		"Icon16"				// Main menu notifications 
         {
             "1"
             {
@@ -760,18 +685,8 @@ Scheme
                 "antialias"     "1"
             }
         }
-		"Icon14"		//used for spectator interface
-        {
-            "1"
-            {
-                "name"        "Icons"
-                "tall"        "14"
-                "additive"        "0"
-                "antialias"    "1"
-            }
-        }
 		
-		"BackpackS"		//Backpack icons
+		"BackpackS"			// Backpack icons
         {
             "1"
             {
@@ -791,17 +706,7 @@ Scheme
                 "antialias" "0"
             }
         }
-        
-        "yahud58"       //Used for class icons
-        {
-            "1"
-            {
-                "name"        "yahud"
-                "tall"        "58"
-                "additive"    "0"
-                "antialias"    "1"
-            }
-        }
+		
         "yahud36"       //Used for tournament setup
         {
             "1"
@@ -824,67 +729,7 @@ Scheme
             }
         }
 		
-        "Circle62"              //for team selection and tournament ready up
-        {
-            "1"
-            {
-                "name"        "SmallCircle"
-                "tall"        "62"
-                "weight"    "0"
-                "antialias"    "1"
-            }
-        }
-        "Circle42"          //used for winpanel
-        {
-            "1"
-            {
-                "name"        "SmallCircle"
-                "tall"        "42"
-                "weight"    "0"
-                "antialias"    "1"
-            }
-        }
-        "Circle38"    //for ctf counter
-        {
-            "1"
-            {
-                "name"        "SmallCircle"
-                "tall"        "38"
-                "weight"    "0"
-                "antialias"    "1"
-            }
-        }
-        "Circle36"    //for ctf counter
-        {
-            "1"
-            {
-                "name"        "SmallCircle"
-                "tall"        "36"
-                "weight"    "0"
-                "antialias"    "1"
-            }
-        }
-        "Circle34"    //for ctf counter
-        {
-            "1"
-            {
-                "name"        "SmallCircle"
-                "tall"        "34"
-                "weight"    "0"
-                "antialias"    "1"
-            }
-        }
-        "Circle30"    //for game menu shortcuts
-        {
-            "1"
-            {
-                "name"        "SmallCircle"
-                "tall"        "30"
-                "weight"    "0"
-                "antialias"    "1"
-            }
-        }
-        "Circle24"          //for shortcuts and class counters
+        "Circle24"				// Build/destroy and disguise menu
         {
             "1"
             {
@@ -2664,7 +2509,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
@@ -2672,7 +2517,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
@@ -3258,35 +3103,19 @@ Scheme
 			"inset"	"0 0 0 0"
 			Left
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "1 0"
-				}
+				"1" { "color"	"White" "offset" "1 0" }
 			}
 			Right
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "-1 0"
-				}
+				"1" { "color"	"White" "offset" "-1 0" }
 			}
 			Top
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "0 1"
-				}
+				"1" { "color"	"White" "offset" "0 1" }
 			}
 			Bottom
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "0 -1"
-				}
+				"1" { "color"	"White" "offset" "0 -1" }
 			}
 		}
 		BlackBorder
@@ -3294,35 +3123,19 @@ Scheme
 			"inset"	"0 0 0 0"
 			Left
 			{
-				"1"
-				{
-					"color"	"Black"
-					"offset" "1 0"
-				}
+				"1" { "color"	"Black" "offset" "1 0" }
 			}
 			Right
 			{
-				"1"
-				{
-					"color"	"Black"
-					"offset" "-1 0"
-				}
+				"1" { "color"	"Black" "offset" "-1 0" }
 			}
 			Top
 			{
-				"1"
-				{
-					"color"	"Black"
-					"offset" "0 1"
-				}
+				"1" { "color"	"Black" "offset" "0 1" }
 			}
 			Bottom
 			{
-				"1"
-				{
-					"color"	"Black"
-					"offset" "0 -1"
-				}
+				"1" { "color"	"Black" "offset" "0 -1" }
 			}
 		}
 		GrayBorder
@@ -3330,35 +3143,19 @@ Scheme
 			"inset"	"0 0 0 0"
 			Left
 			{
-				"1"
-				{
-					"color"	"Gray"
-					"offset" "1 0"
-				}
+				"1" { "color"	"Gray" "offset" "1 0" }
 			}
 			Right
 			{
-				"1"
-				{
-					"color"	"Gray"
-					"offset" "-1 0"
-				}
+				"1" { "color"	"Gray" "offset" "-1 0" }
 			}
 			Top
 			{
-				"1"
-				{
-					"color"	"Gray"
-					"offset" "0 1"
-				}
+				"1" { "color"	"Gray" "offset" "0 1" }
 			}
 			Bottom
 			{
-				"1"
-				{
-					"color"	"Gray"
-					"offset" "0 -1"
-				}
+				"1" { "color"	"Gray" "offset" "0 -1" }
 			}
 		}
 		
@@ -3367,35 +3164,19 @@ Scheme
 			"inset"	"0 0 0 0"
 			Left
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "1 0"
-				}
+				"1" { "color"	"White" "offset" "1 0" }
 			}
 			Right
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "-1 0"
-				}
+				"1" { "color"	"White" "offset" "-1 0" }
 			}
 			Top
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "0 1"
-				}
+				"1" { "color"	"White" "offset" "0 1" }
 			}
 			Bottom
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "0 -1"
-				}
+				"1" { "color"	"White" "offset" "0 -1" }
 			}
 		}
 		
@@ -3404,35 +3185,19 @@ Scheme
 			"inset"	"0 0 0 0"
 			Left
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "1 0"
-				}
+				"1" { "color"	"White" "offset" "1 0" }
 			}
 			Right
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "-1 0"
-				}
+				"1" { "color"	"White" "offset" "-1 0" }
 			}
 			Top
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "0 1"
-				}
+				"1" { "color"	"White" "offset" "0 1" }
 			}
 			Bottom
 			{
-				"1"
-				{
-					"color"	"White"
-					"offset" "0 -1"
-				}
+				"1" { "color"	"White" "offset" "0 -1" }
 			}
 		}
 		

@@ -56,7 +56,7 @@
 				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"ya_ClassBG"
+				"bgcolor_override"		"GibsonClassBG"
 				"PaintBackgroundType"	"0"
 			}
 			
@@ -97,7 +97,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"ya_Respawn"
+				"fgcolor"		"GibsonTournamentRespawn"
 
 				if_mvm
 				{

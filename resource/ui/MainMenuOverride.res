@@ -192,7 +192,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"border"		"RightPanelBorder"
-		"bgcolor_override"	"ya_MainMenuBG"
+		"bgcolor_override"	"GibsonMainMenuButtonBG"
 		
 		"InnerBorders"
 		{
@@ -224,7 +224,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"0"
 		"border"		"RightPanelBorder"
-		"bgcolor_override"	"ya_MainMenuBG"
+		"bgcolor_override"	"GibsonMainMenuButtonBG"
 		
 		"InnerBorders"
 		{
@@ -1490,7 +1490,6 @@
 			"depressedFgColor_override" "Blank"
 			
 			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override" 	"ya_MainHiBG"
 			"depressedBgColor_override" "Blank"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -1757,7 +1756,6 @@
 			"depressedFgColor_override" "Blank"
 			
 			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override" 	"ya_MainHiBG"
 			"depressedBgColor_override" "Blank"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2084,7 +2082,6 @@
 			"depressedFgColor_override" "Blank"
 			
 			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override" 	"ya_MainHiBG"
 			"depressedBgColor_override" "Blank"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2263,7 +2260,6 @@
 			"depressedFgColor_override" "Blank"
 			
 			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override" 	"ya_MainHiBG"
 			"depressedBgColor_override" "Blank"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2354,7 +2350,6 @@
 			"depressedFgColor_override" "Blank"
 			
 			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override" 	"ya_MainHiBG"
 			"depressedBgColor_override" "Blank"
 			
 			"image_drawcolor"	"0 0 0 0"

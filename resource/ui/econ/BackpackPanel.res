@@ -42,7 +42,7 @@
 			"wide"					"10"
 			"tall"					"10"
 			"visible"				"0"
-			"noitem_textcolor"			"GibsonPanelBG"
+			"noitem_textcolor"			"0 0 0 255"
 			"paintborder"				"1"
 			"border"					"NoBorder"
 				
@@ -54,7 +54,7 @@
 				"tall"						"13"
 				"visible"					"1"
 				"bgcolor_override"			"0 0 0 0"
-				"armedBgColor_override"  	"GibsonBGArmed"
+				"armedBgColor_override"  	"GibsonPageArmedBG"
 				"PaintBackgroundType"		"2"
 				"textAlignment"				"center"
 				"labelText"					"%page%"

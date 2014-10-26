@@ -140,6 +140,25 @@
                     "visible"       "1"
                 }
             }
+			
+			"respawntime"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"respawntime"
+				"font"			"DefaultSmall"
+				"xpos"			"14"
+				"ypos"			"2"
+				"zpos"			"5"
+				"wide"			"22"
+				"tall"			"22"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"labelText"		"%respawntime%"
+				"textAlignment"	"center"
+				"fgcolor"		"GibsonTournamentRespawn"
+			}
+			
 			"HealthIcon"
 			{
 				"ControlName"		"EditablePanel"
@@ -205,24 +224,6 @@
 				{
 					"visible"		"1"
 				}
-			}
-			
-			"respawntime"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"18"
-				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
 			}
 			
 			"chargeamount"
