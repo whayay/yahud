@@ -62,8 +62,9 @@
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_ico_flag_home"
 		"scaleImage"	"1"	
-        
 		
+		"drawcolor"	"Gray"
+        
 		"if_mvm"
 		{
 			"visible"	"0"
