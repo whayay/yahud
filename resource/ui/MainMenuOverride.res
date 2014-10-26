@@ -1836,7 +1836,7 @@
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_multiplayer"
+				"image"			"glyph_server"
 				"scaleImage"	"1"
 			}
 		}
