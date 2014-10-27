@@ -68,10 +68,10 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"-1"
-		"ypos"			"r60"
+		"ypos"			"r15"
 		"zpos"			"1"		
 		"wide"			"80"
-		"tall"			"50"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -80,6 +80,10 @@
 		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
 		"teambg_3"			"../hud/character_blue_bg_clipped"
 		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"border"		"WhiteBorder"
+		
+		"src_corner_height"        "24"                // pixels inside the image
+		"src_corner_width"        "24"
 	}
 
 	"classmodelpanel"
@@ -88,7 +92,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"0"
-		"ypos"			"r154"
+		"ypos"			"r140"
 		"zpos"			"2"		
 		"wide"			"70"
 		"tall"			"140"
