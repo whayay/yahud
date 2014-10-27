@@ -121,7 +121,7 @@
 		"enabled"		"1"
 		"labelText"		"a"
 		"textAlignment"		"center"
-		"font"			"Icon18"
+		"font"			"Icon24"
 		"command"				"close"
 		"paintbackground"		"1"
 		"PaintBackgroundType"	"2"

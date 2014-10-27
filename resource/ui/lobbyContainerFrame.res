@@ -144,7 +144,7 @@
 		"enabled"		"1"
 		"labelText"		"a"
 		"textAlignment"		"center"
-		"font"			"Icon18"
+		"font"			"Icon24"
 		"command"				"back"
 		"PaintBackgroundType"	"2"
 		"sound_depressed"	"UI/buttonclick.wav"
