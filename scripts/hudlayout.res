@@ -1201,12 +1201,12 @@
 	HudTeamGoal
 	{
 		"fieldName"		"HudTeamGoal"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"xpos"			"0"
-		"ypos"			"200"
-		"wide"			"f0"
-		"tall"			"480"
+		"ypos"			"c-150"
+		"wide"			"125"
+		"tall"			"45"
 	}
 
 
