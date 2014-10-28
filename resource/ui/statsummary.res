@@ -55,7 +55,7 @@
 		"CustomBackground"
 		{
 			"ControlName"		"ImagePanel"
-			"fieldName"		"MainBackground"
+			"fieldName"		"CustomBackground"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"300"
@@ -237,6 +237,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	"MapLabelShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"MapLabelShadow"
+		"font"			"HudFontMediumBigBold"
+		"labelText"		"%maplabel%"
+		"textAlignment"		"center"
+		"xpos"			"r349"
+		"ypos"			"41"
+		"zpos"			"50"
+		"wide"			"350"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"ya_Shadow"
+	}
 	"MapType"
 	{
 		"ControlName"	"CExLabel"
@@ -253,6 +271,24 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+	}
+	"MapTypeShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapTypeShadow"
+		"font"			"HudFontSmallBold"
+		"labelText"		"%maptype%"
+		"textAlignment"	"center"
+		"xpos"			"r349"
+		"ypos"			"81"
+		"zpos"			"50"
+		"wide"			"350"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"ya_Shadow"
 	}					
 	"StatData"
 	{

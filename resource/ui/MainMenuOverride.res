@@ -1220,6 +1220,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"MediumCaps22"
+			"labelText"		"Replays"
+			"textAlignment"		"west"
+			"xpos"			"2"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"165"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -1236,7 +1252,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1369,6 +1385,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"MediumCaps22"
+			"labelText"		"Store"
+			"textAlignment"		"west"
+			"xpos"			"2"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"165"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -1385,7 +1417,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1455,6 +1487,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"Heavy48"
+			"labelText"		"Items"
+			"textAlignment"		"west"
+			"xpos"			"116"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"121"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -1471,7 +1519,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Heavy48"
+			"font"			"Heavy48Shadow"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1720,6 +1768,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"Heavy48"
+			"labelText"		"SERVERS"
+			"textAlignment"		"west"
+			"xpos"			"55"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"185"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -1737,7 +1801,7 @@
 			"textinsetx"	"0"
 			"textinsety"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Heavy48"
+			"font"			"Heavy48Shadow"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1875,6 +1939,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"MediumCaps22"
+			"labelText"		"Quickplay"
+			"textAlignment"		"west"
+			"xpos"			"2"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"165"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -1891,7 +1971,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1961,6 +2041,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"MediumCaps22"
+			"labelText"		"Cooperative"
+			"textAlignment"		"west"
+			"xpos"			"2"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"165"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -1977,7 +2073,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2046,6 +2142,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"Heavy48"
+			"labelText"		"SERVERS"
+			"textAlignment"		"west"
+			"xpos"			"55"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"185"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -2063,7 +2175,7 @@
 			"textinsetx"	"0"
 			"textinsety"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Heavy48"
+			"font"			"Heavy48Shadow"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2138,6 +2250,24 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"MediumCaps22"
+			"labelText"		"Resume"
+			"textAlignment"		"west"
+			"xpos"			"2"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"165"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
+			"textinsety"	"0"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -2154,7 +2284,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2224,6 +2354,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"Heavy48"
+			"labelText"		"Quit"
+			"textAlignment"		"west"
+			"xpos"			"141"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"97"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor" "ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -2241,7 +2387,7 @@
 			"textinsetx"	"0"
 			"textinsety"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Heavy48"
+			"font"			"Heavy48Shadow"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2315,6 +2461,22 @@
 			
 			"defaultFgColor_override" "ya_Main"
 		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"Heavy48"
+			"labelText"		"Leave"
+			"textAlignment"		"west"
+			"xpos"			"104"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"132"
+			"tall"			"38"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ya_MainMenuShadow"
+		}
 		
 		"SubButton"
 		{
@@ -2331,7 +2493,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"Heavy48"
+			"font"			"Heavy48Shadow"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2460,7 +2622,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2520,7 +2682,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"0"
 			"use_proportional_insets" "1"
-			"font"			"MediumCaps22"
+			"font"			"MediumCaps22Shadow"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2866,112 +3028,111 @@
     
 	"SettingsButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SettingsButton"
 		"xpos"			"270"	
 		"ypos"			"97"	
 		"zpos"			"10"
 		"wide"			"165"
 		"tall"			"19"
-		"autoResize"	"0"
-		"pinCorner"		"3"
 		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Options"
-		"font"			"MediumCaps22"
-		"textAlignment"	"west"
-		"textinsetx"	"0"
-        "textinsety"	"0"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"OpenOptionsDialog"
+		"PaintBackgroundType"	"0"
 
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-
-		"FgColor" "ya_Main"	
-		"defaultFgColor_override" "ya_Main"	
-		"armedFgColor_override" "ya_Main"
-		"depressedFgColor_override" "ya_Main"
-			
-		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
-		"SubImage"
+		"EntryLabel"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"18"
-			"ypos"			"6"
-			"zpos"			"2"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"0"
+			"ControlName"	"CExImageButton"
+			"fieldName"		"EntryLabel"
+			"font"			"MediumCaps22"
+			"labelText"		"Options"
+			"textAlignment"		"west"
+			"xpos"			"1"	//135
+			"ypos"			"0"
+			"wide"			"165"	//"104"
+			"tall"			"19"
+			"visible"		"1"
 			"enabled"		"1"
-			"scaleImage"	"1"
-		}			
+			"textinsetx"	"0"
+			"textinsety"	"0"
+			"use_proportional_insets" "1"
+			
+			"paintbackground"		"0"
+			"border_default"		"NoBorder"
+			"border_armed"			"NoBorder"
+			
+			"defaultFgColor_override" "ya_Main"
+		}
+		"EntryLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"EntryLabelShadow"
+			"font"			"MediumCaps22"
+			"labelText"		"Options"
+			"textAlignment"		"west"
+			"xpos"			"2"
+			"ypos"			"1"
+			"zpos"			"-1"
+			"wide"			"165"
+			"tall"			"19"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor" "ya_MainMenuShadow"
+		}
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"100"
+			"tall"			"19"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"textinsety"	"0"
+			"use_proportional_insets" "1"
+			"font"			"MediumCaps22Shadow"
+			"textAlignment"	"east"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"		"1"
+			"PaintBackgroundType"	"2"
+			"border_default"		"NoBorder"
+			"border_armed"			"NoBorder"
+			
+			"FgColor" "Blank"		
+			"defaultFgColor_override" "Blank"
+			"armedFgColor_override" "ya_MainHi"
+			"depressedFgColor_override" "Blank"
+			
+			"defaultBgColor_override"	"Blank"
+			"depressedBgColor_override" "Blank"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"0"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
 	}
-	"SettingsButtonIcon"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"SettingsButtonIcon"
-		"xpos"			"270"	
-		"ypos"			"97"	
-		"zpos"			"12"
-		"wide"			"101"
-		"tall"			"19"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"{"
-		"font"			"MediumCaps22"
-		"textAlignment"	"east"
-		"textinsetx"	"0"
-        "textinsety"	"0"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"OpenOptionsDialog"
-
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-
-		"FgColor" "Blank"	
-		"defaultFgColor_override" "Blank"	
-		"armedFgColor_override" "ya_MainHi"
-		"depressedFgColor_override" "Blank"
-			
-		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor" "74 74 74 255" //	"255 255 255 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"18"
-			"ypos"			"6"
-			"zpos"			"2"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"0"
-			"enabled"		"1"
-			"scaleImage"	"1"
-		}			
-	}		
 	
 	"BackToReplaysButton"
 	{

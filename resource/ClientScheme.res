@@ -21,6 +21,7 @@ Scheme
 		"ya_HudBG"                	"28 28 28 234"			// Item meters and inspect panel background
         
 		"ya_Shadow"             	"0 0 0 255"				// Shadows under numbers
+		"ya_MainMenuShadow"        	"32 32 32 128"			// Shadows under main menu buttons
 		"ya_Plus"          			"22 182 71 255"			// Color for floating health/metal gain value
 		
         "ya_Damage"                "240 240 20 255"     	// Damage numbers
@@ -1271,6 +1272,19 @@ Scheme
                 "tall"        "22"
                 "additive"        "0"
                 "antialias"    "1"
+            }
+        }
+		
+		"MediumCaps22Shadow"
+        {
+            "1"
+            {
+                "name"        "Text-Caps"
+                "tall"        "22"
+                "additive"        "0"
+                "antialias"    "1"
+				"outline"		"0"
+				"dropshadow"	"1"
             }
         }
         

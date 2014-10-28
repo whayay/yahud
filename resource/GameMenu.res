@@ -50,6 +50,11 @@
 		"command" "engine replay_confirmquit"
 		"OnlyAtMenu" "1"
 	}
+	"SettingsButton"
+	{
+		"label"	"{"
+		"command"	"OpenOptionsDialog"
+	}
 	"GeneralStoreButton"
 	{
 		"label" "{"
