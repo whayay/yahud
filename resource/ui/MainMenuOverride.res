@@ -185,7 +185,7 @@
 		"ypos"			"170"
 		"zpos"			"0"
 		"wide"			"30"
-		"tall"			"200"
+		"tall"			"230"
 		"visible"		"1"
 		"enabled"		"1"
 		"pinCorner"		"0"
@@ -1881,8 +1881,6 @@
 			
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
-			"paintbackground"	"1"
-			"bgcolor_override"	"GibsonPanelBG"
 
 			"image_drawcolor"	"ya_MenuMid"
 			"image_armedcolor"	"ya_MenuHi"
@@ -2944,8 +2942,6 @@
 
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
-		"paintbackground"	"1"
-		"bgcolor_override"	"GibsonPanelBG"
 
 		"image_drawcolor"	"ya_MenuMid"
 		"image_armedcolor"	"ya_MenuHi"
@@ -2963,6 +2959,62 @@
 			"enabled"		"1"
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
+		}
+	}
+	
+	"HtgHudButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HtgHudButton"
+		"xpos"			"4"
+		"ypos"			"360"
+		"zpos"			"5"
+		"wide"			"22"
+		"tall"			"26"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"22"
+			"tall"			"26"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"border_default"	"NoBorder"
+			"border_armed"		"NoBorder"
+
+			"image_drawcolor"	"ya_MenuMid"
+			"image_armedcolor"	"ya_MenuHi"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"1"
+				"ypos"			"4"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_htg"
+				"scaleImage"	"1"
+			}
 		}
 	}
 	

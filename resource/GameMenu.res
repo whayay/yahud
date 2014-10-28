@@ -91,6 +91,13 @@
 		"tooltip"   "Show news"
 	}
 	
+	"HtgHudButton"
+	{
+		"label"		""
+		"command"	"engine play items/football_manager/vuvezela_08"
+		"tooltip"	"HACK THE GIBSON HUD v1.0"
+	}
+	
 	// These buttons are only shown while in-game
    "ChangeServerButton"
 	{
