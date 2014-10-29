@@ -185,7 +185,7 @@
 		"ypos"			"170"
 		"zpos"			"0"
 		"wide"			"30"
-		"tall"			"230"
+		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"
 		"pinCorner"		"0"
@@ -2962,15 +2962,53 @@
 		}
 	}
 	
+	"HtgHudPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HtgHudPanel"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"4"
+		"wide"			"175"
+		"tall"			"18"
+		"border"		"GibsonThinPanelBorder"
+		"bgcolor_override"	"GibsonMainMenuButtonBG"
+		
+		"RightBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RightBorder"
+			"xpos"			"174"
+			"ypos"			"0"
+			"wide"			"1"
+			"tall"			"f0"
+			"proportionalToParent"	"1"
+			"border"		"RightPanelBorder"
+		}
+		
+		"HudLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"HudLabel"
+			"xpos"			"25"
+			"ypos"			"-1"
+			"wide"			"145"
+			"tall"			"20"
+			"labelText"		"HACK THE GIBSON HUD v1.0"
+			"font"			"Heavy12"
+			"fgcolor"		"White"
+		}
+	}
+	
 	"HtgHudButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HtgHudButton"
-		"xpos"			"4"
-		"ypos"			"360"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"22"
-		"tall"			"26"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		
@@ -2981,8 +3019,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"22"
-			"tall"			"26"
+			"wide"			"30"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -3005,14 +3043,14 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"1"
-				"ypos"			"4"
+				"xpos"			"-5"
+				"ypos"			"-5"
 				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"glyph_htg"
+				"image"			"../backpack/player/items/soldier/infernal_impaler_large"
 				"scaleImage"	"1"
 			}
 		}
