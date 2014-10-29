@@ -1226,10 +1226,10 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-140"
-		"ypos"					"75"
-		"wide"					"280"
-		"tall"					"70"
+		"xpos"					"0"
+		"ypos"					"80"
+		"wide"					"225"
+		"tall"					"50"
 	}
 
 	HudArenaNotification
