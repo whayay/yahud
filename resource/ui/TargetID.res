@@ -4,10 +4,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"40"
+		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"-1"
-		"wide"			"640"
+		"wide"			"252"
 		"tall"	 		"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -19,8 +19,8 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"25"				// pixels inside the image
-		"src_corner_width"		"25"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
@@ -86,8 +86,6 @@
 		"textAlignment"		"west-center"
 		"dulltext"		"0"
 		"brighttext"		"0"
-
-		"textinsetx"	"10"
 	}
     
 	"TargetDataLabel"

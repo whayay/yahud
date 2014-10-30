@@ -1,36 +1,5 @@
 "Resource/UI/HudBowCharge.res"
 {
-	"HudBowCharge"
-	{
-		"fieldName"		"HudBowCharge"
-		"visible"		"0"
-		"enabled"		"1"
-		"xpos"			"c-60"
-		"ypos"			"410"
-		"zpos"			"3"
-		"wide"			"120"
-		"tall"			"8"
-		"MeterFG"		"White"
-		"MeterBG"		"ya_HudBG"
-	}
-	
-	"ChargeLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"120"
-		"tall"			"8"
-		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"1"
-		"fgcolor_override" "ya_Meter"
-		"labelText"				"BOW"
-		"textAlignment"			"center"
-		"font"					"Medium8"
-	}	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
