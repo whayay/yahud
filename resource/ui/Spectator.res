@@ -29,6 +29,8 @@
 		"textAlignment"		"center"
 		"font"			"Respawn20"			
 		"fgcolor_override" "ya_Time"
+		"bgcolor_override"	"Blank"		// This has to be here to negate tournament background
+		"border"			"NoBorder"	// This has to be here to negate tournament border
 	}
 	
 	"BuyBackLabel"
@@ -67,7 +69,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r200"
+		"xpos"			"r179"
 		"ypos"			"r220"
 		"zpos"			"1"
 		"wide"			"180"

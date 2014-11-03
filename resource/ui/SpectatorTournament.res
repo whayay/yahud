@@ -244,34 +244,41 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ReinforcementsLabel"
-		"xpos"				"c-200"	
-		"ypos"				"c-200"	
-		"wide"				"400"	
-		"tall"				"20"
+		"xpos"				"r75"	
+		"ypos"				"c-30"	
+		"wide"				"125"	
+		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-        "textinsetx"		"0"
+        "textinsetx"		"15"
 		"use_proportional_insets" "0"
 		"labelText"			"#game_respawntime_in_secs"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
 		"font"				"Respawn20"			
 		"fgcolor_override" 	"ya_Time"
+		"border"			"GrayBorder"
+		"bgcolor_override"			"ya_HudBG"
 		
 		if_mvm
 		{
-			"ypos"		"90"
+			"xpos"			"r124"
+			"ypos"			"c-60"
+			"tall"			"50"
+			"textAlignment"	"north"
+			"textinsety"	"3"
+			"textinsetx"	"0"
 		}
 	}
 	"BuyBackLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
-		"xpos"			"c-300"
-		"ypos"			"117"
-		"wide"			"600"
-		"tall"			"14"
+		"xpos"			"r115"
+		"ypos"			"c-32"
+		"wide"			"110"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -279,7 +286,8 @@
 		"labelText"		"#TF_PVE_Buyback"
 		"fgcolor"		"White"
 		"textAlignment"	"center"
-		"font"			"Medium12"
+		"font"			"Medium10"
+		"wrap"			"1"
 	
 		if_mvm
 		{
@@ -367,7 +375,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r200"
+		"xpos"			"r179"
 		"ypos"			"r220"
 		"zpos"			"1"
 		"wide"			"180"
