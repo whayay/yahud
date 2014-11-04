@@ -43,8 +43,8 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"AbandonIcon"
-		"xpos"		"10"
-		"ypos"		"10"
+		"xpos"		"25"
+		"ypos"		"15"
 		"wide"		"40"
 		"tall"		"40"
 		"image"			"pve/mvm_timeout_active_large"
