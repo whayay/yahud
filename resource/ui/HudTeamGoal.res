@@ -59,7 +59,7 @@
 		"xpos"				"35"
 		"ypos"				"20"
 		"zpos"				"1"
-		"wide"				"80"
+		"wide"				"125"
 		"tall"				"30"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -68,7 +68,7 @@
 		"fgcolor"			"White"
 		"wrap"				"1"
 		"labelText"			""
-		"textAlignment"		"west"
+		"textAlignment"		"north-west"
 	}
 	"GoalImage"
 	{

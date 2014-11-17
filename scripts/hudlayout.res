@@ -1062,7 +1062,7 @@
 		"enabled"			"1"
 		"xpos"				"20"
 		"ypos"				"-10"
-		"wide"				"175"
+		"wide"				"180"
 		"tall"				"85"
 	}
 	
@@ -1205,7 +1205,7 @@
 		"enabled"		"0"
 		"xpos"			"0"
 		"ypos"			"c-150"
-		"wide"			"125"
+		"wide"			"175"
 		"tall"			"45"
 	}
 

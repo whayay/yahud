@@ -25,7 +25,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"175"
+		"wide"				"180"
 		"tall"				"85"
 		"bgcolor_override"	"GibsonNotificationBG"
 		"border"			"GibsonNotificationBorder"
