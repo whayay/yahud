@@ -589,17 +589,20 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
-		"xpos"			"c-230"
-		"ypos"			"r75"
-		"ypos_minmode"	"r55"
-		"zpos"			"5"
-		"wide"			"460"
-		"tall"			"32"
+		"xpos"			"c-264"
+		"xpos_minmode"	"c101"
+		"ypos"			"c75"
+		"ypos_minmode"	"c90"
+		"zpos"			"20"
+		"wide"			"528"
+		"wide_minmode"	"248"
+		"tall"			"35"
+		"tall_minmode"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"BlackBorder"
+		"border"		"NoBorder"
 		
 		if_mvm
 		{
@@ -617,7 +620,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"DuelingIcon"
-			"xpos"			"218"
+			"xpos"			"248"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"32"
@@ -634,11 +637,12 @@
 			"fieldName"		"LocalPlayerData"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"230"
-			"tall"			"32"
+			"wide"			"264"
+			"wide_minmode"	"248"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"GibsonLocalStatsBG"
+			"bgcolor_override"	"90 90 90 224"
 	
 			"AvatarBGPanel"
 			{
@@ -705,13 +709,17 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"OpponentData"
-			"xpos"			"230"
+			"xpos"			"264"
+			"xpos_minmode"	"0"
 			"ypos"			"0"
-			"wide"			"230"
-			"tall"			"32"
+			"ypos_minmode"	"35"
+			"wide"			"264"
+			"wide_minmode"	"248"
+			"tall"			"35"
+			"tall_minmode"	"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"GibsonLocalStatsBG"
+			"bgcolor_override"	"90 90 90 224"
 	
 			"AvatarBGPanel"
 			{
@@ -731,7 +739,8 @@
 			{
 				"ControlName"	"CAvatarImagePanel"
 				"fieldName"		"AvatarImage"
-				"xpos"			"24"
+				"xpos"			"38"
+				"xpos_minmode"	"200"
 				"ypos"			"7"
 				"zpos"			"7"
 				"wide"			"20"
@@ -747,7 +756,8 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
 				"fgcolor"		"GibsonStats"
-				"xpos"			"50"
+				"xpos"			"64"
+				"xpos_minmode"	"67"
 				"ypos"			"0"
 				"zpos"			"7"
 				"wide"			"126"
@@ -756,6 +766,7 @@
 				"enabled"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
+				"textAlignment_minmode"	"east"
 				"font"			"Heavy18"
 			}
 			"Score"
@@ -764,7 +775,9 @@
 				"fieldName"		"Score"
 				"labelText"		"%score%"
 				"textAlignment"	"east"
-				"xpos"			"136"
+				"textAlignment_minmode"	"west"
+				"xpos"			"160"
+				"xpos_minmode"	"14"
 				"ypos"			"0"
 				"zpos"			"7"
 				"wide"			"90"
@@ -774,7 +787,7 @@
 				"fgcolor"		"GibsonStats"
 				"font"			"Medium18"
 			}
-		}		
+		}
 	}
 	
 	
