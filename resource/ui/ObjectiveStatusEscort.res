@@ -438,19 +438,19 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"22"
+				"xpos"			"16"
 				"wide"			"8"
 				"tall"			"8"
 			}
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"51"
+				"ypos"			"68"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"68"
 			}
 		}
 	
