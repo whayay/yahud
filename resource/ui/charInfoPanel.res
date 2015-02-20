@@ -13,7 +13,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"settitlebarvisible"	"0"
+		"settitlebarvisible"	"1"
+		
+		"title"	" "
 		
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"ya_MenuBG"
@@ -21,7 +23,7 @@
 		"outoffocus_bgcolor_override"	"ya_MenuBG"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"30"
 	}
 	
 	"BackgroundHeader"
@@ -116,7 +118,7 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"14"
-		"ypos"			"r36"
+		"ypos"			"r32"
 		"zpos"			"8"
 		"wide"			"30"
 		"tall"			"32"

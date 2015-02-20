@@ -224,7 +224,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"25"
+		"fov"			"28"
 		"allow_manip"		"1"	//"allow_rot"		"1"
 				
 		"model"
