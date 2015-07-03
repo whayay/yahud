@@ -82,8 +82,8 @@ Scheme
         //// SCOREBOARD, WINPANEL ////
 		"GibsonScoreBG"				"50 35 50 220"			// Scoreboard/WinPanel background
 		"GibsonScoreBorderColor"	"100 70 100 224"		// Scoreboard/WinPanel border
-		"GibsonLocalStatsBG"		"208 208 208 240"		// Background for player stats on bottom of scoreboard
-		"GibsonStats"				"18 18 18 255"			// Font color for player stats underneath scoreboard
+		"GibsonLocalStatsBG"		"32 32 32 240"		// Background for player stats on bottom of scoreboard
+		"GibsonStats"				"250 250 250 255"			// Font color for player stats underneath scoreboard
         
 		//// BACKPACK PAGES ////
 		"GibsonPageArmedBG"			"80 80 80 192"			// Mouseover background color for page button
