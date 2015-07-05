@@ -71,6 +71,12 @@
 		"command"	"opentf2options"
 		"tooltip"   "Advanced options"
 	}
+	"ContractsButton"
+	{
+		"label"		"s"
+		"command"	"engine show_quest_log"
+		"tooltip"   "Contracts"
+	}
 	"CreateServerButton"
 	{
 		"label"		""
