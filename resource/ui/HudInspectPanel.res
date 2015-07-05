@@ -5,7 +5,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r179"
-		"ypos"			"r220"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"110"
@@ -18,11 +18,12 @@
 		
 		"model_xpos"		"60"
 		"model_center_y"	"0"
+		"model_center_x"	"1"
 		"model_ypos"		"2"
 		"model_wide"		"60"
 		"model_tall"		"25"
 		
-		"text_ypos"		"30"
+		"text_ypos"		"10"
 		"text_xpos"		"5"
 		"text_wide"		"170"
 		"text_center"	"1"
@@ -35,7 +36,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 			"visible"	"1"
 			"ypos"		"1"
