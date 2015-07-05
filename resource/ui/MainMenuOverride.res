@@ -3201,7 +3201,7 @@
 			"ypos"			"-1"
 			"wide"			"145"
 			"tall"			"20"
-			"labelText"		"HACK THE GIBSON HUD v1.3"
+			"labelText"		"HACK THE GIBSON HUD v1.4"
 			"font"			"Heavy12"
 			"fgcolor"		"White"
 		}

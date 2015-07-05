@@ -5,9 +5,9 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"c-125"
-		"ypos"			"r150"
+		"ypos"			"0"
 		"wide"			"250"
-		"tall"			"110"
+		"tall"			"100"
 		"zpos"			"1"
 		"visible"		"0"
 		
@@ -18,6 +18,7 @@
 		
 		"model_xpos"		"5"
 		"model_center_y"	"1"
+		"model_center_x"	"0"
 		"model_ypos"		"5"
 		"model_wide"		"80"
 		"model_tall"		"32"
@@ -29,13 +30,13 @@
 		
 		"max_text_height"	"40"
 		"padding_height"	"7"
-		"resize_to_text"	"1"
-		"text_forcesize"	"2"
+		"resize_to_text"	"0"
+		"text_forcesize"	"1"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 			"visible"	"1"
 			"ypos"		"1"
