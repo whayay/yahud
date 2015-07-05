@@ -143,9 +143,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMCreditsBG"
-		"xpos"			"c-272"
+		"xpos"			"c-264"
         "ypos"			"c100"
-        "wide"			"544"
+        "wide"			"528"
         "tall"			"55"
 		"fillcolor"		"0 0 0 240"
 		"autoResize"	"0"
@@ -181,7 +181,7 @@
 		{
 			"xpos"	"c-264"
 			"ypos"	"c155"
-			"wide"	"544"
+			"wide"	"528"
 			"tall"	"35"
 		}
 	}
@@ -193,7 +193,7 @@
 		"xpos"			"c-264"
 		"ypos"			"c-74"
 		"zpos"			"9"
-		"wide"			"544"
+		"wide"			"528"
 		"tall"			"20"
 		"fillcolor"		"Red"
 		"autoResize"	"0"
