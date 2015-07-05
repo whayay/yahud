@@ -39,7 +39,7 @@
 			"xpos"			"c-70"
 			"ypos"			"270"
 			"wide"			"140"
-			"tall"			"70"
+			"tall"			"80"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 117 117 255"
