@@ -493,14 +493,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"4"
-		"ypos"			"150"
-		"zpos"			"1"
-		"wide"			"22"
+		"xpos"			"14"
+		"ypos"			"166"
+		"zpos"			"15"
+		"wide"			"16"
 		"tall"			"26"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		
@@ -566,12 +566,12 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"NotificationsContainer"
-			"xpos"			"rs1"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"10"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"0"
+			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"keyboardinputenabled" "0"
@@ -609,7 +609,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"255 255 255 255"
+				"fgcolor_override"	"White"
 				"proportionaltoparent"	"1"
 			}
 		}
