@@ -51,11 +51,11 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"		"Regular9"
-				"xpos"			"2"
-				"ypos"			"24"
+				"xpos"				"5"
+				"ypos"				"24"
 				"zpos"			"5"
-				"wide"			"46"
-				"tall"			"8"
+				"wide"				"40"
+				"tall"			    "8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -79,11 +79,11 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"14"
-				"ypos"			"2"
+				"xpos"			"15"
+				"ypos"			"4"
 				"zpos"			"5"
-				"wide"			"22"
-				"tall"			"22"
+				"wide"			"20"
+				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -132,7 +132,7 @@
                 "fillcolor"		"0 0 0 160"
                 "autoResize"	"0"
                 "pinCorner"		"0"
-                "visible"		"0"
+                "visible"		"1"
                 "enabled"		"1"
 
                 if_mvm
@@ -163,7 +163,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
+				"xpos"				"20"
 				"ypos"				"-3"
 				"zpos"				"3"
 				"wide"				"32"
@@ -188,7 +188,7 @@
 				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 
@@ -215,7 +215,7 @@
 				"tall"			"12"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
@@ -283,7 +283,15 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_delta_x"			"52"
-		}		
+		}
+		
+		if_readymode
+		{
+			"team1_player_base_y"			"66"
+			"team2_player_base_y"			"66"
+			"team2_player_delta_x"			"52"
+			"team2_player_base_offset_x"	"5"
+		}	
 	}
     "BlueTourBG"
 	{
@@ -496,7 +504,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"			"1"
+		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
         

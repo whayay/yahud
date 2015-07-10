@@ -11,14 +11,14 @@
 		"enabled"		"1"
 		
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"200"   
+		"team1_player_base_y"				"464"   
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-16"
 		
-		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"230"   
+		"team2_player_base_offset_x"		"260"
+		"team2_player_base_y"				"464"   
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"16"
+		"team2_player_delta_y"				"-16"
         
 		"playerpanels_kv"
 		{
@@ -389,11 +389,12 @@
 		
 		"model_xpos"		"60"
 		"model_center_y"	"0"
+		"model_center_x"	"1"
 		"model_ypos"		"2"
 		"model_wide"		"60"
 		"model_tall"		"25"
 		
-		"text_ypos"		"30"
+		"text_ypos"		"10"
 		"text_xpos"		"5"
 		"text_wide"		"170"
 		"text_center"	"1"
@@ -406,7 +407,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 			"visible"	"1"
 			"ypos"		"1"
@@ -432,4 +433,17 @@
 			"brighttext"	"0"
 		}
 	}
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
 }
