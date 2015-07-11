@@ -541,7 +541,7 @@
 		
 		if_mvm
 		{
-			"xpos"	"c-53"
+			"xpos"	"c-51"
 			"ypos"	"45"
 			"wide"	"106"
 			"tall"	"20"
@@ -550,8 +550,8 @@
 			"proportionalToParent"	"1"
 			"fgcolor"	"ya_Shadow"
 			"font"		"ChatFont"
-			"textinsetx"	"1"
-			"textinsety"	"1"
+			"textinsetx"	"0"
+			"textinsety"	"0"
 			"textAlignment"	"center-west"
 		}
 	}
