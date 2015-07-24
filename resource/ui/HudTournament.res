@@ -28,7 +28,7 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-
+			
 			"BG"
 			{
 				"ControlName" "ImagePanel"
@@ -40,12 +40,12 @@
 				"tall"        "33"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"Red"
+				"fillcolor"		"Blank"
 				"visible"			"1"
 				"enabled"			"1"
 				"border"	"WhiteBorder"
 			}
-			
+
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -103,43 +103,31 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"15"
+				"xpos"			"5"
 				"ypos"			"4"
-				"zpos"			"4"
+				"zpos"			"2"
 				"wide"			"0"
 				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"0"
-				"bgcolor_override"		"Blank"
-				"PaintBackgroundType"	"1"
+				"bgcolor_override"		"Black"
+				"PaintBackgroundType"	"0"
 				
 				if_mvm
 				{
-					"visible"		"0"
+					"visible"		"1"
+				}
+
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
+				{
+					"visible"		"1"
 				}
 			}
-			"ClassBG"
-            {
-                "ControlName"	"ImagePanel"
-                "fieldName"		"ClassBG"
-                "xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"33"
-				"visible"		"1"
-				"enabled"		"1"
-                "fillcolor"		"0 0 0 160"
-                "autoResize"	"0"
-                "pinCorner"		"0"
-                "visible"		"1"
-                "enabled"		"1"
-
-                if_mvm
-                {
-                    "visible"       "1"
-                }
-            }
 			
 			"respawntime"
 			{
