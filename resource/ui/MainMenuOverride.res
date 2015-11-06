@@ -3201,7 +3201,7 @@
 			"ypos"			"-1"
 			"wide"			"145"
 			"tall"			"20"
-			"labelText"		"HACK THE GIBSON HUD v1.4"
+			"labelText"		"HACK THE GIBSON HUD v1.5"
 			"font"			"Heavy12"
 			"fgcolor"		"White"
 		}
@@ -3257,7 +3257,7 @@
 				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../backpack/player/items/soldier/infernal_impaler_large"
+				"image"			"../backpack/workshop/player/items/soldier/infernal_impaler/infernal_impaler_large"
 				"scaleImage"	"1"
 			}
 		}
