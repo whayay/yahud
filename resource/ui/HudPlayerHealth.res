@@ -472,7 +472,7 @@
 	"PlayerStatus_RuneReflect"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatus_RuneWarlock"
+		"fieldName"		"PlayerStatus_RuneReflect"
 		"xpos"			"c-145"
 		"ypos"			"r35"
 		"zpos"			"7"
