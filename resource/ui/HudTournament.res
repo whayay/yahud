@@ -443,6 +443,49 @@
 			"visible"		"0"
 		}
 	}
+	
+	"HudTournamentBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"HudTournamentBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"250"
+		"tall"			"55"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_brown"
+		"proportionaltoparent"	"1"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"12"
+			"tall"			"20"
+			"visible"		"1"
+		}
+		
+		if_readymode
+		{
+			"xpos"			"195"
+			"visible"		"1"
+		}		
+	}
+	
 	"TournamentConditionLabel"
 	{	
 		"ControlName"		"CExLabel"
@@ -569,7 +612,7 @@
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor"		"White"
@@ -589,7 +632,7 @@
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
