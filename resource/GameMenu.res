@@ -20,6 +20,13 @@
 		"command" "playpve"
 		"OnlyAtMenu" "1"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "{"
+		"command" "ladder_ui_show"
+		"OnlyAtMenu" "1"
+		"OnlyWhenCompetitiveEnabled" "1"
+	}
 	"ServerBrowserButton"
 	{
 		"label" "}" 
@@ -89,6 +96,12 @@
 		"label"			""
 		"command"		"OpenLoadSingleplayerCommentaryDialog"
 		"tooltip"   	"Developer commentary"
+	}
+	"WatchStreamButton"
+	{
+		"label"			""
+		"command"		"watch_stream"
+		"tooltip"   	"Live Streams"
 	}
 	"MOTD_ShowButtonPanel"
 	{

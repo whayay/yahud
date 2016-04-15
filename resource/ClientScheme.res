@@ -3956,17 +3956,17 @@ Scheme
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
             "draw_corner_height"     "0"    
         }
-        TFFatLineBorderRedBGOpaque
-        {
-            "bordertype"            "scalable_image"
-            "backgroundtype"        "2"
-            
-            "image"                    "../hud/color_panel_red_opaque"
-            "src_corner_height"        "23"                // pixels inside the image
-            "src_corner_width"        "23"
-            "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
-            "draw_corner_height"     "0"    
-        }
+		TFFatLineBorderRedBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
         TFFatLineBorderRedBGOpaque_Store
         {
             "bordertype"            "scalable_image"
@@ -4000,6 +4000,28 @@ Scheme
             "draw_corner_width"        "0"                // screen size of the corners ( and sides ), proportional
             "draw_corner_height"     "0"    
         }
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
 
         ToolTipBorder
         {
@@ -5873,6 +5895,30 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+		
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
